@@ -7,8 +7,7 @@ import {
 } from "react-simple-maps";
 
 const geoUrl =
-  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
-
+  "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
 const markers = [
   { name: "Paris", coordinates: [2.3522, 48.8566] },
   { name: "New York", coordinates: [-74.006, 40.7128] },
@@ -27,7 +26,6 @@ const MapQuiz = ({ quizId }) => {
     } else {
       alert("Wrong!");
     }
-    // Move to the next question
     setCurrentQuestion((prev) => (prev + 1) % markers.length);
   };
 
