@@ -7,7 +7,8 @@ import {
 } from "react-simple-maps";
 
 const geoUrl =
-  "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
+  "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson";
+
 const markers = [
   { name: "Paris", coordinates: [2.3522, 48.8566] },
   { name: "New York", coordinates: [-74.006, 40.7128] },

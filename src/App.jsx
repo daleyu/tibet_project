@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import MapQuiz from "./components/MapQuiz";
-import MapSelection from "./components/MapQuizSelection";
+import MapSelection from "./components/MapQuizSelection/MapQuizSelection";
 import Footer from "./components/footer";
 import Header from "./components/header";
 
@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="w-screen min-h-screen bg-slate-800 flex flex-col">
       <Header />
-      <div className="flex-grow flex flex-col items-center justify-center px-8 pt-24">
+      <div className="flex-grow flex flex-col items-center justify-center px-8 pt-8 pb-8">
         <div className="container mx-auto">
           <h1 className="text-3xl mb-8 text-center text-white">
-            Tibet Map Quiz
+            Select which map quiz
           </h1>
           {selectedQuiz ? (
             <>
