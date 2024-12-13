@@ -2,47 +2,47 @@ const quizzes = [
   {
     id: 1,
     title: "Class Map Quiz",
-    image: "/images/tibet-map.png",
+    image: "/images/tibet-map.jpg",
   },
   {
     id: 2,
     title: "All Locations",
-    image: "/images/tibet-map.png",
+    image: "/images/tibet-map.jpg",
   },
   {
     id: 3,
     title: "Rivers",
-    image: "/images/tibet-map.png",
+    image: "/images/tibet-map.jpg",
   },
   {
     id: 4,
     title: "Sacred Landscapes and Pilgrimage Sites",
-    image: "/images/tibet-map.png",
+    image: "/images/tibet-map.jpg",
   },
   {
     id: 5,
     title: "South Asia",
-    image: "/images/tibet-map.png",
+    image: "/images/tibet-map.jpg",
   },
   {
     id: 6,
     title: "All Chinese Provinces",
-    image: "/images/tibet-map.png",
+    image: "/images/tibet-map.jpg",
   },
   {
     id: 7,
     title: "TAR",
-    image: "/images/tibet-map.png",
+    image: "/images/tibet-map.jpg",
   },
   {
     id: 8,
     title: "Mountain Ranges",
-    image: "/images/tibet-map.png",
+    image: "/images/tibet-map.jpg",
   },
   {
     id: 9,
     title: "Deserts and Other Regions",
-    image: "/images/tibet-map.png",
+    image: "/images/tibet-map.jpg",
   },
 ];
 
