@@ -9,10 +9,12 @@ function Footer() {
           <a href="#field1">Home</a>
         </li>
         <li>
-          <a href="#field2">Open Source Repo</a>
+          <a href="https://github.com/daleyu/tibet_project">Open Source Repo</a>
         </li>
         <li>
-          <a href="#field3">Other Resources</a>
+          <a href="https://treasuryoflives.org/map#9.74/30.986/96.9345">
+            Other Resources
+          </a>
         </li>
       </ul>
     </footer>
