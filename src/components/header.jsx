@@ -21,6 +21,11 @@ const Header = () => {
               Contact
             </Link>
           </li>
+          <li>
+            <Link to="/locations" className="hover:text-gray-300">
+              Locations
+            </Link>
+          </li>
         </ul>
       </nav>
       <input

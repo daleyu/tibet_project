@@ -7,6 +7,7 @@ import {
 } from "react-simple-maps";
 
 const geoUrl = "https://code.highcharts.com/mapdata/custom/asia.topo.json";
+// const geoUrl = "/tibet_1155.geojson";
 
 const markers = [
   {
