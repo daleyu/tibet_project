@@ -7,12 +7,12 @@ import {
 } from "react-simple-maps";
 
 const geoUrl =
-  "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson";
+  "https://raw.githubusercontent.com/openlayers/openlayers/refs/heads/main/examples/data/topojson/world-110m.json";
 
 const markers = [
-  { name: "Paris", coordinates: [2.3522, 48.8566] },
-  { name: "New York", coordinates: [-74.006, 40.7128] },
-  { name: "Tokyo", coordinates: [139.6917, 35.6895] },
+  { name: "Lhasa", coordinates: [2.3522, 48.8566] },
+  { name: "Zhigatse", coordinates: [-74.006, 40.7128] },
+  { name: "Chamdo", coordinates: [31.14336, 97.17725] },
 ];
 
 const MapQuiz = ({ quizId }) => {

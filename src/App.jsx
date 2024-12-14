@@ -1,38 +1,20 @@
-import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import MapQuiz from "./components/MapQuiz";
-import MapSelection from "./components/MapQuizSelection/MapQuizSelection";
-import Footer from "./components/footer";
 import Header from "./components/header";
 
 function App() {
-  const [selectedQuiz, setSelectedQuiz] = useState(null);
-
   return (
-    <div className="w-screen min-h-screen bg-slate-800 flex flex-col">
+    <BrowserRouter>
       <Header />
-      <div className="flex-grow flex flex-col items-center justify-center px-8 pt-8 pb-8">
-        <div className="container mx-auto">
-          <h1 className="text-3xl mb-8 text-center text-white">
-            Select which map quiz
-          </h1>
-          {selectedQuiz ? (
-            <>
-              <button
-                onClick={() => setSelectedQuiz(null)}
-                className="mb-4 text-white hover:text-gray-300"
-              >
-                ← Back to Quiz Selection
-              </button>
-              <MapQuiz quizId={selectedQuiz} />
-            </>
-          ) : (
-            <MapSelection onSelectQuiz={setSelectedQuiz} />
-          )}
-        </div>
-      </div>
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} /> {/* Default route */}
+      </Routes>
+      <Analytics />
+    </BrowserRouter>
   );
 }
 
