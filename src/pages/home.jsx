@@ -1,11 +1,21 @@
-import React, { useState } from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import MapQuiz from "./MapQuiz";
-import MapSelection from "./MapSelection";
+import React from "react";
+import { useNavigate, useParams } from "react-router-dom";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import MapQuiz from "../components/MapQuiz";
+import MapSelection from "../components/MapQuizSelection/MapQuizSelection";
 
 const HomePage = () => {
-  const [selectedQuiz, setSelectedQuiz] = useState(null);
+  const navigate = useNavigate();
+  const { quizId } = useParams();
+
+  const handleQuizSelect = (selectedQuizId) => {
+    navigate(`/home/${selectedQuizId}`);
+  };
+
+  const handleBack = () => {
+    navigate("/home");
+  };
 
   return (
     <div className="w-screen min-h-screen bg-slate-800 flex flex-col">
@@ -15,18 +25,18 @@ const HomePage = () => {
           <h1 className="text-3xl mb-8 text-center text-white">
             Select which map quiz
           </h1>
-          {selectedQuiz ? (
+          {quizId ? (
             <>
               <button
-                onClick={() => setSelectedQuiz(null)}
+                onClick={handleBack}
                 className="mb-4 text-white hover:text-gray-300"
               >
                 ← Back to Quiz Selection
               </button>
-              <MapQuiz quizId={selectedQuiz} />
+              <MapQuiz quizId={quizId} />
             </>
           ) : (
-            <MapSelection onSelectQuiz={setSelectedQuiz} />
+            <MapSelection onSelectQuiz={handleQuizSelect} />
           )}
         </div>
       </div>

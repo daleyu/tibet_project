@@ -6,13 +6,15 @@ import {
   Marker,
 } from "react-simple-maps";
 
-const geoUrl =
-  "https://raw.githubusercontent.com/openlayers/openlayers/refs/heads/main/examples/data/topojson/world-110m.json";
+const geoUrl = "https://code.highcharts.com/mapdata/custom/asia.topo.json";
 
 const markers = [
-  { name: "Lhasa", coordinates: [2.3522, 48.8566] },
-  { name: "Zhigatse", coordinates: [-74.006, 40.7128] },
-  { name: "Chamdo", coordinates: [31.14336, 97.17725] },
+  {
+    name: "Lhasa,  ལྷ་ས་གཙུག་ལག་ཁང་། Lhasa Tsuklakhang ",
+    coordinates: [91.1318, 29.65285],
+  },
+  { name: "Yamdrok Lake ཡར་འབྲོག་མཚོ།", coordinates: [90.749149, 28.978275] },
+  { name: "Chamdo", coordinates: [97.17725, 31.14336] },
 ];
 
 const MapQuiz = ({ quizId }) => {
@@ -22,7 +24,7 @@ const MapQuiz = ({ quizId }) => {
 
   const handleMarkerClick = (markerName) => {
     if (markerName === markers[currentQuestion].name) {
-      setScore(score + 1); // Increase score if correct
+      setScore(score + 1);
       alert("Correct!");
     } else {
       alert("Wrong!");

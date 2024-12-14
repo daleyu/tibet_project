@@ -1,17 +1,17 @@
 import { Analytics } from "@vercel/analytics/react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Header from "./components/header";
+import HomePage from "./pages/home";
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/home" element={<HomePage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/" element={<Home />} /> {/* Default route */}
+        <Route path="/home/:quizId" element={<HomePage />} />
+        <Route path="/about" element={<HomePage />} />
+        <Route path="/contact" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
       <Analytics />
     </BrowserRouter>
