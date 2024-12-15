@@ -9,7 +9,7 @@ import InfoPage from "./pages/info";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes className="Outfit">
         <Route path="/home" element={<HomePage />} />
         <Route path="/home/:quizId" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
