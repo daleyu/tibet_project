@@ -47,6 +47,28 @@ const HomePage = () => {
               <h1 className="text-3xl mb-8 text-center text-white">
                 Select which map quiz
               </h1>
+              <h2 className="text-2xl font-semibold mb-4 text-white">
+                {" "}
+                How to use this Site
+              </h2>
+              <p className="text-gray-300 leading-relaxed mb-4">
+                {" "}
+                You can select any of the map quizzes below which will bring up
+                a quiz that will test/teach you the locations about each
+                location. There is additional information and context about each
+                location.
+              </p>
+              <ul className="text-gray-300 list-disc pl-6 space-y-2 pb-4">
+                <li>
+                  {" "}
+                  You can use the search bar to look at a specific location, or
+                  you can use the locations page and browse freely
+                </li>
+                <li>
+                  There are additional resources if you go to the resources page
+                  in the footer.
+                </li>
+              </ul>
               <MapSelection onSelectQuiz={handleQuizSelect} />
             </>
           )}
