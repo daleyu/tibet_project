@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   ComposableMap,
   Geographies,
@@ -8,15 +8,6 @@ import {
 } from "react-simple-maps";
 
 const geoUrl = "/map-with-lakes.json";
-
-const markers = [
-  {
-    name: "Lhasa,  ལྷ་ས་གཙུག་ལག་ཁང་། Lhasa Tsuklakhang ",
-    coordinates: [91.1318, 29.65285],
-  },
-  { name: "Yamdrok Lake ཡར་འབྲོག་མཚོ།", coordinates: [90.749149, 28.978275] },
-  { name: "Chamdo", coordinates: [97.17725, 31.14336] },
-];
 
 const TIBET_CENTER = [91.1318, 29.65285];
 const DEFAULT_ZOOM = 2;
@@ -31,6 +22,28 @@ const MapQuiz = ({ quizId }) => {
   const [selectedMarker, setSelectedMarker] = useState(null);
   const [showHint, setShowHint] = useState(false);
   const [attempts, setAttempts] = useState(2);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [markers, setMarkers] = useState([]);
+
+  useEffect(() => {
+    const fetchMarkers = async () => {
+      try {
+        const response = await fetch(`/quiz-data/quiz${quizId}.json`);
+        if (!response.ok) {
+          throw new Error("Failed to fetch quiz data");
+        }
+        const data = await response.json();
+        setMarkers(data.markers);
+        setLoading(false);
+      } catch (err) {
+        setError(err.message);
+        setLoading(false);
+      }
+    };
+
+    fetchMarkers();
+  }, [quizId]);
 
   const handleMarkerClick = (markerName) => {
     if (markerName === markers[currentQuestion].name) {
@@ -71,6 +84,11 @@ const MapQuiz = ({ quizId }) => {
     if (position.zoom <= 0.2) return;
     setPosition((pos) => ({ ...pos, zoom: pos.zoom / 1.5 }));
   };
+
+  if (loading) return <div className="text-white">Loading quiz data...</div>;
+  if (error) return <div className="text-red-500">Error: {error}</div>;
+  if (!markers.length)
+    return <div className="text-white">No locations found for this quiz.</div>;
 
   return (
     <div className="w-full max-w-4xl mx-auto">
