@@ -9,14 +9,16 @@ import InfoPage from "./pages/info";
 function App() {
   return (
     <BrowserRouter>
-      <Routes className="Outfit">
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/home/:quizId" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/locations" element={<InfoPage />} />
-        <Route path="/" element={<HomePage />} />
-      </Routes>
+      <div className="font-display">
+        <Routes>
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/home/:quizId" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/locations" element={<InfoPage />} />
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </div>
       <Analytics />
     </BrowserRouter>
   );
