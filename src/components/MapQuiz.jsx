@@ -7,11 +7,6 @@ import {
   ZoomableGroup,
 } from "react-simple-maps";
 
-// const geoUrl = "https://code.highcharts.com/mapdata/custom/asia.topo.json";
-// const geoUrl =
-//   "https://raw.githubusercontent.com/BolajiBI/topojson-maps/refs/heads/master/continents/asia.json";
-// const geoUrl =
-// "https://gist.githubusercontent.com/mbertrand/5530456c2816c7cad94b/raw/5c5008841c506aaf031c6e6a8731b21ea2825570/topochina.json";
 const geoUrl = "/map-with-lakes.json";
 
 const markers = [
@@ -23,7 +18,6 @@ const markers = [
   { name: "Chamdo", coordinates: [97.17725, 31.14336] },
 ];
 
-// Center coordinates for Tibet region
 const TIBET_CENTER = [91.1318, 29.65285];
 const DEFAULT_ZOOM = 2;
 
@@ -35,15 +29,37 @@ const MapQuiz = ({ quizId }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [selectedMarker, setSelectedMarker] = useState(null);
+  const [showHint, setShowHint] = useState(false);
+  const [attempts, setAttempts] = useState(2);
 
   const handleMarkerClick = (markerName) => {
     if (markerName === markers[currentQuestion].name) {
       setScore(score + 1);
       alert("Correct!");
+      setCurrentQuestion((prev) => (prev + 1) % markers.length);
+      setAttempts(2);
+      setShowHint(false);
     } else {
-      alert("Wrong!");
+      setAttempts((prev) => prev - 1);
+      if (attempts <= 1) {
+        alert("You have no more attempts left!");
+        setCurrentQuestion((prev) => (prev + 1) % markers.length);
+        setAttempts(2);
+        setShowHint(false);
+      } else {
+        alert("Wrong! You have " + (attempts - 1) + " attempts left.");
+      }
     }
+  };
+
+  const handleHint = () => {
+    setShowHint(true);
+  };
+
+  const handleSkip = () => {
     setCurrentQuestion((prev) => (prev + 1) % markers.length);
+    setAttempts(2);
+    setShowHint(false);
   };
 
   const handleZoomIn = () => {
@@ -58,27 +74,45 @@ const MapQuiz = ({ quizId }) => {
 
   return (
     <div className="w-full max-w-4xl mx-auto">
-      <div className="flex justify-between mb-4">
-        <div>
-          <p>
-            Select the location of:{" "}
-            <strong>{markers[currentQuestion].name}</strong>
-          </p>
-          <p>Score: {score}</p>
-        </div>
-        <div className="flex gap-2">
-          <button
-            onClick={handleZoomIn}
-            className="px-4 py-2 bg-gray-700 text-white rounded"
-          >
-            +
-          </button>
-          <button
-            onClick={handleZoomOut}
-            className="px-4 py-2 bg-gray-700 text-white rounded"
-          >
-            -
-          </button>
+      <div className="mb-4">
+        <p className="mb-2">
+          Select the location of:{" "}
+          <strong>{markers[currentQuestion].name}</strong>
+        </p>
+        <p className="mb-4">
+          Score: {score} | Attempts left: {attempts}
+        </p>
+        <div className="flex justify-between items-center">
+          {/* Left side buttons */}
+          <div className="flex gap-4">
+            <button
+              onClick={handleHint}
+              className="px-4 py-2 bg-gray-700 text-white rounded"
+            >
+              Hint?
+            </button>
+            <button
+              onClick={handleSkip}
+              className="px-4 py-2 bg-gray-700 text-white rounded"
+            >
+              Skip Current Location
+            </button>
+          </div>
+          {/* Right side zoom controls */}
+          <div className="flex gap-2">
+            <button
+              onClick={handleZoomIn}
+              className="px-4 py-2 bg-gray-700 text-white rounded"
+            >
+              +
+            </button>
+            <button
+              onClick={handleZoomOut}
+              className="px-4 py-2 bg-gray-700 text-white rounded"
+            >
+              -
+            </button>
+          </div>
         </div>
       </div>
 
@@ -116,10 +150,20 @@ const MapQuiz = ({ quizId }) => {
           {markers.map(({ name, coordinates }) => (
             <Marker key={name} coordinates={coordinates}>
               <circle
-                r={5}
-                fill="#F53"
-                stroke="#FFF"
-                strokeWidth={2}
+                r={2}
+                fill={
+                  showHint && name === markers[currentQuestion].name
+                    ? "#00A36C"
+                    : "#F53"
+                }
+                stroke={
+                  showHint && name === markers[currentQuestion].name
+                    ? "#00A36C"
+                    : "#FFF"
+                }
+                strokeWidth={
+                  showHint && name === markers[currentQuestion].name ? 2 : 2
+                }
                 onClick={() => handleMarkerClick(name)}
               />
             </Marker>
