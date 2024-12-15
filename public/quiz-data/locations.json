@@ -2,15 +2,18 @@
     "markers": [
       {
         "name": "Lhasa, ལྷ་ས་གཙུག་ལག་ཁང་། Lhasa Tsuklakhang",
-        "coordinates": [91.1318, 29.65285]
+        "coordinates": [91.1318, 29.65285],
+        "quizIds": [1, 3, 4]
       },
       {
         "name": "Yamdrok Lake ཡར་འབྲོག་མཚོ།",
-        "coordinates": [90.749149, 28.978275]
+        "coordinates": [90.749149, 28.978275],
+        "quizIds": [1, 2]
       },
       {
         "name": "Chamdo",
-        "coordinates": [97.17725, 31.14336]
+        "coordinates": [97.17725, 31.14336],
+        "quizIds": [1, 4]
       }
     ]
   }

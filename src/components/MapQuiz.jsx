@@ -29,12 +29,15 @@ const MapQuiz = ({ quizId }) => {
   useEffect(() => {
     const fetchMarkers = async () => {
       try {
-        const response = await fetch(`/quiz-data/quiz${quizId}.json`);
+        const response = await fetch(`/quiz-data/locations.json`);
         if (!response.ok) {
           throw new Error("Failed to fetch quiz data");
         }
         const data = await response.json();
-        setMarkers(data.markers);
+        const filteredMarkers = data.markers.filter((marker) =>
+          marker.quizIds.includes(parseInt(quizId))
+        );
+        setMarkers(filteredMarkers);
         setLoading(false);
       } catch (err) {
         setError(err.message);
