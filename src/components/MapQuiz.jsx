@@ -7,8 +7,12 @@ import {
   ZoomableGroup,
 } from "react-simple-maps";
 
-const geoUrl = "https://code.highcharts.com/mapdata/custom/asia.topo.json";
-// const geoUrl = "/tibet_1155.geojson";
+// const geoUrl = "https://code.highcharts.com/mapdata/custom/asia.topo.json";
+// const geoUrl =
+//   "https://raw.githubusercontent.com/BolajiBI/topojson-maps/refs/heads/master/continents/asia.json";
+// const geoUrl =
+// "https://gist.githubusercontent.com/mbertrand/5530456c2816c7cad94b/raw/5c5008841c506aaf031c6e6a8731b21ea2825570/topochina.json";
+const geoUrl = "/map-with-lakes.json";
 
 const markers = [
   {
@@ -21,7 +25,7 @@ const markers = [
 
 // Center coordinates for Tibet region
 const TIBET_CENTER = [91.1318, 29.65285];
-const DEFAULT_ZOOM = 1.66;
+const DEFAULT_ZOOM = 2;
 
 const MapQuiz = ({ quizId }) => {
   const [position, setPosition] = useState({
@@ -48,7 +52,7 @@ const MapQuiz = ({ quizId }) => {
   };
 
   const handleZoomOut = () => {
-    if (position.zoom <= 0.5) return;
+    if (position.zoom <= 0.2) return;
     setPosition((pos) => ({ ...pos, zoom: pos.zoom / 1.5 }));
   };
 
@@ -97,7 +101,11 @@ const MapQuiz = ({ quizId }) => {
                   key={geo.rsmKey}
                   geography={geo}
                   style={{
-                    default: { fill: "#ECEFF1", stroke: "#607D8B" },
+                    default: {
+                      fill: "#ECEFF1",
+                      stroke: "#000",
+                      strokeWidth: 0.8,
+                    },
                     hover: { fill: "#CFD8DC" },
                     pressed: { fill: "#FF5722" },
                   }}
