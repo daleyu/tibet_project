@@ -1,4 +1,4 @@
-const quizzes = [
+export const quizzes = [
   {
     id: 1,
     title: "Class Map Quiz",
