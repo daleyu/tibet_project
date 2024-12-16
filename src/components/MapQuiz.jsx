@@ -6,6 +6,7 @@ import {
   Marker,
   ZoomableGroup,
 } from "react-simple-maps";
+import InfoPopup from "./infopopup";
 
 const geoUrl = "/map-with-lakes.json";
 
@@ -25,6 +26,7 @@ const MapQuiz = ({ quizId }) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [markers, setMarkers] = useState([]);
+  const [showInfoPopup, setShowInfoPopup] = useState(false);
 
   useEffect(() => {
     const fetchMarkers = async () => {
@@ -48,10 +50,10 @@ const MapQuiz = ({ quizId }) => {
     fetchMarkers();
   }, [quizId]);
 
-  const handleMarkerClick = (markerName) => {
-    if (markerName === markers[currentQuestion].name) {
+  const handleMarkerClick = (markerId) => {
+    if (markerId === markers[currentQuestion].id) {
       setScore(score + 1);
-      alert("Correct!");
+      setShowInfoPopup(true);
       setCurrentQuestion((prev) => (prev + 1) % markers.length);
       setAttempts(2);
       setShowHint(false);
@@ -66,6 +68,10 @@ const MapQuiz = ({ quizId }) => {
         alert("Wrong! You have " + (attempts - 1) + " attempts left.");
       }
     }
+  };
+
+  const handleClosePopup = () => {
+    setShowInfoPopup(false);
   };
 
   const handleHint = () => {
@@ -168,29 +174,35 @@ const MapQuiz = ({ quizId }) => {
               ))
             }
           </Geographies>
-          {markers.map(({ name, coordinates }) => (
-            <Marker key={name} coordinates={coordinates}>
+          {markers.map(({ id, name, coordinates }) => (
+            <Marker key={id} coordinates={coordinates}>
               <circle
                 r={2}
                 fill={
-                  showHint && name === markers[currentQuestion].name
+                  showHint && id === markers[currentQuestion].id
                     ? "#00A36C"
                     : "#F53"
                 }
                 stroke={
-                  showHint && name === markers[currentQuestion].name
+                  showHint && id === markers[currentQuestion].id
                     ? "#00A36C"
                     : "#FFF"
                 }
                 strokeWidth={
-                  showHint && name === markers[currentQuestion].name ? 2 : 2
+                  showHint && id === markers[currentQuestion].id ? 2 : 2
                 }
-                onClick={() => handleMarkerClick(name)}
+                onClick={() => handleMarkerClick(id)}
               />
             </Marker>
           ))}
         </ZoomableGroup>
       </ComposableMap>
+      {showInfoPopup && (
+        <InfoPopup
+          location={markers[currentQuestion].id}
+          onClose={handleClosePopup}
+        />
+      )}
     </div>
   );
 };
