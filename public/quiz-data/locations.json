@@ -23,6 +23,97 @@
         "description": "A major city in eastern Tibet, known for its important monastery and role as a trading hub.",
         "coordinates": [97.17725, 31.14336],
         "quizIds": [1, 4]
+      },
+      {
+        "id": "Shigatse",
+        "name": "Shigatse, གཞིས་ཀ་རྩེ།",
+        "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "The second largest city in Tibet, home to the Tashilhunpo Monastery and the Panchen Lama.",
+        "coordinates": [88.8889, 29.2675],
+        "quizIds": [1, 2]
+    },
+    {
+        "id": "Kailash",
+        "name" : "Kailash, कैलाश, 吉罗娑山, Gang Tise, Yungdrung Gutsek, Gang Rinboqe Feng, gangs rin po che",
+        "imageUrl": "https://treasuryoflives.org/uploads/communities/c7c29-kailash.JPG?w=373&h=200",
+        "description": "Sacred mountain in western Tibet, considered the center of the universe in Hindu, Buddhist, Jain, and Bon cosmologies.",
+        "coordinates": [81.3137, 31.0477],
+        "quizIds": [1, 2]
+    },
+    {
+        "id": "Namtso",
+        "name": "Namtso Lake, གནམ་མཚོ།, Nam Co, 納木錯",
+        "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "The highest saltwater lake in the world and one of the most beautiful natural sights in Tibet. Its name means 'Heavenly Lake' in Tibetan.",
+        "coordinates": [90.5500, 30.7000],
+        "quizIds": [1, 2]
+      },
+      {
+        "id": "Mapam",
+        "name": "Lake Manasarovar, མ་ཕམ་གཡུ་མཚོ།, Mapam Yumtso",
+        "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "A high altitude freshwater lake near Mount Kailash, located at 4,600m elevation. Considered sacred by Hindus, Buddhists, Jains and Bon practitioners.",
+        "coordinates": [81.45, 30.65],
+        "quizIds": [1, 2]
+      },
+      {
+        "id": "Xinjiang",
+        "name": "Xinjiang, 新疆维吾尔自治区, شىنجاڭ ئۇيغۇر ئاپتونوم رايونى",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tianshan_Tianchi_Lake.jpg/1280px-Tianshan_Tianchi_Lake.jpg",
+        "description": "Autonomous region bordering northern Tibet, known for its diverse ethnic groups and Silk Road history.",
+        "coordinates": [85.2940, 41.1129],
+        "quizIds": [2]
+      },
+      {
+        "id": "Qinghai",
+        "name": "Qinghai, 青海省, མཚོ་སྔོན།",
+        "type": "region",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Qinghai_Lake.jpg/1280px-Qinghai_Lake.jpg",
+        "description": "Province northeast of Tibet, historically part of Amdo Tibet, containing Qinghai Lake and significant Tibetan population.",
+        "coordinates": [96.2402, 35.7448],
+        "quizIds": [2]
+      },
+      {
+        "id": "Sichuan",
+        "name": "Sichuan, 四川省, ཟི་ཁྲོན།",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jiuzhaigou_Valley.jpg/1280px-Jiuzhaigou_Valley.jpg",
+        "description": "Province east of Tibet, containing parts of historical Kham Tibet and famous for its panda reserves.",
+        "coordinates": [102.9199, 30.1904],
+        "quizIds": [2]
+      },
+      {
+        "id": "Yunnan",
+        "name": "Yunnan, 云南省, ཡུན་ནན།",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Lijiang_Old_Town.jpg/1280px-Lijiang_Old_Town.jpg",
+        "description": "Province southeast of Tibet, known for its ethnic diversity and historical Tea Horse Road connections.",
+        "coordinates": [102.7103, 25.0454],
+        "quizIds": [2]
+      },
+      {
+        "id": "Gansu",
+        "name": "Gansu, 甘肃省, ཀན་སུའུ།",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Labrang_Monastery.jpg/1280px-Labrang_Monastery.jpg",
+        "description": "Province northeast of Tibet, containing important Tibetan monasteries and part of the historical Silk Road.",
+        "coordinates": [103.8262, 36.0611],
+        "quizIds": [2]
+      },
+      {
+        "id": "Kazakhstan",
+        "name": "Kazakhstan, Қазақстан",
+        "type": "region",
+        "coordinates": [66.9237, 48.0196],
+        "quizIds": [2],
+        "description": "Largest landlocked country, bordering Tibet's north",
+        "geounit": "Kazakhstan" 
+      },
+      {
+        "id": "Kyrgyzstan",
+        "name": "Kyrgyzstan, Кыргызстан",
+        "type": "region",
+        "coordinates": [74.7661, 41.2044],
+        "quizIds": [2],
+        "description": "Mountainous country in Central Asia",
+        "geounit": "Kyrgyzstan" 
       }
     ]
   }

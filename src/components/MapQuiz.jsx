@@ -19,6 +19,7 @@ const MapQuiz = ({ quizId }) => {
     zoom: DEFAULT_ZOOM,
   });
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [currentLocation, setCurrentLocation] = useState(null);
   const [score, setScore] = useState(0);
   const [selectedMarker, setSelectedMarker] = useState(null);
   const [showHint, setShowHint] = useState(false);
@@ -53,6 +54,28 @@ const MapQuiz = ({ quizId }) => {
   const handleMarkerClick = (markerId) => {
     if (markerId === markers[currentQuestion].id) {
       setScore(score + 1);
+      setCurrentLocation(markers[currentQuestion].id);
+      setShowInfoPopup(true);
+      setCurrentQuestion((prev) => (prev + 1) % markers.length);
+      setAttempts(2);
+      setShowHint(false);
+    } else {
+      setAttempts((prev) => prev - 1);
+      if (attempts <= 1) {
+        alert("You have no more attempts left!");
+        setCurrentQuestion((prev) => (prev + 1) % markers.length);
+        setAttempts(2);
+        setShowHint(false);
+      } else {
+        alert("Wrong! You have " + (attempts - 1) + " attempts left.");
+      }
+    }
+  };
+
+  const handleLocationClick = (locationId) => {
+    if (locationId === markers[currentQuestion].id) {
+      setScore(score + 1);
+      setCurrentLocation(markers[currentQuestion].id);
       setShowInfoPopup(true);
       setCurrentQuestion((prev) => (prev + 1) % markers.length);
       setAttempts(2);
@@ -157,21 +180,32 @@ const MapQuiz = ({ quizId }) => {
         >
           <Geographies geography={geoUrl}>
             {({ geographies }) =>
-              geographies.map((geo) => (
-                <Geography
-                  key={geo.rsmKey}
-                  geography={geo}
-                  style={{
-                    default: {
-                      fill: "#ECEFF1",
-                      stroke: "#000",
-                      strokeWidth: 0.8,
-                    },
-                    hover: { fill: "#CFD8DC" },
-                    pressed: { fill: "#FF5722" },
-                  }}
-                />
-              ))
+              geographies.map((geo) => {
+                const isCurrentLocation =
+                  geo.properties.id === markers[currentQuestion].id;
+                const isHintShown = showHint && isCurrentLocation;
+
+                return (
+                  <Geography
+                    key={geo.rsmKey}
+                    geography={geo}
+                    onClick={() => handleLocationClick(geo.properties.id)}
+                    style={{
+                      default: {
+                        fill: isHintShown ? "#00A36C" : "#ECEFF1",
+                        stroke: "#000",
+                        strokeWidth: 0.8,
+                        cursor: "pointer",
+                      },
+                      hover: {
+                        fill: "#CFD8DC",
+                        transition: "all 250ms",
+                      },
+                      pressed: { fill: "#FF5722" },
+                    }}
+                  />
+                );
+              })
             }
           </Geographies>
           {markers.map(({ id, name, coordinates }) => (
@@ -198,10 +232,7 @@ const MapQuiz = ({ quizId }) => {
         </ZoomableGroup>
       </ComposableMap>
       {showInfoPopup && (
-        <InfoPopup
-          location={markers[currentQuestion].id}
-          onClose={handleClosePopup}
-        />
+        <InfoPopup location={currentLocation} onClose={handleClosePopup} />
       )}
     </div>
   );
