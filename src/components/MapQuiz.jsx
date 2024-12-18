@@ -28,6 +28,7 @@ const MapQuiz = ({ quizId }) => {
   const [error, setError] = useState(null);
   const [markers, setMarkers] = useState([]);
   const [showInfoPopup, setShowInfoPopup] = useState(false);
+  const [isFinished, setIsFinished] = useState(false);
 
   useEffect(() => {
     const fetchMarkers = async () => {
@@ -56,7 +57,11 @@ const MapQuiz = ({ quizId }) => {
       setScore(score + 1);
       setCurrentLocation(markers[currentQuestion].id);
       setShowInfoPopup(true);
-      setCurrentQuestion((prev) => (prev + 1) % markers.length);
+      if (score === markers.length) {
+        handleQuizFinish();
+      } else {
+        setCurrentQuestion((prev) => (prev + 1) % markers.length);
+      }
       setAttempts(2);
       setShowHint(false);
     } else {
@@ -77,7 +82,11 @@ const MapQuiz = ({ quizId }) => {
       setScore(score + 1);
       setCurrentLocation(markers[currentQuestion].id);
       setShowInfoPopup(true);
-      setCurrentQuestion((prev) => (prev + 1) % markers.length);
+      if (score === markers.length) {
+        handleQuizFinish();
+      } else {
+        setCurrentQuestion((prev) => (prev + 1) % markers.length);
+      }
       setAttempts(2);
       setShowHint(false);
     } else {
@@ -117,6 +126,19 @@ const MapQuiz = ({ quizId }) => {
     setPosition((pos) => ({ ...pos, zoom: pos.zoom / 1.5 }));
   };
 
+  const handleQuizFinish = () => {
+    const finalScore = Math.round((score / markers.length) * 100);
+    alert(`Quiz finished! Your score: ${finalScore}%`);
+    resetQuiz();
+  };
+
+  const resetQuiz = () => {
+    setScore(0);
+    setCurrentQuestion(0);
+    setShowHint(false);
+    setIsFinished(false);
+  };
+
   if (loading) return <div className="text-white">Loading quiz data...</div>;
   if (error) return <div className="text-red-500">Error: {error}</div>;
   if (!markers.length)
@@ -133,7 +155,6 @@ const MapQuiz = ({ quizId }) => {
           Score: {score} | Attempts left: {attempts}
         </p>
         <div className="flex justify-between items-center">
-          {/* Left side buttons */}
           <div className="flex gap-4">
             <button
               onClick={handleHint}
@@ -148,7 +169,6 @@ const MapQuiz = ({ quizId }) => {
               Skip Current Location
             </button>
           </div>
-          {/* Right side zoom controls */}
           <div className="flex gap-2">
             <button
               onClick={handleZoomIn}
