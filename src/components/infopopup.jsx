@@ -21,7 +21,7 @@ const InfoPopup = ({ location, onClose }) => {
   const info = locations[location];
 
   const handleReadMore = () => {
-    window.open(`/locations/${info.id.toLowerCase()}`, "_blank");
+    window.open(`/locations/${info.id}`, "_blank");
     onClose();
   };
 

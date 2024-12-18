@@ -73,7 +73,7 @@ const MapQuiz = ({ quizId }) => {
   };
 
   const handleLocationClick = (locationId) => {
-    if (locationId === markers[currentQuestion].id) {
+    if (locationId === markers[currentQuestion].geounit) {
       setScore(score + 1);
       setCurrentLocation(markers[currentQuestion].id);
       setShowInfoPopup(true);
@@ -189,7 +189,7 @@ const MapQuiz = ({ quizId }) => {
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    onClick={() => handleLocationClick(geo.properties.id)}
+                    onClick={() => handleLocationClick(geo.properties.geounit)}
                     style={{
                       default: {
                         fill: isHintShown ? "#00A36C" : "#ECEFF1",
