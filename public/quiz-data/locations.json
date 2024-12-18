@@ -95,7 +95,7 @@
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Labrang_Monastery.jpg/1280px-Labrang_Monastery.jpg",
         "description": "Province northeast of Tibet, containing important Tibetan monasteries and part of the historical Silk Road.",
         "coordinates": [103.8262, 36.0611],
-        "quizIds": [2]
+        "quizIds": [2, 6]
       },
       {
         "id": "Kazakhstan",
@@ -114,6 +114,109 @@
         "quizIds": [2],
         "description": "Mountainous country in Central Asia",
         "geounit": "Kyrgyzstan" 
+      },
+      {
+        "id": "Mongolia",
+        "name": "Mongolia, Монгол улс",
+        "imageUrl": "/images/mongolia.jpg",
+        "description": "Large nation bordering Tibet to the north, historically significant in Buddhist and imperial history.",
+        "coordinates": [103.8467, 46.8625],
+        "quizIds": [3]
+      },
+      {
+        "id": "Xinjiang",
+        "name": "Xinjiang Uyghur Autonomous Region, 新疆维吾尔自治区",
+        "imageUrl": "/images/xinjiang.jpg",
+        "description": "Autonomous region in western China bordering Tibet.",
+        "coordinates": [87.6168, 43.7928],
+        "quizIds": [2]
+      },
+      {
+        "id": "Yellowriver",
+        "name": "Ma chu/Yellow River, 黄河",
+        "imageUrl": "/images/yellow-river.jpg",
+        "description": "One of China's major rivers, known as Ma chu in Tibetan.",
+        "coordinates": [103.7520, 35.9219],
+        "quizIds": [2,4]
+      },
+      {
+        "id": "Everest",
+        "name": "Chomolangma/Mt. Everest, ཇོ་མོ་གླང་མ",
+        "imageUrl": "/images/everest.jpg",
+        "description": "World's highest peak, sacred to Tibetans as Chomolangma.",
+        "coordinates": [86.9250, 27.9881],
+        "quizIds": [1,2, 5]
+      },
+      {
+        "id": "Amdo",
+        "name": "Amdo, ཨ༌མདོ",
+        "imageUrl": "/images/amdo.jpg",
+        "description": "Northeastern region of historical Tibet, now primarily in Qinghai province.",
+        "coordinates": [101.9633, 35.7448],
+        "quizIds": [1, 2]
+      },
+      {
+        "id": "Afghanistan",
+        "name": "Afghanistan, افغانستان",
+        "imageUrl": "/images/afghanistan.jpg",
+        "description": "Country to the west of Tibet, historically connected via the Silk Road trading routes.",
+        "coordinates": [67.7097, 33.9391],
+        "quizIds": [2,3]
+      },
+      {
+        "id": "Dri-chu",
+        "name": "Dri chu/Yangtze River, འབྲི་ཆུ།, 长江",
+        "imageUrl": "/images/yangtze.jpg",
+        "description": "One of Asia's longest rivers, originating in Tibet's Tanggula Mountains.",
+        "coordinates": [91.1827, 33.4512],
+        "quizIds": [2,4]
+      },
+      {
+        "id": "Kham",
+        "name": "Kham, ཁམས།",
+        "imageUrl": "/images/kham.jpg",
+        "description": "Eastern region of Tibet, known for its fierce warriors and independent kingdoms.",
+        "coordinates": [97.1738, 31.1307],
+        "quizIds": [1,2, 6]
+      },
+      {
+        "id": "Xian",
+        "name": "Xi'an/Chang'an, 西安/長安",
+        "imageUrl": "/images/xian.jpg",
+        "description": "Ancient capital of China, eastern terminus of the Tibet-China trade routes.",
+        "coordinates": [108.9402, 34.3416],
+        "quizIds": [1, 2]
+      },
+      {
+        "id": "Dzachu",
+        "name": "Dza chu/Mekong River, རྫ་ཆུ།, 澜沧江",
+        "imageUrl": "/images/mekong.jpg",
+        "description": "One of Asia's major rivers, originating in Tibet's Tanggula Mountains, known as Dza chu in Tibetan.",
+        "coordinates": [94.9039, 33.7537],
+        "quizIds": [2, 4]
+      },
+      {
+        "id": "Ngulchu",
+        "name": "Ngul chu/Salween River, རྔུལ་ཆུ།, 怒江",
+        "imageUrl": "/images/salween.jpg",
+        "description": "Major river of Southeast Asia originating in Tibet, known as Ngul chu in Tibetan.",
+        "coordinates": [98.8601, 26.8357],
+        "quizIds": [2,4]
+      },
+      {
+        "id": "Himalaya",
+        "name": "Himalaya Mountains, ཧི་མ་ལ་ཡ།",
+        "imageUrl": "/images/himalaya.jpg",
+        "description": "World's highest mountain range, forming Tibet's southern border.",
+        "coordinates": [86.9250, 27.9881],
+        "quizIds": [2,5]
+      },{
+        "id": "Tsangpo",
+        "name": "Tsangpo/Brahmaputra River, གཙང་པོ།, 雅鲁藏布江",
+        "imageUrl": "/images/brahmaputra.jpg",
+        "description": "Major river flowing through southern Tibet, known as Yarlung Tsangpo in Tibetan.",
+        "coordinates": [94.5674, 29.2087],
+        "quizIds": [2,4]
       }
     ]
   }
