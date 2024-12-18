@@ -57,7 +57,7 @@ const MapQuiz = ({ quizId }) => {
       setScore(score + 1);
       setCurrentLocation(markers[currentQuestion].id);
       setShowInfoPopup(true);
-      if (score === markers.length) {
+      if (currentQuestion === markers.length) {
         handleQuizFinish();
       } else {
         setCurrentQuestion((prev) => (prev + 1) % markers.length);
@@ -82,7 +82,7 @@ const MapQuiz = ({ quizId }) => {
       setScore(score + 1);
       setCurrentLocation(markers[currentQuestion].id);
       setShowInfoPopup(true);
-      if (score === markers.length) {
+      if (currentQuestion === markers.length - 1) {
         handleQuizFinish();
       } else {
         setCurrentQuestion((prev) => (prev + 1) % markers.length);
