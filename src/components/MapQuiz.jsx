@@ -20,6 +20,7 @@ const MapQuiz = ({ quizId }) => {
   });
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [currentLocation, setCurrentLocation] = useState(null);
+  const isLearningMode = quizId === "2";
   const [score, setScore] = useState(0);
   const [selectedMarker, setSelectedMarker] = useState(null);
   const [showHint, setShowHint] = useState(false);
@@ -102,6 +103,11 @@ const MapQuiz = ({ quizId }) => {
     }
   };
 
+  const handleLearningModeClick = (locationId) => {
+    setCurrentLocation(locationId);
+    setShowInfoPopup(true);
+  };
+
   const handleClosePopup = () => {
     setShowInfoPopup(false);
   };
@@ -146,45 +152,58 @@ const MapQuiz = ({ quizId }) => {
 
   return (
     <div className="w-full max-w-4xl mx-auto">
-      <div className="mb-4">
-        <p className="mb-2 text-white">
-          Select the location of:{" "}
-          <strong>{markers[currentQuestion].name}</strong>
-        </p>
-        <p className="mb-4 text-white">
-          Score: {score} | Attempts left: {attempts}
-        </p>
-        <div className="flex justify-between items-center">
-          <div className="flex gap-4">
-            <button
-              onClick={handleHint}
-              className="px-4 py-2 bg-gray-700 text-white rounded"
-            >
-              Hint?
-            </button>
-            <button
-              onClick={handleSkip}
-              className="px-4 py-2 bg-gray-700 text-white rounded"
-            >
-              Skip Current Location
-            </button>
-          </div>
-          <div className="flex gap-2">
-            <button
-              onClick={handleZoomIn}
-              className="px-4 py-2 bg-gray-700 text-white rounded"
-            >
-              +
-            </button>
-            <button
-              onClick={handleZoomOut}
-              className="px-4 py-2 bg-gray-700 text-white rounded"
-            >
-              -
-            </button>
+      {!isLearningMode ? (
+        <div className="mb-4">
+          <p className="mb-2 text-white">
+            Select the location of:{" "}
+            <strong>{markers[currentQuestion].name}</strong>
+          </p>
+          <p className="mb-4 text-white">
+            Score: {score} | Attempts left: {attempts}
+          </p>
+          <div className="flex justify-between items-center">
+            <div className="flex gap-4">
+              <button
+                onClick={handleHint}
+                className="px-4 py-2 bg-gray-700 text-white rounded"
+              >
+                Hint?
+              </button>
+              <button
+                onClick={handleSkip}
+                className="px-4 py-2 bg-gray-700 text-white rounded"
+              >
+                Skip Current Location
+              </button>
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={handleZoomIn}
+                className="px-4 py-2 bg-gray-700 text-white rounded"
+              >
+                +
+              </button>
+              <button
+                onClick={handleZoomOut}
+                className="px-4 py-2 bg-gray-700 text-white rounded"
+              >
+                -
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        <div className="mb-4">
+          <p className="mb-2 text-white">You are in Learning Mode.</p>
+          <ul className="text-gray-300 list-disc pl-6 space-y-2">
+            <li>No Score for this quiz. Just learning.</li>
+          </ul>
+          <p className="mb-2 text-white">
+            You can click on any location to find out what it is and also see
+            the info popup!
+          </p>
+        </div>
+      )}
 
       <ComposableMap
         projection="geoMercator"
@@ -200,32 +219,35 @@ const MapQuiz = ({ quizId }) => {
         >
           <Geographies geography={geoUrl}>
             {({ geographies }) =>
-              geographies.map((geo) => {
-                const isCurrentLocation =
-                  geo.properties.id === markers[currentQuestion].id;
-                const isHintShown = showHint && isCurrentLocation;
-
-                return (
-                  <Geography
-                    key={geo.rsmKey}
-                    geography={geo}
-                    onClick={() => handleLocationClick(geo.properties.geounit)}
-                    style={{
-                      default: {
-                        fill: isHintShown ? "#00A36C" : "#ECEFF1",
-                        stroke: "#000",
-                        strokeWidth: 0.8,
-                        cursor: "pointer",
-                      },
-                      hover: {
-                        fill: "#CFD8DC",
-                        transition: "all 250ms",
-                      },
-                      pressed: { fill: "#FF5722" },
-                    }}
-                  />
-                );
-              })
+              geographies.map((geo) => (
+                <Geography
+                  key={geo.rsmKey}
+                  geography={geo}
+                  onClick={() =>
+                    isLearningMode
+                      ? handleLearningModeClick(geo.properties.geounit)
+                      : handleLocationClick(geo.properties.geounit)
+                  }
+                  style={{
+                    default: {
+                      fill: isLearningMode
+                        ? "#ECEFF1"
+                        : showHint &&
+                          geo.properties.id === markers[currentQuestion].id
+                        ? "#00A36C"
+                        : "#ECEFF1",
+                      stroke: "#000",
+                      strokeWidth: 0.8,
+                      cursor: "pointer",
+                    },
+                    hover: {
+                      fill: "#CFD8DC",
+                      transition: "all 250ms",
+                    },
+                    pressed: { fill: "#FF5722" },
+                  }}
+                />
+              ))
             }
           </Geographies>
           {markers.map(({ id, name, coordinates }) => (
@@ -233,19 +255,19 @@ const MapQuiz = ({ quizId }) => {
               <circle
                 r={2}
                 fill={
-                  showHint && id === markers[currentQuestion].id
+                  isLearningMode
+                    ? "#F53"
+                    : showHint && id === markers[currentQuestion].id
                     ? "#00A36C"
                     : "#F53"
                 }
-                stroke={
-                  showHint && id === markers[currentQuestion].id
-                    ? "#00A36C"
-                    : "#FFF"
+                stroke="#FFF"
+                strokeWidth={2}
+                onClick={() =>
+                  isLearningMode
+                    ? handleLearningModeClick(id)
+                    : handleMarkerClick(id)
                 }
-                strokeWidth={
-                  showHint && id === markers[currentQuestion].id ? 2 : 2
-                }
-                onClick={() => handleMarkerClick(id)}
               />
             </Marker>
           ))}
