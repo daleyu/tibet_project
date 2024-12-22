@@ -14,6 +14,7 @@
         "name": "Yamdrok Lake ཡར་འབྲོག་མཚོ།",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "One of the three largest sacred lakes in Tibet, Yamdrok Lake is surrounded by snow-capped mountains.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [90.749149, 28.978275],
         "quizIds": [1, 2]
       },
@@ -22,6 +23,7 @@
         "name": "Chamdo",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "A major city in eastern Tibet, known for its important monastery and role as a trading hub.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [97.17725, 31.14336],
         "quizIds": [1, 4]
       },
@@ -30,6 +32,7 @@
         "name": "Shigatse, གཞིས་ཀ་རྩེ།",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "The second largest city in Tibet, home to the Tashilhunpo Monastery and the Panchen Lama.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [88.8889, 29.2675],
         "quizIds": [1, 2]
     },
@@ -38,6 +41,7 @@
         "name" : "Kailash, कैलाश, 吉罗娑山, Gang Tise, Yungdrung Gutsek, Gang Rinboqe Feng, gangs rin po che",
         "imageUrl": "https://treasuryoflives.org/uploads/communities/c7c29-kailash.JPG?w=373&h=200",
         "description": "Sacred mountain in western Tibet, considered the center of the universe in Hindu, Buddhist, Jain, and Bon cosmologies.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [81.3137, 31.0477],
         "quizIds": [1, 2]
     },
@@ -46,6 +50,7 @@
         "name": "Namtso Lake, གནམ་མཚོ།, Nam Co, 納木錯",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "The highest saltwater lake in the world and one of the most beautiful natural sights in Tibet. Its name means 'Heavenly Lake' in Tibetan.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Namtso",
         "coordinates": [90.5500, 30.7000],
         "quizIds": [1, 2]
       },
@@ -63,6 +68,7 @@
         "name": "Xinjiang, 新疆维吾尔自治区, شىنجاڭ ئۇيغۇر ئاپتونوم رايونى",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tianshan_Tianchi_Lake.jpg/1280px-Tianshan_Tianchi_Lake.jpg",
         "description": "Autonomous region bordering northern Tibet, known for its diverse ethnic groups and Silk Road history.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [85.2940, 41.1129],
         "quizIds": [2]
       },
@@ -72,6 +78,7 @@
         "type": "region",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Qinghai_Lake.jpg/1280px-Qinghai_Lake.jpg",
         "description": "Province northeast of Tibet, historically part of Amdo Tibet, containing Qinghai Lake and significant Tibetan population.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [96.2402, 35.7448],
         "quizIds": [2]
       },
@@ -80,6 +87,7 @@
         "name": "Sichuan, 四川省, ཟི་ཁྲོན།",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jiuzhaigou_Valley.jpg/1280px-Jiuzhaigou_Valley.jpg",
         "description": "Province east of Tibet, containing parts of historical Kham Tibet and famous for its panda reserves.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [102.9199, 30.1904],
         "quizIds": [2]
       },
@@ -88,6 +96,7 @@
         "name": "Yunnan, 云南省, ཡུན་ནན།",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Lijiang_Old_Town.jpg/1280px-Lijiang_Old_Town.jpg",
         "description": "Province southeast of Tibet, known for its ethnic diversity and historical Tea Horse Road connections.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [102.7103, 25.0454],
         "quizIds": [2]
       },
@@ -96,6 +105,7 @@
         "name": "Gansu, 甘肃省, ཀན་སུའུ།",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Labrang_Monastery.jpg/1280px-Labrang_Monastery.jpg",
         "description": "Province northeast of Tibet, containing important Tibetan monasteries and part of the historical Silk Road.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [103.8262, 36.0611],
         "quizIds": [2, 6]
       },
@@ -103,18 +113,20 @@
         "id": "Kazakhstan",
         "name": "Kazakhstan, Қазақстан",
         "type": "region",
-        "coordinates": [66.9237, 48.0196],
-        "quizIds": [2],
         "description": "Largest landlocked country, bordering Tibet's north",
-        "geounit": "Kazakhstan" 
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "geounit": "Kazakhstan",
+        "coordinates": [66.9237, 48.0196],
+        "quizIds": [2]
       },
       {
         "id": "Kyrgyzstan",
         "name": "Kyrgyzstan, Кыргызстан",
         "type": "region",
+        "description": "Mountainous country in Central Asia",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [74.7661, 41.2044],
         "quizIds": [2],
-        "description": "Mountainous country in Central Asia",
         "geounit": "Kyrgyzstan" 
       },
       {
@@ -122,6 +134,7 @@
         "name": "Mongolia, Монгол улс",
         "imageUrl": "/images/mongolia.jpg",
         "description": "Large nation bordering Tibet to the north, historically significant in Buddhist and imperial history.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [103.8467, 46.8625],
         "quizIds": [3]
       },
@@ -130,14 +143,16 @@
         "name": "Xinjiang Uyghur Autonomous Region, 新疆维吾尔自治区",
         "imageUrl": "/images/xinjiang.jpg",
         "description": "Autonomous region in western China bordering Tibet.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [87.6168, 43.7928],
         "quizIds": [2]
       },
       {
-        "id": "Yellowriver",
+        "id": "Haunghe",
         "name": "Ma chu/Yellow River, 黄河",
         "imageUrl": "/images/yellow-river.jpg",
         "description": "One of China's major rivers, known as Ma chu in Tibetan.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [103.7520, 35.9219],
         "quizIds": [2,4]
       },
@@ -146,6 +161,7 @@
         "name": "Chomolangma/Mt. Everest, ཇོ་མོ་གླང་མ",
         "imageUrl": "/images/everest.jpg",
         "description": "World's highest peak, sacred to Tibetans as Chomolangma.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "coordinates": [86.9250, 27.9881],
         "quizIds": [1,2, 5]
       },
@@ -154,6 +170,7 @@
         "name": "Amdo, ཨ༌མདོ",
         "imageUrl": "/images/amdo.jpg",
         "description": "Northeastern region of historical Tibet, now primarily in Qinghai province.",
+        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [101.9633, 35.7448],
         "quizIds": [1, 2]
       },
@@ -162,6 +179,7 @@
         "name": "Afghanistan, افغانستان",
         "imageUrl": "/images/afghanistan.jpg",
         "description": "Country to the west of Tibet, historically connected via the Silk Road trading routes.",
+        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [67.7097, 33.9391],
         "quizIds": [2,3]
       },
@@ -170,6 +188,7 @@
         "name": "Dri chu/Yangtze River, འབྲི་ཆུ།, 长江",
         "imageUrl": "/images/yangtze.jpg",
         "description": "One of Asia's longest rivers, originating in Tibet's Tanggula Mountains.",
+        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [91.1827, 33.4512],
         "quizIds": [2,4]
       },
@@ -178,6 +197,7 @@
         "name": "Kham, ཁམས།",
         "imageUrl": "/images/kham.jpg",
         "description": "Eastern region of Tibet, known for its fierce warriors and independent kingdoms.",
+        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [97.1738, 30.1307],
         "quizIds": [1,2, 6]
       },
@@ -186,6 +206,7 @@
         "name": "Xi'an/Chang'an, 西安/長安",
         "imageUrl": "/images/xian.jpg",
         "description": "Ancient capital of China, eastern terminus of the Tibet-China trade routes.",
+        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [108.9402, 34.3416],
         "quizIds": [1, 2]
       },
@@ -194,6 +215,7 @@
         "name": "Dza chu/Mekong River, རྫ་ཆུ།, 澜沧江",
         "imageUrl": "/images/mekong.jpg",
         "description": "One of Asia's major rivers, originating in Tibet's Tanggula Mountains, known as Dza chu in Tibetan.",
+        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [94.9039, 33.7537],
         "quizIds": [2, 4]
       },
@@ -202,6 +224,7 @@
         "name": "Ngul chu/Salween River, རྔུལ་ཆུ།, 怒江",
         "imageUrl": "/images/salween.jpg",
         "description": "Major river of Southeast Asia originating in Tibet, known as Ngul chu in Tibetan.",
+        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [98.8601, 26.8357],
         "quizIds": [2,4]
       },
@@ -210,6 +233,7 @@
         "name": "Himalaya Mountains, ཧི་མ་ལ་ཡ།",
         "imageUrl": "/images/himalaya.jpg",
         "description": "World's highest mountain range, forming Tibet's southern border.",
+        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [86.9250, 27.9881],
         "quizIds": [2,5]
       },{
@@ -217,6 +241,7 @@
         "name": "Tsangpo/Brahmaputra River, གཙང་པོ།, 雅鲁藏布江",
         "imageUrl": "/images/brahmaputra.jpg",
         "description": "Major river flowing through southern Tibet, known as Yarlung Tsangpo in Tibetan.",
+        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [94.5674, 29.2087],
         "quizIds": [2,4]
       }

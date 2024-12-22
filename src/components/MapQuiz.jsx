@@ -147,11 +147,11 @@ const MapQuiz = ({ quizId }) => {
   return (
     <div className="w-full max-w-4xl mx-auto">
       <div className="mb-4">
-        <p className="mb-2">
+        <p className="mb-2 text-white">
           Select the location of:{" "}
           <strong>{markers[currentQuestion].name}</strong>
         </p>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           Score: {score} | Attempts left: {attempts}
         </p>
         <div className="flex justify-between items-center">

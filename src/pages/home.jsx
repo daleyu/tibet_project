@@ -34,10 +34,7 @@ const HomePage = () => {
               <h1 className="text-3xl mb-8 text-center text-white">
                 Quiz: {getQuiz(quizId)}
               </h1>
-              <button
-                onClick={handleBack}
-                className="mb-4 text-white hover:text-gray-300"
-              >
+              <button onClick={handleBack} className="mb-4 hover:text-gray-300">
                 ← Back to Quiz Selection
               </button>
               <MapQuiz quizId={quizId} />

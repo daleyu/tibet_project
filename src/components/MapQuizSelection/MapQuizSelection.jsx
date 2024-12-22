@@ -56,16 +56,16 @@ export const quizzes = [
 
 function MapSelection({ onSelectQuiz }) {
   return (
-    <div className="w-full">
+    <div className="w-full dark">
       <div className="grid grid-cols-3 gap-4">
         {quizzes.map((quiz) => (
           <button
             key={quiz.id}
-            className="p-5 h-44 relative overflow-hidden text-base text-white rounded hover:bg-gray-700 transition-colors"
+            className="bg-black p-5 h-44 relative overflow-hidden text-white text-base transition-all rounded hover:bg-gray-700 transition-colors duration-300"
             onClick={() => onSelectQuiz(quiz.id)}
           >
             <div
-              className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm opacity-50 grayscale-[10%] transition-all duration-300 hover:blur-none hover:opacity-75 hover:grayscale-0"
+              className="bg-black/50 absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm opacity-70 transition-all duration-300 hover:blur-none hover:opacity-100"
               style={{
                 backgroundImage: `url(${quiz.image})`,
               }}
