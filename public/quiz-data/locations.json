@@ -139,15 +139,6 @@
         "quizIds": [3]
       },
       {
-        "id": "Xinjiang",
-        "name": "Xinjiang Uyghur Autonomous Region, 新疆维吾尔自治区",
-        "imageUrl": "/images/xinjiang.jpg",
-        "description": "Autonomous region in western China bordering Tibet.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
-        "coordinates": [87.6168, 43.7928],
-        "quizIds": [2]
-      },
-      {
         "id": "Haunghe",
         "name": "Ma chu/Yellow River, 黄河",
         "imageUrl": "/images/yellow-river.jpg",
