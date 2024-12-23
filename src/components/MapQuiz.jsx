@@ -135,6 +135,7 @@ const MapQuiz = ({ quizId }) => {
   const handleQuizFinish = () => {
     const finalScore = Math.round((score / markers.length) * 100);
     alert(`Quiz finished! Your score: ${finalScore}%`);
+    setIsFinished(true);
     resetQuiz();
   };
 

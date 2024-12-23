@@ -14,7 +14,7 @@
         "name": "Yamdrok Lake ཡར་འབྲོག་མཚོ།",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "One of the three largest sacred lakes in Tibet, Yamdrok Lake is surrounded by snow-capped mountains.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "infoLink" : "https://treasuryoflives.org/institution/Yamdrok-Lake",
         "coordinates": [90.749149, 28.978275],
         "quizIds": [1, 2]
       },
@@ -23,7 +23,7 @@
         "name": "Chamdo",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "A major city in eastern Tibet, known for its important monastery and role as a trading hub.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Chamdo-Jampa-Ling-",
         "coordinates": [97.17725, 31.14336],
         "quizIds": [1, 4]
       },
@@ -134,7 +134,7 @@
         "name": "Mongolia, Монгол улс",
         "imageUrl": "/images/mongolia.jpg",
         "description": "Large nation bordering Tibet to the north, historically significant in Buddhist and imperial history.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "infoLink" : "https://treasuryoflives.org/en/institution/",
         "coordinates": [103.8467, 46.8625],
         "quizIds": [3]
       },

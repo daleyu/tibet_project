@@ -58,6 +58,12 @@ const HomePage = () => {
               <ul className="text-gray-300 list-disc pl-6 space-y-2 pb-4">
                 <li>
                   {" "}
+                  Try out the learning mode ("Learn the Locations") to learn
+                  without a score. You can click on any location to find out
+                  what it is and also see the info popup!
+                </li>
+                <li>
+                  {" "}
                   You can use the search bar to look at a specific location, or
                   you can use the locations page and browse freely
                 </li>

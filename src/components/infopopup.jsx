@@ -54,7 +54,12 @@ const InfoPopup = ({ location, onClose }) => {
           <Button onClick={handleReadMore} className="px-4">
             Read More
           </Button>
-          <a href={info.infoLink} target="_blank" color="blue-gray">
+          <a
+            href={info.infoLink}
+            target="_blank"
+            color="blue-gray"
+            className="px-1"
+          >
             <Button>See External Resource</Button>
           </a>
         </CardFooter>
