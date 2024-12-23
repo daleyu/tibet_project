@@ -86,7 +86,8 @@
         "type": "region",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Qinghai_Lake.jpg/1280px-Qinghai_Lake.jpg",
         "description": "Province northeast of Tibet, historically part of Amdo Tibet, containing Qinghai Lake and significant Tibetan population.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "full_description": "Province northeast of Tibet, historically part of Amdo Tibet, containing Qinghai Lake and significant Tibetan population.",
+        "infoLink" : "https://whc.unesco.org/en/list/1540/",
         "coordinates": [96.2402, 35.7448],
         "quizIds": [2]
       },
@@ -95,7 +96,8 @@
         "name": "Sichuan, 四川省, ཟི་ཁྲོན།",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jiuzhaigou_Valley.jpg/1280px-Jiuzhaigou_Valley.jpg",
         "description": "Province east of Tibet, containing parts of historical Kham Tibet and famous for its panda reserves.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "full_description": "Province east of Tibet, containing parts of historical Kham Tibet and famous for its panda reserves.",
+        "infoLink" : "https://www.tibetheritagefund.org/page/?r=42",
         "coordinates": [102.9199, 30.1904],
         "quizIds": [2]
       },
@@ -104,7 +106,8 @@
         "name": "Yunnan, 云南省, ཡུན་ནན།",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Lijiang_Old_Town.jpg/1280px-Lijiang_Old_Town.jpg",
         "description": "Province southeast of Tibet, known for its ethnic diversity and historical Tea Horse Road connections.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "full_description": "Province southeast of Tibet, known for its ethnic diversity and historical Tea Horse Road connections.",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/430",
         "coordinates": [102.7103, 25.0454],
         "quizIds": [2]
       },
@@ -113,7 +116,8 @@
         "name": "Gansu, 甘肃省, ཀན་སུའུ།",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Labrang_Monastery.jpg/1280px-Labrang_Monastery.jpg",
         "description": "Province northeast of Tibet, containing important Tibetan monasteries and part of the historical Silk Road.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "full_description": "Gansu in the Northeast was really important in Tibetan history; particularly, Gansu was important for its connection to Amdo. Amdo wasn't exclusively in Gansu, it spanned parts of modern-day Gansu, Qinghai, and Sichuan provinces, but some important Amdo regions were located in what is now Gansu Province, especially in the Gannan Tibetan Autonomous Prefecture.",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/432",
         "coordinates": [103.8262, 36.0611],
         "quizIds": [2, 6]
       },
@@ -122,6 +126,7 @@
         "name": "Kazakhstan, Қазақстан",
         "type": "region",
         "description": "Largest landlocked country, bordering Tibet's north",
+        "full_description": "Kazakhstan was a landlocked to Tibet's North. It doesn't play as big of a role in Tibetan History as regions like Sichuan, Gansu, and Qinghai, but it was still an important region for trade and cultural exchange. Some of the mongolian tribes that invaded Tibet came from the Kazakh region.",
         "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
         "geounit": "Kazakhstan",
         "coordinates": [66.9237, 48.0196],
