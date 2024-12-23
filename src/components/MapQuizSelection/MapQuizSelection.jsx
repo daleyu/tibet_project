@@ -12,13 +12,13 @@ export const quizzes = [
   },
   {
     id: 3,
-    title: "Rivers",
+    title: "Rivers and Lakes",
     image:
       "https://images.unsplash.com/photo-1622553886467-9ea47e5c35e8?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 4,
-    title: "Sacred Landscapes and Pilgrimage Sites",
+    title: "Sacred Sites and Cities",
     image:
       "https://images.unsplash.com/photo-1663128114450-58ce9fc8b202?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
