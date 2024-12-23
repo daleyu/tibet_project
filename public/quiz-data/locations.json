@@ -2,9 +2,10 @@
     "markers": [
       {
         "id": "Lhasa",
-        "name": "Lhasa, ལྷ་ས་གཙུག་ལག་ཁང་། Lhasa Tsuklakhang",
+        "name": "Lhasa, ལྷ་ས་གཙུག་ལག་ཁང་། Lhasa Tsuklakhang, Potala Palace is also here",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "The Jokhang Temple is the spiritual heart of Tibet, founded during the reign of King Songtsen Gampo.",
+        "description": "The Jokhang Temple is the spiritual heart of Tibet, founded during the reign of King Songtsen Gampo. Potala Palace is also found here.",
+        "full_description": "Lhasa, the capital city of Tibet Autonomous Region, has served as the spiritual and administrative center of Tibet for over a millennium. The city's crowning jewel is the Potala Palace, a UNESCO World Heritage site and former winter residence of the Dalai Lamas, which rises 13 stories atop Red Mountain and dominates the city's skyline. At an elevation of about 3,650 meters (11,975 feet), Lhasa is one of the highest capital cities in the world and is often referred to as the 'City of the Sun' or 'Place of the Gods.'",
         "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
         "coordinates": [91.1318, 29.65285],
         "quizIds": [1, 3, 4]
@@ -14,6 +15,7 @@
         "name": "Yamdrok Lake ཡར་འབྲོག་མཚོ།",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "One of the three largest sacred lakes in Tibet, Yamdrok Lake is surrounded by snow-capped mountains.",
+        "full_description": "Yamdrok Lake (also known as Yamdrok Yumtso) is one of Tibet's three largest sacred lakes and is revered in Tibetan Buddhism as a life-force lake. Located at an elevation of about 4,441 meters (14,570 feet), this stunning turquoise lake is believed by locals to have spiritual powers. It's shaped like a fan or, according to Tibetan folklore, like a scorpion, and spans roughly 72 kilometers in length. The lake plays a crucial role in Tibetan Buddhism, as it is said to have been used for divination by Tibet's spiritual leaders, including the Dalai Lamas. Beyond its spiritual significance, Yamdrok Lake also serves a practical purpose through a hydroelectric power station that helps supply electricity to Lhasa.",
         "infoLink" : "https://treasuryoflives.org/institution/Yamdrok-Lake",
         "coordinates": [90.749149, 28.978275],
         "quizIds": [1, 2]
@@ -23,6 +25,7 @@
         "name": "Chamdo",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "A major city in eastern Tibet, known for its important monastery and role as a trading hub.",
+        "full_description": "Chamdo (also spelled Qamdo or Changdu) is a major town in eastern Tibet, situated at the confluence of the Ngom-Chu and Dza-Chu rivers. It serves as an important administrative center and transportation hub in the Tibet Autonomous Region. Historically, it was a significant trading post along routes connecting Tibet with Yunnan and Sichuan provinces. The town is known for its Chamdo Monastery (Changdu Qiangbalin Temple), a significant Gelugpa monastery that was originally established in the 15th century. The surrounding area is characterized by deep river valleys and mountainous terrain.",
         "infoLink" : "https://treasuryoflives.org/en/institution/Chamdo-Jampa-Ling-",
         "coordinates": [97.17725, 31.14336],
         "quizIds": [1, 4]
@@ -31,8 +34,9 @@
         "id": "Shigatse",
         "name": "Shigatse, གཞིས་ཀ་རྩེ།",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "The second largest city in Tibet, home to the Tashilhunpo Monastery and the Panchen Lama.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "description": "Shigatse is the second largest city in Tibet and the traditional seat of the Panchen Lama.",
+        "full_description": "Shigatse (also spelled Xigazê or Xigaze) is the second-largest city in Tibet after Lhasa. Located at an elevation of around 3,800 meters (12,500 feet), it has been historically significant as the traditional seat of the Panchen Lama. The city is dominated by the imposing Tashilhunpo Monastery, founded in 1447, which serves as one of the most important monasteries of Tibetan Buddhism's Gelugpa school. Shigatse acts as an important agricultural and trading center in the region, with the fertile Nyang River valley supporting the cultivation of barley, wheat, and rapeseed. ",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/11658",
         "coordinates": [88.8889, 29.2675],
         "quizIds": [1, 2]
     },
@@ -41,7 +45,8 @@
         "name" : "Kailash, कैलाश, 吉罗娑山, Gang Tise, Yungdrung Gutsek, Gang Rinboqe Feng, gangs rin po che",
         "imageUrl": "https://treasuryoflives.org/uploads/communities/c7c29-kailash.JPG?w=373&h=200",
         "description": "Sacred mountain in western Tibet, considered the center of the universe in Hindu, Buddhist, Jain, and Bon cosmologies.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "full_description": "Sacred mountain in western Tibet, considered the center of the universe in Hindu, Buddhist, Jain, and Bon cosmologies.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Kailash",
         "coordinates": [81.3137, 31.0477],
         "quizIds": [1, 2]
     },
@@ -50,6 +55,7 @@
         "name": "Namtso Lake, གནམ་མཚོ།, Nam Co, 納木錯",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "The highest saltwater lake in the world and one of the most beautiful natural sights in Tibet. Its name means 'Heavenly Lake' in Tibetan.",
+        "full_description": "Lake Namtso is a sacred lake in Damzhung county, northeast of Lhasa. It is home to five islands that are used as retreats for practitioners. There are also numerous monasteries in the surrounding region, as well as many well-known hermitages. Among the many masters said to have practiced at these sites, Padmasambhava and his consort Yeshe Tsogyel are frequently associated with the nearby caves. ",
         "infoLink" : "https://treasuryoflives.org/en/institution/Namtso",
         "coordinates": [90.5500, 30.7000],
         "quizIds": [1, 2]
@@ -59,7 +65,8 @@
         "name": "Lake Manasarovar, མ་ཕམ་གཡུ་མཚོ།, Mapam Yumtso",
         "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "A high altitude freshwater lake near Mount Kailash, located at 4,600m elevation. Considered sacred by Hindus, Buddhists, Jains and Bon practitioners.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "full_description": "Lake Manasarovar is located in the Ngari region of western Tibet, to the east of Mount Kailash. The lake is significant in multiple religious traditions. For Buddhists, Manasarovar is an important site of circumambulatory pilgrimage; tradition holds that Shakyamuni Buddha was conceived at the lake.",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Manasarovar",
         "coordinates": [81.45, 30.65],
         "quizIds": [1, 2]
       },
@@ -68,7 +75,8 @@
         "name": "Xinjiang, 新疆维吾尔自治区, شىنجاڭ ئۇيغۇر ئاپتونوم رايونى",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tianshan_Tianchi_Lake.jpg/1280px-Tianshan_Tianchi_Lake.jpg",
         "description": "Autonomous region bordering northern Tibet, known for its diverse ethnic groups and Silk Road history.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Samye",
+        "full_description": "The historical relationship between Xinjiang and Tibet was primarily defined by trade routes, particularly through the Southern Silk Road branch that connected Tibet to Xinjiang's oasis cities. During the Tibetan Empire (7th-9th centuries CE), parts of southern Xinjiang came under Tibetan control, while the region also played a key role in transmitting Buddhism into Tibet, especially through the Khotan area. The two regions shared similar high-altitude geography and pastoral traditions, leading to cultural exchanges particularly among their nomadic populations.",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/5463",
         "coordinates": [85.2940, 41.1129],
         "quizIds": [2]
       },
@@ -224,7 +232,8 @@
         "name": "Himalaya Mountains, ཧི་མ་ལ་ཡ།",
         "imageUrl": "/images/himalaya.jpg",
         "description": "World's highest mountain range, forming Tibet's southern border.",
-        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
+        "full_description": "World's highest mountain range, forming Tibet's southern border.",
+        "infoLink" : "https://en.wikipedia.org/wiki/Himalayas",
         "coordinates": [86.9250, 27.9881],
         "quizIds": [2,5]
       },{
@@ -232,7 +241,17 @@
         "name": "Tsangpo/Brahmaputra River, གཙང་པོ།, 雅鲁藏布江",
         "imageUrl": "/images/brahmaputra.jpg",
         "description": "Major river flowing through southern Tibet, known as Yarlung Tsangpo in Tibetan.",
-        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
+        "full_description": "Along its course the Brahmaputra passes through the Tibet Autonomous Region of China, the Indian states of Arunachal Pradesh and Assam, and Bangladesh. For most of its length, the river serves as an important inland waterway. It is not, however, navigable between the mountains of Tibet and the plains of India. ",
+        "infoLink" : "https://www.britannica.com/place/Brahmaputra-River",
+        "coordinates": [94.5674, 29.2087],
+        "quizIds": [2,4]
+      },{
+        "id": "Kokonor",
+        "name": "Kokonor མཚོ་སྔོན་པོ།",
+        "imageUrl": "",
+        "description": "Kokonor is classically known by it's mongolian name  ᠬᠥᠬᠡ ᠨᠠᠭᠤᠷ but is also called Qinghai Lak, as it is in Qinghai.",
+        "full_description": "Tsongonpo, or Blue Lake, is also known commonly known as Kokonor (Mongolian). Located in Kangtsa Country in northern Amdo, it is the largest lake on the Tibetan plateau. There are numerous temples and monasteries in the area and it continues to be an important pilgrimage site. ",
+        "infoLink" : "https://treasuryoflives.org/en/institution/Kokonor",
         "coordinates": [94.5674, 29.2087],
         "quizIds": [2,4]
       }

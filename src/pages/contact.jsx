@@ -22,6 +22,13 @@ const ContactPage = () => {
               it, then you can find the repo information here:
               https://github.com/daleyu/tibet_project
             </p>
+            <ul className="text-gray-300 list-disc pl-6 space-y-2">
+              <li>
+                Feel free to open an issue or reach out if you want any of the
+                information updated on the site. This will remain an open-source
+                project.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
