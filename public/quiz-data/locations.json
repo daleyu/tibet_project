@@ -99,7 +99,7 @@
         "full_description": "Province east of Tibet, containing parts of historical Kham Tibet and famous for its panda reserves.",
         "infoLink" : "https://www.tibetheritagefund.org/page/?r=42",
         "coordinates": [102.9199, 30.1904],
-        "quizIds": [1,2, 6]
+        "quizIds": [1, 2, 6]
       },
       {
         "id": "Yunnan",
@@ -109,7 +109,7 @@
         "full_description": "Province southeast of Tibet, known for its ethnic diversity and historical Tea Horse Road connections.",
         "infoLink" : "https://places.kmaps.virginia.edu/features/430",
         "coordinates": [102.7103, 25.0454],
-        "quizIds": [2]
+        "quizIds": [1, 2, 6]
       },
       {
         "id": "Gansu",
@@ -119,7 +119,7 @@
         "full_description": "Gansu in the Northeast was really important in Tibetan history; particularly, Gansu was important for its connection to Amdo. Amdo wasn't exclusively in Gansu, it spanned parts of modern-day Gansu, Qinghai, and Sichuan provinces, but some important Amdo regions were located in what is now Gansu Province, especially in the Gannan Tibetan Autonomous Prefecture.",
         "infoLink" : "https://places.kmaps.virginia.edu/features/432",
         "coordinates": [103.8262, 36.0611],
-        "quizIds": [2, 6]
+        "quizIds": [1, 2, 6]
       },
       {
         "id": "Kazakhstan",
@@ -130,7 +130,7 @@
         "infoLink" : "https://places.kmaps.virginia.edu/features/5240",
         "geounit": "Kazakhstan",
         "coordinates": [66.9237, 48.0196],
-        "quizIds": [2]
+        "quizIds": [1, 2]
       },
       {
         "id": "Mongolia",
@@ -140,7 +140,7 @@
         "full_description": "Large nation bordering Tibet to the north, historically significant in Buddhist and imperial history. Mongolia plays an important role in the relationships with Tibet, especially as the relationship between the leaders. The relationship became an interchange of knowledge and Buddhism to the Mongols, while also getting a lot of military defense from the Mongols. This began notably with Sakya Pandita and Godan Khan in the 13th century, and reached its most famous expression with Altan Khan and Sonam Gyatso, who received the title 'Dalai Lama' from Altan Khan.",
         "infoLink" : "https://treasuryoflives.org/biographies/view/Third-Dalai-Lama-Sonam-Gyatso/12828",
         "coordinates": [103.8467, 46.8625],
-        "quizIds": [3]
+        "quizIds": [1, 2, 9]
       },
       {
         "id": "Haunghe",
@@ -150,7 +150,7 @@
         "full_description": "One of China's major rivers, known as Ma chu in Tibetan.",
         "infoLink" : "https://www.meltdownintibet.com/f_river_yellow.htm",
         "coordinates": [103.7520, 35.9219],
-        "quizIds": [2,4]
+        "quizIds": [1, 2, 3]
       },
       {
         "id": "Everest",
@@ -160,7 +160,7 @@
         "full_description": "World's highest peak, sacred to Tibetans as Chomolangma.",
         "infoLink" : "https://education.nationalgeographic.org/resource/mount-everest/",
         "coordinates": [86.9250, 27.9881],
-        "quizIds": [1,2, 5]
+        "quizIds": [1, 2, 8]
       },
       {
         "id": "Amdo",
@@ -170,7 +170,7 @@
         "full_description": "Northeastern region of historical Tibet, now primarily in Qinghai province.",
         "infoLink" : "https://places.kmaps.virginia.edu/features/2830",
         "coordinates": [101.9633, 35.7448],
-        "quizIds": [1, 2]
+        "quizIds": [1, 2, 7]
       },
       {
         "id": "Afghanistan",
@@ -180,17 +180,17 @@
         "full_description": "Country to the west of Tibet, historically connected via the Silk Road trading routes.",
         "infoLink" : "https://places.kmaps.virginia.edu/features/5237",
         "coordinates": [67.7097, 33.9391],
-        "quizIds": [2,3]
+        "quizIds": [1, 2, 5]
       },
       {
-        "id": "Dri-chu",
+        "id": "Yangtze",
         "name": "Dri chu/Yangtze River, འབྲི་ཆུ།, 长江",
         "imageUrl": "/images/yangtze.jpg",
         "description": "One of Asia's longest rivers, originating in Tibet's Tanggula Mountains.",
         "full_description": "One of Asia's longest rivers, originating in Tibet's Tanggula Mountains.",
         "infoLink" : "https://depts.washington.edu/chinaciv/geo/yangtze.htm",
         "coordinates": [91.1827, 33.4512],
-        "quizIds": [2,4]
+        "quizIds": [1, 2, 3]
       },
       {
         "id": "Kham",
@@ -200,7 +200,7 @@
         "full_description": "Kham was one of Tibet's three traditional regions (along with U-Tsang and Amdo), covering a vast area of eastern Tibet that now spans parts of present-day Sichuan, Yunnan, Qinghai, and the Tibet Autonomous Region. Historically known for its fierce warriors and independent kingdoms, Kham was characterized by deep river valleys, high mountains, and a distinctive cultural identity. The region was home to powerful local rulers called Gyalpos (kings) or Ponpos (chieftains), who maintained significant autonomy. Kham was also renowned for its excellent horses, skilled horsemen, and important Buddhist monasteries, particularly those of the Kagyu and Nyingma traditions. ",
         "infoLink" : "https://en.wikipedia.org/wiki/Kham",
         "coordinates": [97.1738, 30.1307],
-        "quizIds": [1,2, 6]
+        "quizIds": [1, 2, 7]
       },
       {
         "id": "Xian",
@@ -210,7 +210,7 @@
         "full_description": "Ancient capital of China, eastern terminus of the Tibet-China trade routes.",
         "infoLink" : "https://www.britannica.com/place/Xian-China",
         "coordinates": [108.9402, 34.3416],
-        "quizIds": [1, 2]
+        "quizIds": [1, 2, 6]
       },
       {
         "id": "Dzachu",
@@ -220,7 +220,7 @@
         "full_description": "One of Asia's major rivers, originating in Tibet's Tanggula Mountains, known as Dza chu in Tibetan. The Mekong River is one of the longest rivers in Asia, flowing through six countries: China, Myanmar, Laos, Thailand, Cambodia, and Vietnam. It originates in the Tibetan Plateau and flows through the eastern Himalayas before reaching the South China Sea. The river is a vital resource for millions of people who depend on it for agriculture, transportation, and fishing. ",
         "infoLink" : "https://www.britannica.com/place/Mekong-River",
         "coordinates": [94.9039, 33.7537],
-        "quizIds": [2, 4]
+        "quizIds": [1, 2, 3]
       },
       {
         "id": "Ngulchu",
@@ -230,7 +230,7 @@
         "full_description": "Major river of Southeast Asia originating in Tibet, known as Ngul chu in Tibetan. The Salween which originates on the Tibetan Plateau and flows through China, Myanmar and Thailand is one of the longest free-flowing rivers in the world. It is home to a diverse range of plant and animal species, including many that are endangered. The river is also an important source of water for millions of people who live along its banks. It has been crucial throughout history for its growth of plants and Riverine communities. ",
         "infoLink" : "https://www.britannica.com/place/Salween-River",
         "coordinates": [98.8601, 26.8357],
-        "quizIds": [2,4]
+        "quizIds": [1, 2, 3]
       },
       {
         "id": "Himalaya",
@@ -240,7 +240,7 @@
         "full_description": "World's highest mountain range, forming Tibet's southern border.",
         "infoLink" : "https://en.wikipedia.org/wiki/Himalayas",
         "coordinates": [86.9250, 27.9881],
-        "quizIds": [2,5]
+        "quizIds": [1, 2, 8]
       },{
         "id": "Tsangpo",
         "name": "Tsangpo/Brahmaputra River, གཙང་པོ།, 雅鲁藏布江",
@@ -249,7 +249,7 @@
         "full_description": "Along its course the Brahmaputra passes through the Tibet Autonomous Region of China, the Indian states of Arunachal Pradesh and Assam, and Bangladesh. For most of its length, the river serves as an important inland waterway. It is not, however, navigable between the mountains of Tibet and the plains of India. ",
         "infoLink" : "https://www.britannica.com/place/Brahmaputra-River",
         "coordinates": [94.5674, 29.2087],
-        "quizIds": [2,4]
+        "quizIds": [1, 2, 3]
       },{
         "id": "Kokonor",
         "name": "Kokonor མཚོ་སྔོན་པོ།",
@@ -258,7 +258,7 @@
         "full_description": "Tsongonpo, or Blue Lake, is also known commonly known as Kokonor (Mongolian). Located in Kangtsa Country in northern Amdo, it is the largest lake on the Tibetan plateau. There are numerous temples and monasteries in the area and it continues to be an important pilgrimage site. ",
         "infoLink" : "https://treasuryoflives.org/en/institution/Kokonor",
         "coordinates": [94.5674, 29.2087],
-        "quizIds": [2,4]
+        "quizIds": [1, 2, 3]
       }
     ]
   }
