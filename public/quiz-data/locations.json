@@ -118,7 +118,7 @@
         "description": "Province northeast of Tibet, containing important Tibetan monasteries and part of the historical Silk Road.",
         "full_description": "Gansu in the Northeast was really important in Tibetan history; particularly, Gansu was important for its connection to Amdo. Amdo wasn't exclusively in Gansu, it spanned parts of modern-day Gansu, Qinghai, and Sichuan provinces, but some important Amdo regions were located in what is now Gansu Province, especially in the Gannan Tibetan Autonomous Prefecture.",
         "infoLink" : "https://places.kmaps.virginia.edu/features/432",
-        "coordinates": [103.8262, 36.0611],
+        "coordinates": [103.8262, 36.5611],
         "quizIds": [1, 2, 6]
       },
       {
@@ -149,7 +149,7 @@
         "description": "One of China's major rivers, known as Ma chu in Tibetan.",
         "full_description": "One of China's major rivers, known as Ma chu in Tibetan.",
         "infoLink" : "https://www.meltdownintibet.com/f_river_yellow.htm",
-        "coordinates": [103.7520, 35.9219],
+        "coordinates": [103.7520, 34.9219],
         "quizIds": [1, 2, 3]
       },
       {
@@ -257,7 +257,7 @@
         "description": "Kokonor is classically known by it's mongolian name  ᠬᠥᠬᠡ ᠨᠠᠭᠤᠷ but is also called Qinghai Lak, as it is in Qinghai.",
         "full_description": "Tsongonpo, or Blue Lake, is also known commonly known as Kokonor (Mongolian). Located in Kangtsa Country in northern Amdo, it is the largest lake on the Tibetan plateau. There are numerous temples and monasteries in the area and it continues to be an important pilgrimage site. ",
         "infoLink" : "https://treasuryoflives.org/en/institution/Kokonor",
-        "coordinates": [94.5674, 29.2087],
+        "coordinates": [100.3498, 36.7599],
         "quizIds": [1, 2, 3]
       },{
         "id": "Nepal",
@@ -311,8 +311,36 @@
         "description": "Tibet Autonomous Region (TAR) is a contemporary administrative unit of China that includes the cultural regions of Western and Central Tibet, and some Eastern.",
         "full_description": "Established in 1965, the Tibet Autonomous Region (TAR) is a contemporary administrative unit of China that includes the cultural regions of Western and Central Tibet, as well as parts of Eastern Tibet, and spans an area of more than 1,200,000 km2. As part of the Tibetan Plateau, the TAR contains several of the world’s highest mountains (Mount Everest), lakes (Yamdrok Yumtso), and rivers (Yarlung Tsangpo). With its capital of Lhasa the region supports a population of over 3 million.",
         "infoLink" : "https://places.kmaps.virginia.edu/features/2",
-        "coordinates": [69.3451, 30.3753],
+        "coordinates": [91.1174, 29.6472],
         "quizIds": [1, 2, 7]
+      },{
+        "id": "Inner_mongolia",
+        "name": "Inner Mongolia, 内蒙古自治区",
+        "imageUrl": "",
+        "description": "Inner Mongolia, now an autonomous region of China, Located North west of Beijing",
+        "full_description": "Inner Mongolia, now an autonomous region of China, was historically a crucial northeastern frontier zone of Tibetan Buddhist influence where Mongol rulers actively patronized Tibetan lamas and monasteries from the 16th century onward, leading to the establishment of major monastic centers like Shireet Juu.",
+        "infoLink" : "https://soir.senate.ca.gov/inner-mongolia-autonomous-region-china",
+        "coordinates": [111.7652, 40.8173],
+        "quizIds": [1, 2, 7]
+      },{
+        "id": "Shaanxi",
+        "name": "Shaanxi, 陜西省, ཧྲའན་ཞི་ཞིང་ཆེན",
+        "imageUrl": "",
+        "description": "Shaanxi province, particularly known for its capital Xi'an (ancient Chang'an). Tang Dynasty capital.",
+        "full_description": "Shaanxi province holds special significance as the site of Chang'an (modern Xi'an), the Tang Dynasty capital where Tibetan history intersected dramatically with Chinese civilization. The Tang-Tibet alliance was sealed here through the marriage of Princess Wencheng to Songtsen Gampo in 641 CE, marking the beginning of significant Buddhist influence in Tibet.",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/5426",
+        "coordinates": [34.2649, 108.9542],
+        "quizIds": [1, 2, 7]
+      },{
+        "id": "Sutlej",
+        "name": "Sutlej River, གླང་ཆེན་གཙང་པོ།, Langchen Tsangpo",
+        "imageUrl": "",
+        "description": "The Sutlej River, originating near Mount Kailash in Tibet's Gangdise Mountains.",
+        "full_description": "One of Tibet's most important southern waterways, historically marking crucial trade routes and pilgrimage paths between Tibet and the Indian subcontinent.",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/10664",
+        "coordinates": [71.342, 29.2323],
+        "quizIds": [1, 2, 3]
       }
+
     ]
   }
