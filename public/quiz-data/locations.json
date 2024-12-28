@@ -259,6 +259,60 @@
         "infoLink" : "https://treasuryoflives.org/en/institution/Kokonor",
         "coordinates": [94.5674, 29.2087],
         "quizIds": [1, 2, 3]
+      },{
+        "id": "Nepal",
+        "name": "Nepal - चिनारी नेपाल, བལ་ཡུལ།, 尼泊爾",
+        "imageUrl": "",
+        "description": "Nepal is a landlocked Himalayan country between India and Tibet that contains eight of the world's ten tallest mountains, including Mount Everest.",
+        "full_description": "Nepal is a landlocked Himalayan nation that historically served as a key trading route between Tibet and South Asia. Its northern regions, particularly areas like Mustang and Dolpo, contain some of the oldest preserved Tibetan Buddhist monasteries and texts dating back to the 8th century CE.",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/426",
+        "coordinates": [84.1240, 28.3949],
+        "quizIds": [1, 2, 5]
+      },{
+        "id": "India",
+        "name": "India",
+        "imageUrl": "",
+        "description": "India is the southern neighbor of the Tibetan plateau, historically connected through ancient Buddhist pilgrimage routes and trade corridors. Largely Important for Buddhism.",
+        "full_description": "India stands was the location from which Buddhism flowed into Tibet, with great scholars like Padmasambhava and Atisha making the perilous journey northward to spread dharma teachings in the 8th and 11th centuries. The subcontinent's monasteries, particularly at Nalanda and Vikramashila, served as crucial centers of learning where Tibetan translators and scholars studied Sanskrit texts, ultimately leading to Tibet's golden age of Buddhist translation.",
+        "infoLink" : "",
+        "coordinates": [78.9629, 20.5937],
+        "quizIds": [1, 2, 5]
+      },{
+        "id": "Bhutan",
+        "name": "Bhutan -- འབྲུག་ཡུལ།",
+        "imageUrl": "",
+        "description": "Bhutan is a small Buddhist kingdom between Tibet and India. It has a rich Buddhist heritage and is known for commitment to environmental conservation.",
+        "full_description": "The country's form of Buddhism, primarily following the Drukpa Kagyu tradition, was brought directly from Tibet by the great master Phajo Drukgom Zhipo in the 13th century. What makes Bhutan particularly fascinating for our field is how it maintained its independence while adapting Tibetan religious and administrative systems - developing its own unique form of dual spiritual-political governance similar to but distinct from Tibet's Ganden Phodrang.",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/427",
+        "coordinates": [90.4336, 27.5142],
+        "quizIds": [1, 2, 5]
+      },{
+        "id": "Burma",
+        "name": "Burma, Myanmar, 缅甸, འབར་མ ",
+        "imageUrl": "",
+        "description": "Historically served as a crucial southern hub of Theravada Buddhism that occasionally intersected with Tibetan Buddhist traders and pilgrims through the ancient Tea Horse Road and Burma Road trading routes.",
+        "full_description": "Beginning in the 9th c., the early Pyu and Mon constitute some of Myanmar's earliest recorded civilizations. The region was consolidated under the Bagan in the 11th c., and in part due to its close links with India, Theravada Buddhism began to take root in the country. Though Theravada Buddhism is the predominant religion today, Mahayana and Tantric Buddhism as well as Hinduism were commonly encountered. As Myanmar fought to rebuff Portuguese and Chinese advances, they eventually became absorbed into British India in 1824. In WWII Myanmar was occupied by Japanese forces who fought the British and local forces. In 1948, Myanmar was an independent state until a 1962 coup-d'etat installed military-led leadership, which lasted until 2011.",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/5242",
+        "coordinates": [95.9560, 21.9162],
+        "quizIds": [1, 2, 5]
+      },{
+        "id": "Pakistan",
+        "name": "Pakistan, 巴基斯坦, ཕ་ཁི་སི་ཐན",
+        "imageUrl": "",
+        "description": "Pakistan contains the ancient region of Gilgit-Baltistan, part of Tibet's western trading sphere. Located West of Tibet",
+        "full_description": "The regions of Gilgit-Baltistan and Baltistan (historically known as Little Tibet) maintained strong cultural and economic ties with Tibet proper through the 14th century. Archaeological evidence, particularly the rich Buddhist petroglyphs and inscriptions along the upper Indus River, demonstrates the presence of Tibetan traders, pilgrims, and military expeditions during the Tibetan Empire period (7th-9th centuries). ",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/5244",
+        "coordinates": [69.3451, 30.3753],
+        "quizIds": [1, 2, 5]
+      },{
+        "id": "TAR",
+        "name": "Tibet Autonomous Region (TAR), བོད་རང་སྐྱོང་ལྗོངས།, 西藏自治區",
+        "imageUrl": "",
+        "description": "Tibet Autonomous Region (TAR) is a contemporary administrative unit of China that includes the cultural regions of Western and Central Tibet, and some Eastern.",
+        "full_description": "Established in 1965, the Tibet Autonomous Region (TAR) is a contemporary administrative unit of China that includes the cultural regions of Western and Central Tibet, as well as parts of Eastern Tibet, and spans an area of more than 1,200,000 km2. As part of the Tibetan Plateau, the TAR contains several of the world’s highest mountains (Mount Everest), lakes (Yamdrok Yumtso), and rivers (Yarlung Tsangpo). With its capital of Lhasa the region supports a population of over 3 million.",
+        "infoLink" : "https://places.kmaps.virginia.edu/features/2",
+        "coordinates": [69.3451, 30.3753],
+        "quizIds": [1, 2, 7]
       }
     ]
   }
