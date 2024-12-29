@@ -47,9 +47,8 @@ const AboutPage = () => {
             </p>
             <ul className="text-gray-300 list-disc pl-6 space-y-2 mb-4">
               <li>Interactive map of Tibet with marked locations</li>
-              <li>Custom-highlighted paths for specific locations</li>
+              <li>Custom-highlighted markers for specific locations</li>
               <li>Location prompts with context and significance</li>
-              <li>Pulldown menus with detailed regional information</li>
               <li>Hint system for learning new locations</li>
             </ul>
           </section>
@@ -64,7 +63,6 @@ const AboutPage = () => {
             <ul className="text-gray-300 list-disc pl-6 space-y-2">
               <li>Tibet-specific landmarks and features</li>
               <li>Historical context and significance</li>
-              <li>Time period categorization</li>
               <li>Interactive learning features and hints</li>
             </ul>
           </section>

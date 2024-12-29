@@ -1,8 +1,15 @@
+// src/pages/InfoPage.jsx
 import React from "react";
 import Footer from "../components/footer.jsx";
 import Header from "../components/header.jsx";
+import { useLocations } from "../hooks/useLocations";
 
 const InfoPage = () => {
+  const { locations, loading, error } = useLocations();
+
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error loading location data</div>;
+
   return (
     <div className="w-screen min-h-screen bg-slate-800 flex flex-col">
       <Header />
@@ -12,37 +19,31 @@ const InfoPage = () => {
             Learning Tibetan Landmarks
           </h1>
           <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
-              <h2 className="text-xl font-bold mb-2">Lhasa</h2>
-              <div className="rounded-l bg-gray-700 h-40 w-full mb-4"></div>
-              <p className="text-white">
-                Lhasa is the capital of the Tibet Autonomous Region of the
-                People's Republic of China. It is located at an altitude of
-                3,490 meters (11,450 feet) and is one of the highest cities in
-                the world. The city has a rich history and is known for its many
-                Buddhist temples and monasteries.
-              </p>
-            </div>
-            <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
-              <h2 className="text-xl font-bold mb-2">Potala Palace</h2>
-              <div className="rounded-full bg-gray-700 h-40 w-full mb-4"></div>
-              <p className="text-white">
-                The Potala Palace is a historic fortress and palace located in
-                Lhasa. It was the winter residence of the Dalai Lama and is now
-                a museum and World Heritage Site. The palace is known for its
-                stunning architecture and beautiful views of the city.
-              </p>
-            </div>
-            <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
-              <h2 className="text-xl font-bold mb-2">Jokhang Temple</h2>
-              <div className="rounded-full bg-gray-700 h-40 w-full mb-4"></div>
-              <p className="text-white">
-                The Jokhang Temple is a Buddhist temple located in the heart of
-                Lhasa. It is one of the holiest sites in Tibetan Buddhism and is
-                a popular pilgrimage destination. The temple is known for its
-                beautiful architecture and sacred statues.
-              </p>
-            </div>
+            {Object.values(locations).map((location) => (
+              <div
+                key={location.id}
+                className="bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-gray-600 transition-colors"
+              >
+                <h2 className="text-xl font-bold mb-2 text-white">
+                  {location.name}
+                </h2>
+                <p className="text-gray-300">{location.full_description}</p>
+                {location.infoLink && (
+                  <a
+                    href={location.infoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 text-sm mt-4 block"
+                  >
+                    Learn More →
+                  </a>
+                )}
+                <div className="mt-4 text-sm text-gray-400">
+                  Coordinates: {location.coordinates[0]},{" "}
+                  {location.coordinates[1]}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
