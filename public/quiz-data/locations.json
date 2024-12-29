@@ -1,346 +1,426 @@
 {
-    "markers": [
-      {
-        "id": "Lhasa",
-        "name": "Lhasa, ལྷ་ས་གཙུག་ལག་ཁང་། Lhasa Tsuklakhang, Potala Palace is also here",
-        "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "The Jokhang Temple is the spiritual heart of Tibet, founded during the reign of King Songtsen Gampo. Potala Palace is also found here.",
-        "full_description": "Lhasa, the capital city of Tibet Autonomous Region, has served as the spiritual and administrative center of Tibet for over a millennium. The city's crowning jewel is the Potala Palace, a UNESCO World Heritage site and former winter residence of the Dalai Lamas, which rises 13 stories atop Red Mountain and dominates the city's skyline. At an elevation of about 3,650 meters (11,975 feet), Lhasa is one of the highest capital cities in the world and is often referred to as the 'City of the Sun' or 'Place of the Gods.'",
-        "infoLink" : "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
-        "coordinates": [91.1318, 29.65285],
-        "quizIds": [1, 2, 4, 5, 7]
-      },
-      {
-        "id": "Yamdrok",
-        "name": "Yamdrok Lake ཡར་འབྲོག་མཚོ།",
-        "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "One of the three largest sacred lakes in Tibet, Yamdrok Lake is surrounded by snow-capped mountains.",
-        "full_description": "Yamdrok Lake (also known as Yamdrok Yumtso) is one of Tibet's three largest sacred lakes and is revered in Tibetan Buddhism as a life-force lake. Located at an elevation of about 4,441 meters (14,570 feet), this stunning turquoise lake is believed by locals to have spiritual powers. It's shaped like a fan or, according to Tibetan folklore, like a scorpion, and spans roughly 72 kilometers in length. The lake plays a crucial role in Tibetan Buddhism, as it is said to have been used for divination by Tibet's spiritual leaders, including the Dalai Lamas. Beyond its spiritual significance, Yamdrok Lake also serves a practical purpose through a hydroelectric power station that helps supply electricity to Lhasa.",
-        "infoLink" : "https://treasuryoflives.org/institution/Yamdrok-Lake",
-        "coordinates": [90.749149, 28.978275],
-        "quizIds": [1, 2, 3, 7]
-      },
-      {
-        "id": "Chamdo",
-        "name": "Chamdo",
-        "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "A major city in eastern Tibet, known for its important monastery and role as a trading hub.",
-        "full_description": "Chamdo (also spelled Qamdo or Changdu) is a major town in eastern Tibet, situated at the confluence of the Ngom-Chu and Dza-Chu rivers. It serves as an important administrative center and transportation hub in the Tibet Autonomous Region. Historically, it was a significant trading post along routes connecting Tibet with Yunnan and Sichuan provinces. The town is known for its Chamdo Monastery (Changdu Qiangbalin Temple), a significant Gelugpa monastery that was originally established in the 15th century. The surrounding area is characterized by deep river valleys and mountainous terrain.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Chamdo-Jampa-Ling-",
-        "coordinates": [97.17725, 31.14336],
-        "quizIds": [1, 2, 4, 7]
-      },
-      {
-        "id": "Shigatse",
-        "name": "Shigatse, གཞིས་ཀ་རྩེ།",
-        "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "Shigatse is the second largest city in Tibet and the traditional seat of the Panchen Lama.",
-        "full_description": "Shigatse (also spelled Xigazê or Xigaze) is the second-largest city in Tibet after Lhasa. Located at an elevation of around 3,800 meters (12,500 feet), it has been historically significant as the traditional seat of the Panchen Lama. The city is dominated by the imposing Tashilhunpo Monastery, founded in 1447, which serves as one of the most important monasteries of Tibetan Buddhism's Gelugpa school. Shigatse acts as an important agricultural and trading center in the region, with the fertile Nyang River valley supporting the cultivation of barley, wheat, and rapeseed. ",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/11658",
-        "coordinates": [88.8889, 29.2675],
-        "quizIds": [1, 2, 4, 7]
+  "markers": [
+    {
+      "id": "Lhasa",
+      "name": "Lhasa, ལྷ་ས་གཙུག་ལག་ཁང་། Lhasa Tsuklakhang, Potala Palace is also here",
+      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "The Jokhang Temple is the spiritual heart of Tibet, founded during the reign of King Songtsen Gampo. Potala Palace is also found here.",
+      "full_description": "Lhasa, the capital city of Tibet Autonomous Region, has served as the spiritual and administrative center of Tibet for over a millennium. The city's crowning jewel is the Potala Palace, a UNESCO World Heritage site and former winter residence of the Dalai Lamas, which rises 13 stories atop Red Mountain and dominates the city's skyline. At an elevation of about 3,650 meters (11,975 feet), Lhasa is one of the highest capital cities in the world and is often referred to as the 'City of the Sun' or 'Place of the Gods.'",
+      "infoLink": "https://treasuryoflives.org/institution/Lhasa-Tsuklakhang-",
+      "coordinates": [91.1318, 29.65285],
+      "quizIds": [1, 2, 4, 5, 7]
     },
     {
-        "id": "Kailash",
-        "name" : "Kailash, कैलाश, 吉罗娑山, Gang Tise, Yungdrung Gutsek, Gang Rinboqe Feng, gangs rin po che",
-        "imageUrl": "https://treasuryoflives.org/uploads/communities/c7c29-kailash.JPG?w=373&h=200",
-        "description": "Sacred mountain in western Tibet, considered the center of the universe in Hindu, Buddhist, Jain, and Bon cosmologies.",
-        "full_description": "Sacred mountain in western Tibet, considered the center of the universe in Hindu, Buddhist, Jain, and Bon cosmologies.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Kailash",
-        "coordinates": [81.3137, 31.0477],
-        "quizIds": [1, 2, 7,8]
+      "id": "Yamdrok",
+      "name": "Yamdrok Lake ཡར་འབྲོག་མཚོ།",
+      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "One of the three largest sacred lakes in Tibet, Yamdrok Lake is surrounded by snow-capped mountains.",
+      "full_description": "Yamdrok Lake (also known as Yamdrok Yumtso) is one of Tibet's three largest sacred lakes and is revered in Tibetan Buddhism as a life-force lake. Located at an elevation of about 4,441 meters (14,570 feet), this stunning turquoise lake is believed by locals to have spiritual powers. It's shaped like a fan or, according to Tibetan folklore, like a scorpion, and spans roughly 72 kilometers in length. The lake plays a crucial role in Tibetan Buddhism, as it is said to have been used for divination by Tibet's spiritual leaders, including the Dalai Lamas. Beyond its spiritual significance, Yamdrok Lake also serves a practical purpose through a hydroelectric power station that helps supply electricity to Lhasa.",
+      "infoLink": "https://treasuryoflives.org/institution/Yamdrok-Lake",
+      "coordinates": [90.749149, 28.978275],
+      "quizIds": [1, 2, 3, 7]
     },
     {
-        "id": "Namtso",
-        "name": "Namtso Lake, གནམ་མཚོ།, Nam Co, 納木錯",
-        "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "The highest saltwater lake in the world and one of the most beautiful natural sights in Tibet. Its name means 'Heavenly Lake' in Tibetan.",
-        "full_description": "Lake Namtso is a sacred lake in Damzhung county, northeast of Lhasa. It is home to five islands that are used as retreats for practitioners. There are also numerous monasteries in the surrounding region, as well as many well-known hermitages. Among the many masters said to have practiced at these sites, Padmasambhava and his consort Yeshe Tsogyel are frequently associated with the nearby caves. ",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Namtso",
-        "coordinates": [90.5500, 30.7000],
-        "quizIds": [1, 2, 3, 7]
-      },
-      {
-        "id": "Mapam",
-        "name": "Lake Manasarovar, མ་ཕམ་གཡུ་མཚོ།, Mapam Yumtso",
-        "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "A high altitude freshwater lake near Mount Kailash, located at 4,600m elevation. Considered sacred by Hindus, Buddhists, Jains and Bon practitioners.",
-        "full_description": "Lake Manasarovar is located in the Ngari region of western Tibet, to the east of Mount Kailash. The lake is significant in multiple religious traditions. For Buddhists, Manasarovar is an important site of circumambulatory pilgrimage; tradition holds that Shakyamuni Buddha was conceived at the lake.",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Manasarovar",
-        "coordinates": [81.45, 30.65],
-        "quizIds": [1, 2, 3, 7]
-      },
-      {
-        "id": "Xinjiang",
-        "name": "Xinjiang, 新疆维吾尔自治区, شىنجاڭ ئۇيغۇر ئاپتونوم رايونى",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tianshan_Tianchi_Lake.jpg/1280px-Tianshan_Tianchi_Lake.jpg",
-        "description": "Autonomous region bordering northern Tibet, known for its diverse ethnic groups and Silk Road history.",
-        "full_description": "The historical relationship between Xinjiang and Tibet was primarily defined by trade routes, particularly through the Southern Silk Road branch that connected Tibet to Xinjiang's oasis cities. During the Tibetan Empire (7th-9th centuries CE), parts of southern Xinjiang came under Tibetan control, while the region also played a key role in transmitting Buddhism into Tibet, especially through the Khotan area. The two regions shared similar high-altitude geography and pastoral traditions, leading to cultural exchanges particularly among their nomadic populations.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/5463",
-        "coordinates": [85.2940, 41.1129],
-        "quizIds": [1, 2, 6]
-      },
-      {
-        "id": "Qinghai",
-        "name": "Qinghai, 青海省, མཚོ་སྔོན།",
-        "type": "region",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Qinghai_Lake.jpg/1280px-Qinghai_Lake.jpg",
-        "description": "Province northeast of Tibet, historically part of Amdo Tibet, containing Qinghai Lake and significant Tibetan population.",
-        "full_description": "Province northeast of Tibet, historically part of Amdo Tibet, containing Qinghai Lake and significant Tibetan population.",
-        "infoLink" : "https://whc.unesco.org/en/list/1540/",
-        "coordinates": [96.2402, 35.7448],
-        "quizIds": [1,2,6]
-      },
-      {
-        "id": "Sichuan",
-        "name": "Sichuan, 四川省, ཟི་ཁྲོན།",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jiuzhaigou_Valley.jpg/1280px-Jiuzhaigou_Valley.jpg",
-        "description": "Province east of Tibet, containing parts of historical Kham Tibet and famous for its panda reserves.",
-        "full_description": "Province east of Tibet, containing parts of historical Kham Tibet and famous for its panda reserves.",
-        "infoLink" : "https://www.tibetheritagefund.org/page/?r=42",
-        "coordinates": [102.9199, 30.1904],
-        "quizIds": [1, 2, 6]
-      },
-      {
-        "id": "Yunnan",
-        "name": "Yunnan, 云南省, ཡུན་ནན།",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Lijiang_Old_Town.jpg/1280px-Lijiang_Old_Town.jpg",
-        "description": "Province southeast of Tibet, known for its ethnic diversity and historical Tea Horse Road connections.",
-        "full_description": "Province southeast of Tibet, known for its ethnic diversity and historical Tea Horse Road connections.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/430",
-        "coordinates": [102.7103, 25.0454],
-        "quizIds": [1, 2, 6]
-      },
-      {
-        "id": "Gansu",
-        "name": "Gansu, 甘肃省, ཀན་སུའུ།",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Labrang_Monastery.jpg/1280px-Labrang_Monastery.jpg",
-        "description": "Province northeast of Tibet, containing important Tibetan monasteries and part of the historical Silk Road.",
-        "full_description": "Gansu in the Northeast was really important in Tibetan history; particularly, Gansu was important for its connection to Amdo. Amdo wasn't exclusively in Gansu, it spanned parts of modern-day Gansu, Qinghai, and Sichuan provinces, but some important Amdo regions were located in what is now Gansu Province, especially in the Gannan Tibetan Autonomous Prefecture.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/432",
-        "coordinates": [103.8262, 36.5611],
-        "quizIds": [1, 2, 6]
-      },
-      {
-        "id": "Kazakhstan",
-        "name": "Kazakhstan, Қазақстан",
-        "type": "region",
-        "description": "Largest landlocked country, bordering Tibet's north",
-        "full_description": "Kazakhstan was a landlocked to Tibet's North. It doesn't play as big of a role in Tibetan History as regions like Sichuan, Gansu, and Qinghai, but it was still an important region for trade and cultural exchange. Some of the mongolian tribes that invaded Tibet came from the Kazakh region.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/5240",
-        "geounit": "Kazakhstan",
-        "coordinates": [66.9237, 48.0196],
-        "quizIds": [1, 2]
-      },
-      {
-        "id": "Mongolia",
-        "name": "Mongolia, Монгол улс",
-        "imageUrl": "/images/mongolia.jpg",
-        "description": "Large nation bordering Tibet to the north, historically significant in Buddhist and imperial history.",
-        "full_description": "Large nation bordering Tibet to the north, historically significant in Buddhist and imperial history. Mongolia plays an important role in the relationships with Tibet, especially as the relationship between the leaders. The relationship became an interchange of knowledge and Buddhism to the Mongols, while also getting a lot of military defense from the Mongols. This began notably with Sakya Pandita and Godan Khan in the 13th century, and reached its most famous expression with Altan Khan and Sonam Gyatso, who received the title 'Dalai Lama' from Altan Khan.",
-        "infoLink" : "https://treasuryoflives.org/biographies/view/Third-Dalai-Lama-Sonam-Gyatso/12828",
-        "coordinates": [103.8467, 46.8625],
+      "id": "Chamdo",
+      "name": "Chamdo",
+      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A major city in eastern Tibet, known for its important monastery and role as a trading hub.",
+      "full_description": "Chamdo (also spelled Qamdo or Changdu) is a major town in eastern Tibet, situated at the confluence of the Ngom-Chu and Dza-Chu rivers. It serves as an important administrative center and transportation hub in the Tibet Autonomous Region. Historically, it was a significant trading post along routes connecting Tibet with Yunnan and Sichuan provinces. The town is known for its Chamdo Monastery (Changdu Qiangbalin Temple), a significant Gelugpa monastery that was originally established in the 15th century. The surrounding area is characterized by deep river valleys and mountainous terrain.",
+      "infoLink": "https://treasuryoflives.org/en/institution/Chamdo-Jampa-Ling-",
+      "coordinates": [97.17725, 31.14336],
+      "quizIds": [1, 2, 4, 7]
+    },
+    {
+      "id": "Shigatse",
+      "name": "Shigatse, གཞིས་ཀ་རྩེ།",
+      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Shigatse is the second largest city in Tibet and the traditional seat of the Panchen Lama.",
+      "full_description": "Shigatse (also spelled Xigazê or Xigaze) is the second-largest city in Tibet after Lhasa. Located at an elevation of around 3,800 meters (12,500 feet), it has been historically significant as the traditional seat of the Panchen Lama. The city is dominated by the imposing Tashilhunpo Monastery, founded in 1447, which serves as one of the most important monasteries of Tibetan Buddhism's Gelugpa school. Shigatse acts as an important agricultural and trading center in the region, with the fertile Nyang River valley supporting the cultivation of barley, wheat, and rapeseed. ",
+      "infoLink": "https://places.kmaps.virginia.edu/features/11658",
+      "coordinates": [88.8889, 29.2675],
+      "quizIds": [1, 2, 4, 7]
+    },
+    {
+      "id": "Kailash",
+      "name": "Kailash, कैलाश, 吉罗娑山, Gang Tise, Yungdrung Gutsek, Gang Rinboqe Feng, gangs rin po che",
+      "imageUrl": "https://treasuryoflives.org/uploads/communities/c7c29-kailash.JPG?w=373&h=200",
+      "description": "Sacred mountain in western Tibet, considered the center of the universe in Hindu, Buddhist, Jain, and Bon cosmologies.",
+      "full_description": "Sacred mountain in western Tibet, considered the center of the universe in Hindu, Buddhist, Jain, and Bon cosmologies.",
+      "infoLink": "https://treasuryoflives.org/en/institution/Kailash",
+      "coordinates": [81.3137, 31.0477],
+      "quizIds": [1, 2, 7, 8]
+    },
+    {
+      "id": "Namtso",
+      "name": "Namtso Lake, གནམ་མཚོ།, Nam Co, 納木錯",
+      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "The highest saltwater lake in the world and one of the most beautiful natural sights in Tibet. Its name means 'Heavenly Lake' in Tibetan.",
+      "full_description": "Lake Namtso is a sacred lake in Damzhung county, northeast of Lhasa. It is home to five islands that are used as retreats for practitioners. There are also numerous monasteries in the surrounding region, as well as many well-known hermitages. Among the many masters said to have practiced at these sites, Padmasambhava and his consort Yeshe Tsogyel are frequently associated with the nearby caves. ",
+      "infoLink": "https://treasuryoflives.org/en/institution/Namtso",
+      "coordinates": [90.55, 30.7],
+      "quizIds": [1, 2, 3, 7]
+    },
+    {
+      "id": "Mapam",
+      "name": "Lake Manasarovar, མ་ཕམ་གཡུ་མཚོ།, Mapam Yumtso",
+      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A high altitude freshwater lake near Mount Kailash, located at 4,600m elevation. Considered sacred by Hindus, Buddhists, Jains and Bon practitioners.",
+      "full_description": "Lake Manasarovar is located in the Ngari region of western Tibet, to the east of Mount Kailash. The lake is significant in multiple religious traditions. For Buddhists, Manasarovar is an important site of circumambulatory pilgrimage; tradition holds that Shakyamuni Buddha was conceived at the lake.",
+      "infoLink": "https://treasuryoflives.org/en/institution/Manasarovar",
+      "coordinates": [81.45, 30.65],
+      "quizIds": [1, 2, 3, 7]
+    },
+    {
+      "id": "Xinjiang",
+      "name": "Xinjiang, 新疆维吾尔自治区, شىنجاڭ ئۇيغۇر ئاپتونوم رايونى",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tianshan_Tianchi_Lake.jpg/1280px-Tianshan_Tianchi_Lake.jpg",
+      "description": "Autonomous region bordering northern Tibet, known for its diverse ethnic groups and Silk Road history.",
+      "full_description": "The historical relationship between Xinjiang and Tibet was primarily defined by trade routes, particularly through the Southern Silk Road branch that connected Tibet to Xinjiang's oasis cities. During the Tibetan Empire (7th-9th centuries CE), parts of southern Xinjiang came under Tibetan control, while the region also played a key role in transmitting Buddhism into Tibet, especially through the Khotan area. The two regions shared similar high-altitude geography and pastoral traditions, leading to cultural exchanges particularly among their nomadic populations.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/5463",
+      "coordinates": [85.294, 41.1129],
+      "quizIds": [1, 2, 6]
+    },
+    {
+      "id": "Qinghai",
+      "name": "Qinghai, 青海省, མཚོ་སྔོན།",
+      "type": "region",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Qinghai_Lake.jpg/1280px-Qinghai_Lake.jpg",
+      "description": "Province northeast of Tibet, historically part of Amdo Tibet, containing Qinghai Lake and significant Tibetan population.",
+      "full_description": "Province northeast of Tibet, historically part of Amdo Tibet, containing Qinghai Lake and significant Tibetan population.",
+      "infoLink": "https://whc.unesco.org/en/list/1540/",
+      "coordinates": [96.2402, 35.7448],
+      "quizIds": [1, 2, 6]
+    },
+    {
+      "id": "Sichuan",
+      "name": "Sichuan, 四川省, ཟི་ཁྲོན།",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jiuzhaigou_Valley.jpg/1280px-Jiuzhaigou_Valley.jpg",
+      "description": "Province east of Tibet, containing parts of historical Kham Tibet and famous for its panda reserves.",
+      "full_description": "Province east of Tibet, containing parts of historical Kham Tibet and famous for its panda reserves.",
+      "infoLink": "https://www.tibetheritagefund.org/page/?r=42",
+      "coordinates": [102.9199, 30.1904],
+      "quizIds": [1, 2, 6]
+    },
+    {
+      "id": "Yunnan",
+      "name": "Yunnan, 云南省, ཡུན་ནན།",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Lijiang_Old_Town.jpg/1280px-Lijiang_Old_Town.jpg",
+      "description": "Province southeast of Tibet, known for its ethnic diversity and historical Tea Horse Road connections.",
+      "full_description": "Province southeast of Tibet, known for its ethnic diversity and historical Tea Horse Road connections.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/430",
+      "coordinates": [102.7103, 25.0454],
+      "quizIds": [1, 2, 6]
+    },
+    {
+      "id": "Gansu",
+      "name": "Gansu, 甘肃省, ཀན་སུའུ།",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Labrang_Monastery.jpg/1280px-Labrang_Monastery.jpg",
+      "description": "Province northeast of Tibet, containing important Tibetan monasteries and part of the historical Silk Road.",
+      "full_description": "Gansu in the Northeast was really important in Tibetan history; particularly, Gansu was important for its connection to Amdo. Amdo wasn't exclusively in Gansu, it spanned parts of modern-day Gansu, Qinghai, and Sichuan provinces, but some important Amdo regions were located in what is now Gansu Province, especially in the Gannan Tibetan Autonomous Prefecture.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/432",
+      "coordinates": [103.8262, 36.5611],
+      "quizIds": [1, 2, 6]
+    },
+    {
+      "id": "Kazakhstan",
+      "name": "Kazakhstan, Қазақстан",
+      "type": "region",
+      "description": "Largest landlocked country, bordering Tibet's north",
+      "full_description": "Kazakhstan was a landlocked to Tibet's North. It doesn't play as big of a role in Tibetan History as regions like Sichuan, Gansu, and Qinghai, but it was still an important region for trade and cultural exchange. Some of the mongolian tribes that invaded Tibet came from the Kazakh region.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/5240",
+      "geounit": "Kazakhstan",
+      "coordinates": [66.9237, 48.0196],
+      "quizIds": [1, 2]
+    },
+    {
+      "id": "Mongolia",
+      "name": "Mongolia, Монгол улс",
+      "imageUrl": "/images/mongolia.jpg",
+      "description": "Large nation bordering Tibet to the north, historically significant in Buddhist and imperial history.",
+      "full_description": "Large nation bordering Tibet to the north, historically significant in Buddhist and imperial history. Mongolia plays an important role in the relationships with Tibet, especially as the relationship between the leaders. The relationship became an interchange of knowledge and Buddhism to the Mongols, while also getting a lot of military defense from the Mongols. This began notably with Sakya Pandita and Godan Khan in the 13th century, and reached its most famous expression with Altan Khan and Sonam Gyatso, who received the title 'Dalai Lama' from Altan Khan.",
+      "infoLink": "https://treasuryoflives.org/biographies/view/Third-Dalai-Lama-Sonam-Gyatso/12828",
+      "coordinates": [103.8467, 46.8625],
+      "quizIds": [1, 2, 9]
+    },
+    {
+      "id": "Haunghe",
+      "name": "Ma chu/Yellow River, 黄河",
+      "imageUrl": "/images/yellow-river.jpg",
+      "description": "One of China's major rivers, known as Ma chu in Tibetan.",
+      "full_description": "One of China's major rivers, known as Ma chu in Tibetan.",
+      "infoLink": "https://www.meltdownintibet.com/f_river_yellow.htm",
+      "coordinates": [103.752, 34.9219],
+      "quizIds": [1, 2, 3]
+    },
+    {
+      "id": "Everest",
+      "name": "Chomolangma/Mt. Everest, ཇོ་མོ་གླང་མ",
+      "imageUrl": "/images/everest.jpg",
+      "description": "World's highest peak, sacred to Tibetans as Chomolangma.",
+      "full_description": "World's highest peak, sacred to Tibetans as Chomolangma.",
+      "infoLink": "https://education.nationalgeographic.org/resource/mount-everest/",
+      "coordinates": [86.925, 27.9881],
+      "quizIds": [1, 2, 8]
+    },
+    {
+      "id": "Amdo",
+      "name": "Amdo, ཨ༌མདོ",
+      "imageUrl": "/images/amdo.jpg",
+      "description": "Northeastern region of historical Tibet, now primarily in Qinghai province.",
+      "full_description": "Northeastern region of historical Tibet, now primarily in Qinghai province.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/2830",
+      "coordinates": [101.9633, 35.7448],
+      "quizIds": [1, 2, 7]
+    },
+    {
+      "id": "Afghanistan",
+      "name": "Afghanistan, افغانستان",
+      "imageUrl": "/images/afghanistan.jpg",
+      "description": "Country to the west of Tibet, historically connected via the Silk Road trading routes.",
+      "full_description": "Country to the west of Tibet, historically connected via the Silk Road trading routes.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/5237",
+      "coordinates": [67.7097, 33.9391],
+      "quizIds": [1, 2, 5]
+    },
+    {
+      "id": "Yangtze",
+      "name": "Dri chu/Yangtze River, འབྲི་ཆུ།, 长江",
+      "imageUrl": "/images/yangtze.jpg",
+      "description": "One of Asia's longest rivers, originating in Tibet's Tanggula Mountains.",
+      "full_description": "One of Asia's longest rivers, originating in Tibet's Tanggula Mountains.",
+      "infoLink": "https://depts.washington.edu/chinaciv/geo/yangtze.htm",
+      "coordinates": [91.1827, 33.4512],
+      "quizIds": [1, 2, 3]
+    },
+    {
+      "id": "Kham",
+      "name": "Kham, ཁམས།",
+      "imageUrl": "/images/kham.jpg",
+      "description": "Eastern region of Tibet, known for its fierce warriors and independent kingdoms.",
+      "full_description": "Kham was one of Tibet's three traditional regions (along with U-Tsang and Amdo), covering a vast area of eastern Tibet that now spans parts of present-day Sichuan, Yunnan, Qinghai, and the Tibet Autonomous Region. Historically known for its fierce warriors and independent kingdoms, Kham was characterized by deep river valleys, high mountains, and a distinctive cultural identity. The region was home to powerful local rulers called Gyalpos (kings) or Ponpos (chieftains), who maintained significant autonomy. Kham was also renowned for its excellent horses, skilled horsemen, and important Buddhist monasteries, particularly those of the Kagyu and Nyingma traditions. ",
+      "infoLink": "https://en.wikipedia.org/wiki/Kham",
+      "coordinates": [97.1738, 30.1307],
+      "quizIds": [1, 2, 7]
+    },
+    {
+      "id": "Xian",
+      "name": "Xi'an/Chang'an, 西安/長安",
+      "imageUrl": "/images/xian.jpg",
+      "description": "Ancient capital of China, eastern terminus of the Tibet-China trade routes.",
+      "full_description": "Ancient capital of China, eastern terminus of the Tibet-China trade routes.",
+      "infoLink": "https://www.britannica.com/place/Xian-China",
+      "coordinates": [108.9402, 34.3416],
+      "quizIds": [1, 2, 6]
+    },
+    {
+      "id": "Dzachu",
+      "name": "Dza chu/Mekong River, རྫ་ཆུ།, 澜沧江",
+      "imageUrl": "/images/mekong.jpg",
+      "description": "One of Asia's major rivers, originating in Tibet's Tanggula Mountains, known as Dza chu in Tibetan.",
+      "full_description": "One of Asia's major rivers, originating in Tibet's Tanggula Mountains, known as Dza chu in Tibetan. The Mekong River is one of the longest rivers in Asia, flowing through six countries: China, Myanmar, Laos, Thailand, Cambodia, and Vietnam. It originates in the Tibetan Plateau and flows through the eastern Himalayas before reaching the South China Sea. The river is a vital resource for millions of people who depend on it for agriculture, transportation, and fishing. ",
+      "infoLink": "https://www.britannica.com/place/Mekong-River",
+      "coordinates": [94.9039, 33.7537],
+      "quizIds": [1, 2, 3]
+    },
+    {
+      "id": "Ngulchu",
+      "name": "Ngul chu/Salween River, རྔུལ་ཆུ།, 怒江",
+      "imageUrl": "/images/salween.jpg",
+      "description": "Major river of Southeast Asia originating in Tibet, known as Ngul chu in Tibetan.",
+      "full_description": "Major river of Southeast Asia originating in Tibet, known as Ngul chu in Tibetan. The Salween which originates on the Tibetan Plateau and flows through China, Myanmar and Thailand is one of the longest free-flowing rivers in the world. It is home to a diverse range of plant and animal species, including many that are endangered. The river is also an important source of water for millions of people who live along its banks. It has been crucial throughout history for its growth of plants and Riverine communities. ",
+      "infoLink": "https://www.britannica.com/place/Salween-River",
+      "coordinates": [98.8601, 26.8357],
+      "quizIds": [1, 2, 3]
+    },
+    {
+      "id": "Himalaya",
+      "name": "Himalaya Mountains, ཧི་མ་ལ་ཡ།",
+      "imageUrl": "/images/himalaya.jpg",
+      "description": "World's highest mountain range, forming Tibet's southern border.",
+      "full_description": "World's highest mountain range, forming Tibet's southern border.",
+      "infoLink": "https://en.wikipedia.org/wiki/Himalayas",
+      "coordinates": [86.925, 27.9881],
+      "quizIds": [1, 2, 8]
+    },
+    {
+      "id": "Tsangpo",
+      "name": "Tsangpo/Brahmaputra River, གཙང་པོ།, 雅鲁藏布江",
+      "imageUrl": "/images/brahmaputra.jpg",
+      "description": "Major river flowing through southern Tibet, known as Yarlung Tsangpo in Tibetan.",
+      "full_description": "Along its course the Brahmaputra passes through the Tibet Autonomous Region of China, the Indian states of Arunachal Pradesh and Assam, and Bangladesh. For most of its length, the river serves as an important inland waterway. It is not, however, navigable between the mountains of Tibet and the plains of India. ",
+      "infoLink": "https://www.britannica.com/place/Brahmaputra-River",
+      "coordinates": [94.5674, 29.2087],
+      "quizIds": [1, 2, 3]
+    },
+    {
+      "id": "Kokonor",
+      "name": "Kokonor མཚོ་སྔོན་པོ།",
+      "imageUrl": "",
+      "description": "Kokonor is classically known by it's mongolian name  ᠬᠥᠬᠡ ᠨᠠᠭᠤᠷ but is also called Qinghai Lak, as it is in Qinghai.",
+      "full_description": "Tsongonpo, or Blue Lake, is also known commonly known as Kokonor (Mongolian). Located in Kangtsa Country in northern Amdo, it is the largest lake on the Tibetan plateau. There are numerous temples and monasteries in the area and it continues to be an important pilgrimage site. ",
+      "infoLink": "https://treasuryoflives.org/en/institution/Kokonor",
+      "coordinates": [100.3498, 36.7599],
+      "quizIds": [1, 2, 3]
+    },
+    {
+      "id": "Nepal",
+      "name": "Nepal - चिनारी नेपाल, བལ་ཡུལ།, 尼泊爾",
+      "imageUrl": "",
+      "description": "Nepal is a landlocked Himalayan country between India and Tibet that contains eight of the world's ten tallest mountains, including Mount Everest.",
+      "full_description": "Nepal is a landlocked Himalayan nation that historically served as a key trading route between Tibet and South Asia. Its northern regions, particularly areas like Mustang and Dolpo, contain some of the oldest preserved Tibetan Buddhist monasteries and texts dating back to the 8th century CE.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/426",
+      "coordinates": [84.124, 28.3949],
+      "quizIds": [1, 2, 5]
+    },
+    {
+      "id": "India",
+      "name": "India",
+      "imageUrl": "",
+      "description": "India is the southern neighbor of the Tibetan plateau, historically connected through ancient Buddhist pilgrimage routes and trade corridors. Largely Important for Buddhism.",
+      "full_description": "India stands was the location from which Buddhism flowed into Tibet, with great scholars like Padmasambhava and Atisha making the perilous journey northward to spread dharma teachings in the 8th and 11th centuries. The subcontinent's monasteries, particularly at Nalanda and Vikramashila, served as crucial centers of learning where Tibetan translators and scholars studied Sanskrit texts, ultimately leading to Tibet's golden age of Buddhist translation.",
+      "infoLink": "",
+      "coordinates": [78.9629, 20.5937],
+      "quizIds": [1, 2, 5]
+    },
+    {
+      "id": "Bhutan",
+      "name": "Bhutan -- འབྲུག་ཡུལ།",
+      "imageUrl": "",
+      "description": "Bhutan is a small Buddhist kingdom between Tibet and India. It has a rich Buddhist heritage and is known for commitment to environmental conservation.",
+      "full_description": "The country's form of Buddhism, primarily following the Drukpa Kagyu tradition, was brought directly from Tibet by the great master Phajo Drukgom Zhipo in the 13th century. What makes Bhutan particularly fascinating for our field is how it maintained its independence while adapting Tibetan religious and administrative systems - developing its own unique form of dual spiritual-political governance similar to but distinct from Tibet's Ganden Phodrang.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/427",
+      "coordinates": [90.4336, 27.5142],
+      "quizIds": [1, 2, 5]
+    },
+    {
+      "id": "Burma",
+      "name": "Burma, Myanmar, 缅甸, འབར་མ ",
+      "imageUrl": "",
+      "description": "Historically served as a crucial southern hub of Theravada Buddhism that occasionally intersected with Tibetan Buddhist traders and pilgrims through the ancient Tea Horse Road and Burma Road trading routes.",
+      "full_description": "Beginning in the 9th c., the early Pyu and Mon constitute some of Myanmar's earliest recorded civilizations. The region was consolidated under the Bagan in the 11th c., and in part due to its close links with India, Theravada Buddhism began to take root in the country. Though Theravada Buddhism is the predominant religion today, Mahayana and Tantric Buddhism as well as Hinduism were commonly encountered. As Myanmar fought to rebuff Portuguese and Chinese advances, they eventually became absorbed into British India in 1824. In WWII Myanmar was occupied by Japanese forces who fought the British and local forces. In 1948, Myanmar was an independent state until a 1962 coup-d'etat installed military-led leadership, which lasted until 2011.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/5242",
+      "coordinates": [95.956, 21.9162],
+      "quizIds": [1, 2, 5]
+    },
+    {
+      "id": "Pakistan",
+      "name": "Pakistan, 巴基斯坦, ཕ་ཁི་སི་ཐན",
+      "imageUrl": "",
+      "description": "Pakistan contains the ancient region of Gilgit-Baltistan, part of Tibet's western trading sphere. Located West of Tibet",
+      "full_description": "The regions of Gilgit-Baltistan and Baltistan (historically known as Little Tibet) maintained strong cultural and economic ties with Tibet proper through the 14th century. Archaeological evidence, particularly the rich Buddhist petroglyphs and inscriptions along the upper Indus River, demonstrates the presence of Tibetan traders, pilgrims, and military expeditions during the Tibetan Empire period (7th-9th centuries). ",
+      "infoLink": "https://places.kmaps.virginia.edu/features/5244",
+      "coordinates": [69.3451, 30.3753],
+      "quizIds": [1, 2, 5]
+    },
+    {
+      "id": "TAR",
+      "name": "Tibet Autonomous Region (TAR), བོད་རང་སྐྱོང་ལྗོངས།, 西藏自治區",
+      "imageUrl": "",
+      "description": "Tibet Autonomous Region (TAR) is a contemporary administrative unit of China that includes the cultural regions of Western and Central Tibet, and some Eastern.",
+      "full_description": "Established in 1965, the Tibet Autonomous Region (TAR) is a contemporary administrative unit of China that includes the cultural regions of Western and Central Tibet, as well as parts of Eastern Tibet, and spans an area of more than 1,200,000 km2. As part of the Tibetan Plateau, the TAR contains several of the world’s highest mountains (Mount Everest), lakes (Yamdrok Yumtso), and rivers (Yarlung Tsangpo). With its capital of Lhasa the region supports a population of over 3 million.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/2",
+      "coordinates": [91.1174, 29.6472],
+      "quizIds": [1, 2, 7]
+    },
+    {
+      "id": "Inner_mongolia",
+      "name": "Inner Mongolia, 内蒙古自治区",
+      "imageUrl": "",
+      "description": "Inner Mongolia, now an autonomous region of China, Located North west of Beijing",
+      "full_description": "Inner Mongolia, now an autonomous region of China, was historically a crucial northeastern frontier zone of Tibetan Buddhist influence where Mongol rulers actively patronized Tibetan lamas and monasteries from the 16th century onward, leading to the establishment of major monastic centers like Shireet Juu.",
+      "infoLink": "https://soir.senate.ca.gov/inner-mongolia-autonomous-region-china",
+      "coordinates": [111.7652, 40.8173],
+      "quizIds": [1, 2, 7]
+    },
+    {
+      "id": "Shaanxi",
+      "name": "Shaanxi, 陜西省, ཧྲའན་ཞི་ཞིང་ཆེན",
+      "imageUrl": "",
+      "description": "Shaanxi province, particularly known for its capital Xi'an (ancient Chang'an). Tang Dynasty capital.",
+      "full_description": "Shaanxi province holds special significance as the site of Chang'an (modern Xi'an), the Tang Dynasty capital where Tibetan history intersected dramatically with Chinese civilization. The Tang-Tibet alliance was sealed here through the marriage of Princess Wencheng to Songtsen Gampo in 641 CE, marking the beginning of significant Buddhist influence in Tibet.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/5426",
+      "coordinates": [34.2649, 108.9542],
+      "quizIds": [1, 2, 7]
+    },
+    {
+      "id": "Sutlej",
+      "name": "Sutlej River, གླང་ཆེན་གཙང་པོ།, Langchen Tsangpo",
+      "imageUrl": "",
+      "description": "The Sutlej River, originating near Mount Kailash in Tibet's Gangdise Mountains.",
+      "full_description": "One of Tibet's most important southern waterways, historically marking crucial trade routes and pilgrimage paths between Tibet and the Indian subcontinent.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/10664",
+      "coordinates": [71.342, 29.2323],
+      "quizIds": [1, 2, 3]
+    },
+    {
+      "id": "Indus",
+      "name": "Indus River, སེང་གེ་གཙང་པོ། , Senge Tsangpo",
+      "imageUrl": "",
+      "description": "The Indus River, originating in western Tibet near Mount Kailash, flowing through Ladakh and western Tibet.",
+      "full_description": "One of Tibet's most significant western waterways, historically serving as a major artery for trade and cultural exchange between Tibet, Ladakh, and South Asia. Its valley preserves some of the most important early Tibetan Buddhist rock carvings and inscriptions, particularly in the Chilas and Gilgit regions, documenting the spread of Tibetan influence during the Imperial period (7th-9th centuries).",
+      "infoLink": "https://places.kmaps.virginia.edu/features/10659",
+      "coordinates": [67.1233, 24.7768],
+      "quizIds": [1, 2, 3]
+    },
+    {
+      "id": "Ganges",
+      "name": "Ganges River, གང་གཱ་གཙང་པོ། , Gangā",
+      "imageUrl": "",
+      "description": "The Ganges River, while not originating in Tibet proper, receives crucial water from Tibetan glacial sources through major tributaries.",
+      "full_description": "Though not directly flowing through Tibet, the Ganges holds immense significance in Tibetan Buddhist cosmology and trade history. Its headwaters, fed by Tibetan plateau glaciers through rivers like the Kosi and Gandaki, created natural corridors that facilitated centuries of Buddhist transmission between India and Tibet. These river valleys served as crucial pilgrimage routes for Tibetan scholars traveling to Buddhist centers like Nalanda and Vikramashila, while also facilitating trade in precious substances, textiles, and religious artifacts. The river's sacred status in both Hindu and Buddhist traditions made its upper reaches important sites for Tibetan pilgrims.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/8332",
+      "coordinates": [83.3213, 25.3176],
+      "quizIds": [1, 2, 3]
+    },
+    {
+        "id": "Kunlun",
+        "name": "Kunlun Mountains, ཀུན་ལུན་རི་བོ།, Kunlun Ribo",
+        "imageUrl": "",
+        "description": "The Kunlun Mountains form the northern boundary of the Tibetan plateau, historically marking Tibet's frontier with the Tarim Basin and Central Asia.",
+        "full_description": "The Kunlun range represents a crucial geographical and cultural boundary that helped define Tibet's northern extent. These mountains played a vital role in Tibet's early history, particularly during the imperial period (7th-9th centuries) when Tibetan influence extended into the Tarim Basin. The range's high passes, especially around Dunhuang and Cherchen, facilitated trade routes that connected Tibet with Central Asia and China, while also serving as defensive positions during Tibet's imperial expansion. Archaeological evidence from sites along the Kunlun, including Buddhist manuscripts and artifacts, demonstrates the complex cultural interactions between Tibetan, Chinese, and Central Asian civilizations in this frontier zone.",
+        "infoLink": "https://en.wikipedia.org/wiki/Kunlun_Mountains",
+        "coordinates": [84, 36],
+        "quizIds": [1, 2, 8]
+    },
+    {
+        "id": "Qilian",
+        "name": "Qilian Mountains, འཇོ་མོ་གངས་རི།, Jomo Gangri",
+        "imageUrl": "",
+        "description": "The Qilian Mountains form the northeastern boundary of the Tibetan plateau, historically serving as a crucial frontier zone between Tibet, China, and the Silk Road oasis states.",
+        "full_description": "The Qilian range played a significant role in Tibetan history as a major cultural and economic interface between Tibet and China. During the Tibetan Empire period (7th-9th centuries), these mountains marked the northeastern extent of Tibetan control, with important military garrisons and trading posts established along their slopes. The range was particularly significant for the horse-tea trade, as Tibetan horses were exchanged for Chinese tea along routes through the Qilian passes. The mountains' southern slopes contain important Tibetan Buddhist monasteries, particularly in the Amdo region, that demonstrate how Tibetan civilization adapted to this frontier environment while maintaining connections with both the Tibetan plateau and Chinese lowlands.",
+        "infoLink": "https://www.britannica.com/place/Qilian-Mountains",
+        "coordinates": [100,38.6],
+        "quizIds": [1, 2, 8]
+    },
+    {
+        "id": "Minshan",
+        "name": "Min Mountains, རྨི་རི་བོ།, Mi Ribo",
+        "imageUrl": "",
+        "description": "The Min Mountains form a critical eastern boundary zone of traditional Tibet's Amdo region, marking the transition between the Tibetan plateau and China's Sichuan basin.",
+        "full_description": "For Tibetan studies, the Min Mountains represent a crucial ecological and cultural transition zone where Tibetan and Chinese civilizations have interacted for centuries. The range contains numerous important Tibetan Buddhist monasteries, particularly around the Songpan region, that historically served as centers of learning and cultural preservation for the eastern Tibetan world. During the Tibetan Empire period (7th-9th centuries), these mountains formed part of Tibet's eastern frontier defenses, while their passes later facilitated trade between Tibet and China, particularly in the tea-horse trade network. The region's distinctive architecture and religious practices reflect its role as a cultural crossroads, blending elements of Tibetan, Chinese, and local Qiang traditions.",
+        "infoLink": "https://www.britannica.com/place/Min-Mountains",
+        "coordinates": [103.6006, 33.6389],
+        "quizIds": [1, 2, 8]
+    },
+    {
+        "id": "Wutai",
+        "name": "Wutaishan, 清凉山, qingliangshan ",
+        "imageUrl": "",
+        "description": "Wutai Shan, a group of mountains in Shanxi province, is one of the most important Buddhist pilgrimage sites in China.",
+        "full_description": "An active site of Buddhist practice since at least the fourth century, Wutai Shan is revered as the home of Mañjuśrī, the bodhisattva of wisdom, who is believed to manifest along the pilgrimage route in different forms. There are several Tibetan Buddhist monasteries at the site and the mountain has historically been a popular pilgrimage site for Tibetans. Many official meetings and imperially sponsored rituals among Tibetan and Manchu dignitaries have been held at Wutai Shan.",
+        "infoLink": "https://treasuryoflives.org/institution/Wutai-Shan",
+        "coordinates": [113.5647,39.0792],
+        "quizIds": [1, 2, 8]
+    },
+    {
+        "id": "Ordos",
+        "name": "Ordos Desert, Ordos Jethang",
+        "imageUrl": "",
+        "description": "The Ordos Desert, located in the great bend of the Yellow River, historically marked the northeastern frontier of Tibetan Buddhist influence among the Mongol peoples.",
+        "full_description": "The Ordos desert's location along the Yellow River bend made it a crucial frontier zone where Tibetan Buddhist influence met with both Chinese and Mongol cultures. ",
+        "infoLink": "https://www.britannica.com/place/Ordos-Plateau",
+        "coordinates": [109.7812, 39.6152],
         "quizIds": [1, 2, 9]
-      },
-      {
-        "id": "Haunghe",
-        "name": "Ma chu/Yellow River, 黄河",
-        "imageUrl": "/images/yellow-river.jpg",
-        "description": "One of China's major rivers, known as Ma chu in Tibetan.",
-        "full_description": "One of China's major rivers, known as Ma chu in Tibetan.",
-        "infoLink" : "https://www.meltdownintibet.com/f_river_yellow.htm",
-        "coordinates": [103.7520, 34.9219],
-        "quizIds": [1, 2, 3]
-      },
-      {
-        "id": "Everest",
-        "name": "Chomolangma/Mt. Everest, ཇོ་མོ་གླང་མ",
-        "imageUrl": "/images/everest.jpg",
-        "description": "World's highest peak, sacred to Tibetans as Chomolangma.",
-        "full_description": "World's highest peak, sacred to Tibetans as Chomolangma.",
-        "infoLink" : "https://education.nationalgeographic.org/resource/mount-everest/",
-        "coordinates": [86.9250, 27.9881],
-        "quizIds": [1, 2, 8]
-      },
-      {
-        "id": "Amdo",
-        "name": "Amdo, ཨ༌མདོ",
-        "imageUrl": "/images/amdo.jpg",
-        "description": "Northeastern region of historical Tibet, now primarily in Qinghai province.",
-        "full_description": "Northeastern region of historical Tibet, now primarily in Qinghai province.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/2830",
-        "coordinates": [101.9633, 35.7448],
-        "quizIds": [1, 2, 7]
-      },
-      {
-        "id": "Afghanistan",
-        "name": "Afghanistan, افغانستان",
-        "imageUrl": "/images/afghanistan.jpg",
-        "description": "Country to the west of Tibet, historically connected via the Silk Road trading routes.",
-        "full_description": "Country to the west of Tibet, historically connected via the Silk Road trading routes.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/5237",
-        "coordinates": [67.7097, 33.9391],
-        "quizIds": [1, 2, 5]
-      },
-      {
-        "id": "Yangtze",
-        "name": "Dri chu/Yangtze River, འབྲི་ཆུ།, 长江",
-        "imageUrl": "/images/yangtze.jpg",
-        "description": "One of Asia's longest rivers, originating in Tibet's Tanggula Mountains.",
-        "full_description": "One of Asia's longest rivers, originating in Tibet's Tanggula Mountains.",
-        "infoLink" : "https://depts.washington.edu/chinaciv/geo/yangtze.htm",
-        "coordinates": [91.1827, 33.4512],
-        "quizIds": [1, 2, 3]
-      },
-      {
-        "id": "Kham",
-        "name": "Kham, ཁམས།",
-        "imageUrl": "/images/kham.jpg",
-        "description": "Eastern region of Tibet, known for its fierce warriors and independent kingdoms.",
-        "full_description": "Kham was one of Tibet's three traditional regions (along with U-Tsang and Amdo), covering a vast area of eastern Tibet that now spans parts of present-day Sichuan, Yunnan, Qinghai, and the Tibet Autonomous Region. Historically known for its fierce warriors and independent kingdoms, Kham was characterized by deep river valleys, high mountains, and a distinctive cultural identity. The region was home to powerful local rulers called Gyalpos (kings) or Ponpos (chieftains), who maintained significant autonomy. Kham was also renowned for its excellent horses, skilled horsemen, and important Buddhist monasteries, particularly those of the Kagyu and Nyingma traditions. ",
-        "infoLink" : "https://en.wikipedia.org/wiki/Kham",
-        "coordinates": [97.1738, 30.1307],
-        "quizIds": [1, 2, 7]
-      },
-      {
-        "id": "Xian",
-        "name": "Xi'an/Chang'an, 西安/長安",
-        "imageUrl": "/images/xian.jpg",
-        "description": "Ancient capital of China, eastern terminus of the Tibet-China trade routes.",
-        "full_description": "Ancient capital of China, eastern terminus of the Tibet-China trade routes.",
-        "infoLink" : "https://www.britannica.com/place/Xian-China",
-        "coordinates": [108.9402, 34.3416],
-        "quizIds": [1, 2, 6]
-      },
-      {
-        "id": "Dzachu",
-        "name": "Dza chu/Mekong River, རྫ་ཆུ།, 澜沧江",
-        "imageUrl": "/images/mekong.jpg",
-        "description": "One of Asia's major rivers, originating in Tibet's Tanggula Mountains, known as Dza chu in Tibetan.",
-        "full_description": "One of Asia's major rivers, originating in Tibet's Tanggula Mountains, known as Dza chu in Tibetan. The Mekong River is one of the longest rivers in Asia, flowing through six countries: China, Myanmar, Laos, Thailand, Cambodia, and Vietnam. It originates in the Tibetan Plateau and flows through the eastern Himalayas before reaching the South China Sea. The river is a vital resource for millions of people who depend on it for agriculture, transportation, and fishing. ",
-        "infoLink" : "https://www.britannica.com/place/Mekong-River",
-        "coordinates": [94.9039, 33.7537],
-        "quizIds": [1, 2, 3]
-      },
-      {
-        "id": "Ngulchu",
-        "name": "Ngul chu/Salween River, རྔུལ་ཆུ།, 怒江",
-        "imageUrl": "/images/salween.jpg",
-        "description": "Major river of Southeast Asia originating in Tibet, known as Ngul chu in Tibetan.",
-        "full_description": "Major river of Southeast Asia originating in Tibet, known as Ngul chu in Tibetan. The Salween which originates on the Tibetan Plateau and flows through China, Myanmar and Thailand is one of the longest free-flowing rivers in the world. It is home to a diverse range of plant and animal species, including many that are endangered. The river is also an important source of water for millions of people who live along its banks. It has been crucial throughout history for its growth of plants and Riverine communities. ",
-        "infoLink" : "https://www.britannica.com/place/Salween-River",
-        "coordinates": [98.8601, 26.8357],
-        "quizIds": [1, 2, 3]
-      },
-      {
-        "id": "Himalaya",
-        "name": "Himalaya Mountains, ཧི་མ་ལ་ཡ།",
-        "imageUrl": "/images/himalaya.jpg",
-        "description": "World's highest mountain range, forming Tibet's southern border.",
-        "full_description": "World's highest mountain range, forming Tibet's southern border.",
-        "infoLink" : "https://en.wikipedia.org/wiki/Himalayas",
-        "coordinates": [86.9250, 27.9881],
-        "quizIds": [1, 2, 8]
-      },{
-        "id": "Tsangpo",
-        "name": "Tsangpo/Brahmaputra River, གཙང་པོ།, 雅鲁藏布江",
-        "imageUrl": "/images/brahmaputra.jpg",
-        "description": "Major river flowing through southern Tibet, known as Yarlung Tsangpo in Tibetan.",
-        "full_description": "Along its course the Brahmaputra passes through the Tibet Autonomous Region of China, the Indian states of Arunachal Pradesh and Assam, and Bangladesh. For most of its length, the river serves as an important inland waterway. It is not, however, navigable between the mountains of Tibet and the plains of India. ",
-        "infoLink" : "https://www.britannica.com/place/Brahmaputra-River",
-        "coordinates": [94.5674, 29.2087],
-        "quizIds": [1, 2, 3]
-      },{
-        "id": "Kokonor",
-        "name": "Kokonor མཚོ་སྔོན་པོ།",
-        "imageUrl": "",
-        "description": "Kokonor is classically known by it's mongolian name  ᠬᠥᠬᠡ ᠨᠠᠭᠤᠷ but is also called Qinghai Lak, as it is in Qinghai.",
-        "full_description": "Tsongonpo, or Blue Lake, is also known commonly known as Kokonor (Mongolian). Located in Kangtsa Country in northern Amdo, it is the largest lake on the Tibetan plateau. There are numerous temples and monasteries in the area and it continues to be an important pilgrimage site. ",
-        "infoLink" : "https://treasuryoflives.org/en/institution/Kokonor",
-        "coordinates": [100.3498, 36.7599],
-        "quizIds": [1, 2, 3]
-      },{
-        "id": "Nepal",
-        "name": "Nepal - चिनारी नेपाल, བལ་ཡུལ།, 尼泊爾",
-        "imageUrl": "",
-        "description": "Nepal is a landlocked Himalayan country between India and Tibet that contains eight of the world's ten tallest mountains, including Mount Everest.",
-        "full_description": "Nepal is a landlocked Himalayan nation that historically served as a key trading route between Tibet and South Asia. Its northern regions, particularly areas like Mustang and Dolpo, contain some of the oldest preserved Tibetan Buddhist monasteries and texts dating back to the 8th century CE.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/426",
-        "coordinates": [84.1240, 28.3949],
-        "quizIds": [1, 2, 5]
-      },{
-        "id": "India",
-        "name": "India",
-        "imageUrl": "",
-        "description": "India is the southern neighbor of the Tibetan plateau, historically connected through ancient Buddhist pilgrimage routes and trade corridors. Largely Important for Buddhism.",
-        "full_description": "India stands was the location from which Buddhism flowed into Tibet, with great scholars like Padmasambhava and Atisha making the perilous journey northward to spread dharma teachings in the 8th and 11th centuries. The subcontinent's monasteries, particularly at Nalanda and Vikramashila, served as crucial centers of learning where Tibetan translators and scholars studied Sanskrit texts, ultimately leading to Tibet's golden age of Buddhist translation.",
-        "infoLink" : "",
-        "coordinates": [78.9629, 20.5937],
-        "quizIds": [1, 2, 5]
-      },{
-        "id": "Bhutan",
-        "name": "Bhutan -- འབྲུག་ཡུལ།",
-        "imageUrl": "",
-        "description": "Bhutan is a small Buddhist kingdom between Tibet and India. It has a rich Buddhist heritage and is known for commitment to environmental conservation.",
-        "full_description": "The country's form of Buddhism, primarily following the Drukpa Kagyu tradition, was brought directly from Tibet by the great master Phajo Drukgom Zhipo in the 13th century. What makes Bhutan particularly fascinating for our field is how it maintained its independence while adapting Tibetan religious and administrative systems - developing its own unique form of dual spiritual-political governance similar to but distinct from Tibet's Ganden Phodrang.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/427",
-        "coordinates": [90.4336, 27.5142],
-        "quizIds": [1, 2, 5]
-      },{
-        "id": "Burma",
-        "name": "Burma, Myanmar, 缅甸, འབར་མ ",
-        "imageUrl": "",
-        "description": "Historically served as a crucial southern hub of Theravada Buddhism that occasionally intersected with Tibetan Buddhist traders and pilgrims through the ancient Tea Horse Road and Burma Road trading routes.",
-        "full_description": "Beginning in the 9th c., the early Pyu and Mon constitute some of Myanmar's earliest recorded civilizations. The region was consolidated under the Bagan in the 11th c., and in part due to its close links with India, Theravada Buddhism began to take root in the country. Though Theravada Buddhism is the predominant religion today, Mahayana and Tantric Buddhism as well as Hinduism were commonly encountered. As Myanmar fought to rebuff Portuguese and Chinese advances, they eventually became absorbed into British India in 1824. In WWII Myanmar was occupied by Japanese forces who fought the British and local forces. In 1948, Myanmar was an independent state until a 1962 coup-d'etat installed military-led leadership, which lasted until 2011.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/5242",
-        "coordinates": [95.9560, 21.9162],
-        "quizIds": [1, 2, 5]
-      },{
-        "id": "Pakistan",
-        "name": "Pakistan, 巴基斯坦, ཕ་ཁི་སི་ཐན",
-        "imageUrl": "",
-        "description": "Pakistan contains the ancient region of Gilgit-Baltistan, part of Tibet's western trading sphere. Located West of Tibet",
-        "full_description": "The regions of Gilgit-Baltistan and Baltistan (historically known as Little Tibet) maintained strong cultural and economic ties with Tibet proper through the 14th century. Archaeological evidence, particularly the rich Buddhist petroglyphs and inscriptions along the upper Indus River, demonstrates the presence of Tibetan traders, pilgrims, and military expeditions during the Tibetan Empire period (7th-9th centuries). ",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/5244",
-        "coordinates": [69.3451, 30.3753],
-        "quizIds": [1, 2, 5]
-      },{
-        "id": "TAR",
-        "name": "Tibet Autonomous Region (TAR), བོད་རང་སྐྱོང་ལྗོངས།, 西藏自治區",
-        "imageUrl": "",
-        "description": "Tibet Autonomous Region (TAR) is a contemporary administrative unit of China that includes the cultural regions of Western and Central Tibet, and some Eastern.",
-        "full_description": "Established in 1965, the Tibet Autonomous Region (TAR) is a contemporary administrative unit of China that includes the cultural regions of Western and Central Tibet, as well as parts of Eastern Tibet, and spans an area of more than 1,200,000 km2. As part of the Tibetan Plateau, the TAR contains several of the world’s highest mountains (Mount Everest), lakes (Yamdrok Yumtso), and rivers (Yarlung Tsangpo). With its capital of Lhasa the region supports a population of over 3 million.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/2",
-        "coordinates": [91.1174, 29.6472],
-        "quizIds": [1, 2, 7]
-      },{
-        "id": "Inner_mongolia",
-        "name": "Inner Mongolia, 内蒙古自治区",
-        "imageUrl": "",
-        "description": "Inner Mongolia, now an autonomous region of China, Located North west of Beijing",
-        "full_description": "Inner Mongolia, now an autonomous region of China, was historically a crucial northeastern frontier zone of Tibetan Buddhist influence where Mongol rulers actively patronized Tibetan lamas and monasteries from the 16th century onward, leading to the establishment of major monastic centers like Shireet Juu.",
-        "infoLink" : "https://soir.senate.ca.gov/inner-mongolia-autonomous-region-china",
-        "coordinates": [111.7652, 40.8173],
-        "quizIds": [1, 2, 7]
-      },{
-        "id": "Shaanxi",
-        "name": "Shaanxi, 陜西省, ཧྲའན་ཞི་ཞིང་ཆེན",
-        "imageUrl": "",
-        "description": "Shaanxi province, particularly known for its capital Xi'an (ancient Chang'an). Tang Dynasty capital.",
-        "full_description": "Shaanxi province holds special significance as the site of Chang'an (modern Xi'an), the Tang Dynasty capital where Tibetan history intersected dramatically with Chinese civilization. The Tang-Tibet alliance was sealed here through the marriage of Princess Wencheng to Songtsen Gampo in 641 CE, marking the beginning of significant Buddhist influence in Tibet.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/5426",
-        "coordinates": [34.2649, 108.9542],
-        "quizIds": [1, 2, 7]
-      },{
-        "id": "Sutlej",
-        "name": "Sutlej River, གླང་ཆེན་གཙང་པོ།, Langchen Tsangpo",
-        "imageUrl": "",
-        "description": "The Sutlej River, originating near Mount Kailash in Tibet's Gangdise Mountains.",
-        "full_description": "One of Tibet's most important southern waterways, historically marking crucial trade routes and pilgrimage paths between Tibet and the Indian subcontinent.",
-        "infoLink" : "https://places.kmaps.virginia.edu/features/10664",
-        "coordinates": [71.342, 29.2323],
-        "quizIds": [1, 2, 3]
-      }
-
-    ]
-  }
+    }
+  ]
+}
