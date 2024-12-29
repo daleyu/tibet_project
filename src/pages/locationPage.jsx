@@ -34,7 +34,7 @@ const LocationPage = () => {
           </div>
 
           <div className="prose prose-invert max-w-none">
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-300 text-lg leading-relaxed mb-8">
               {location.full_description}
             </p>
           </div>
