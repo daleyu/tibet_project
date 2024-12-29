@@ -239,7 +239,7 @@
       "description": "World's highest mountain range, forming Tibet's southern border.",
       "full_description": "World's highest mountain range, forming Tibet's southern border.",
       "infoLink": "https://en.wikipedia.org/wiki/Himalayas",
-      "coordinates": [86.925, 27.9881],
+      "coordinates": [83.9, 28.6],
       "quizIds": [1, 2, 8]
     },
     {
@@ -269,7 +269,7 @@
       "description": "Nepal is a landlocked Himalayan country between India and Tibet that contains eight of the world's ten tallest mountains, including Mount Everest.",
       "full_description": "Nepal is a landlocked Himalayan nation that historically served as a key trading route between Tibet and South Asia. Its northern regions, particularly areas like Mustang and Dolpo, contain some of the oldest preserved Tibetan Buddhist monasteries and texts dating back to the 8th century CE.",
       "infoLink": "https://places.kmaps.virginia.edu/features/426",
-      "coordinates": [84.124, 28.3949],
+      "coordinates": [84.724, 27.849],
       "quizIds": [1, 2, 5]
     },
     {
@@ -421,6 +421,27 @@
         "infoLink": "https://www.britannica.com/place/Ordos-Plateau",
         "coordinates": [109.7812, 39.6152],
         "quizIds": [1, 2, 9]
+    },
+    {
+        "id": "Gobi",
+        "name": "",
+        "imageUrl": "",
+        "description": "The Gobi Desert, stretching across southern Mongolia and northern China, served as the northern expanse through which Tibetan Buddhism spread to the Mongol peoples.",
+        "full_description": "The Gobi Desert, stretching across southern Mongolia and northern China, served as the northern expanse through which Tibetan Buddhism spread to the Mongol peoples",
+        "infoLink": "https://www.britannica.com/place/Gobi",
+        "coordinates": [109.7812, 39.6152],
+        "quizIds": [1, 2, 9]
+    },
+    {
+        "id": "Tsaidam",
+        "name": "Tsaidam Basin, Qaidam Basin, Tsadam",
+        "imageUrl": "",
+        "description": "The Tsaidam Basin, a vast salt desert basin in northern Tibet between the Kunlun and Qilian ranges, historically served as a crucial frontier zone and trade route connecting Tibet with the Silk Road.",
+        "full_description": "The Tsaidam Basin represents a unique ecological and cultural frontier zone that played a vital role in Tibet's northern trade networks. This salt-rich depression, sitting at around 3,000 meters above sea level, was historically significant for its salt production and as a transit route between central Tibet and the Silk Road oases. During the Tibetan Empire period (7th-9th centuries), the basin was strategically important for controlling trade routes to Dunhuang and the Tarim Basin. The region's nomadic inhabitants, primarily Mongol and Tibetan pastoralists, maintained distinctive cultural practices that blended elements of both traditions. The basin's monasteries, particularly those established during the second diffusion of Buddhism, demonstrate how Tibetan Buddhist institutions adapted to this unique environmental and cultural setting.",
+        "infoLink": "https://www.britannica.com/place/Qaidam-Basin",
+        "coordinates": [93.0000, 37.0000],
+        "quizIds": [1, 2, 3]
     }
+
   ]
 }
