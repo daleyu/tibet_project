@@ -440,8 +440,64 @@
         "full_description": "The Tsaidam Basin represents a unique ecological and cultural frontier zone that played a vital role in Tibet's northern trade networks. This salt-rich depression, sitting at around 3,000 meters above sea level, was historically significant for its salt production and as a transit route between central Tibet and the Silk Road oases. During the Tibetan Empire period (7th-9th centuries), the basin was strategically important for controlling trade routes to Dunhuang and the Tarim Basin. The region's nomadic inhabitants, primarily Mongol and Tibetan pastoralists, maintained distinctive cultural practices that blended elements of both traditions. The basin's monasteries, particularly those established during the second diffusion of Buddhism, demonstrate how Tibetan Buddhist institutions adapted to this unique environmental and cultural setting.",
         "infoLink": "https://www.britannica.com/place/Qaidam-Basin",
         "coordinates": [93.0000, 37.0000],
-        "quizIds": [1, 2, 3]
+        "quizIds": [1, 2, 9]
+    },
+    {
+        "id": "Taklamakan",
+        "name": "Taklamakan Desert, Tarlam Khen",
+        "imageUrl": "",
+        "description": "The Taklamakan Desert, bordering Tibet's northern frontier, historically connected Tibetan civilization to the Silk Road oasis kingdoms and preserved crucial evidence of early Tibetan Buddhist transmission.",
+        "full_description": "From a Tibetan historical perspective, the Taklamakan Desert played a crucial role in the transmission of Buddhism into Tibet and marked the northern extent of Tibetan imperial influence. During the Tibetan Empire period (7th-9th centuries), Tibetan forces controlled several oasis kingdoms around the desert's edges, particularly Khotan and Dunhuang, leading to significant cultural exchange. The desert's extreme climate has preserved important archaeological evidence of early Tibetan Buddhism, including manuscripts, art, and textiles found in sites like Dunhuang's Mogao Caves. These discoveries have been crucial for understanding how Buddhist texts and artistic styles traveled from India to Tibet via the Silk Road networks that skirted the desert's edges. The Taklamakan's oasis kingdoms also served as important intermediaries in transmitting Buddhist texts and art styles from India and Central Asia to Tibet.",
+        "infoLink": "https://www.britannica.com/place/Takla-Makan-Desert",
+        "coordinates": [82.1402, 38.8710],
+        "quizIds": [1, 2, 9]
+    },
+    {
+        "id": "Ladakh",
+        "name": "Ladakh, ལ་དྭགས།, La dwags",
+        "imageUrl": "",
+        "description": "Ladakh served as a crucial western extension of Tibetan civilization, preserving Tibetan Buddhist culture and architecture while acting as a vital trade hub between Tibet, Kashmir, and Central Asia.",
+        "full_description": "For Tibetan studies, Ladakh represents one of the most important regions for understanding the historical development and preservation of Tibetan civilization outside the plateau proper. Following the collapse of the Tibetan Empire in the 9th century, Ladakh maintained and developed distinctively Tibetan cultural forms while establishing itself as an independent kingdom. Its monasteries, particularly Alchi, Hemis, and Lamayuru, preserve some of the earliest and most important examples of Tibetan Buddhist art and architecture, some dating back to the 10th-11th centuries. The region's strategic location along multiple trade routes made it a crucial intermediary between Tibet proper, Kashmir, Central Asia, and the western Himalayas. For scholars, Ladakh's relative isolation and stability have made it an invaluable resource for understanding how pre-modern Tibetan society, religion, and architecture might have appeared before the changes of the 20th century.",
+        "infoLink": "https://places.kmaps.virginia.edu/features/15399",
+        "coordinates": [77.5770, 34.2268],
+        "quizIds": [1, 2, 7]
+    },{
+        "id": "Ngari",
+        "name": "Ngari,མངའ་རིས་, mnga' ris",
+        "imageUrl": "",
+        "description": "Ngari, Tibet's westernmost region, contains the sacred Mount Kailash and the ancient kingdoms of Guge and Purang, serving as crucial centers for the second diffusion of Buddhism into Tibet.",
+        "full_description": "For Tibetan historians, Ngari holds particular significance as the region where the 'later diffusion' (phyi dar) of Buddhism into Tibet began in the 10th century. The region's ancient kingdoms, particularly Guge, played a pivotal role in sponsoring the translation of Buddhist texts and the revival of Buddhism in Tibet by inviting scholars like Atisha and Rinchen Zangpo. The archaeological remains of the Guge kingdom, including the stunning murals and architecture at Tholing and Tsaparang, provide crucial evidence for understanding the development of Tibetan Buddhist art and architecture. The region also contains Mount Kailash, one of Tibet's most sacred sites, and Lake Manasarovar, while its location made it a vital trade hub connecting Tibet with Kashmir, Ladakh, and Central Asia. Ngari's monasteries and cave temples preserve some of the earliest and most important examples of western Tibetan Buddhist art, demonstrating unique stylistic influences from Kashmir and India.",
+        "infoLink": "https://places.kmaps.virginia.edu/features/15400",
+        "coordinates": [81.1400, 30.4000],
+        "quizIds": [1, 2, 7]
+    },{
+        "id": "Jangtang",
+        "name": "Jangtang, བྱང་ཐང་།, Byang thang",
+        "imageUrl": "",
+        "description": "Literally the “Northern Plains,” this is a Tibetan way of referring to the vast high plateau extending across  northern and western parts of Tibet.",
+        "full_description": "Its environment consists of vast hilly plains, large salt lakes, and a steppe-like environment mostly above the tree line. It is renowned for its high-altitude wildlife, while its limited population consists entirely of nomadic groups. Nowadays the region is divided between China and India: the largest part belongs to the Tibet Autonomous Region (China), while a portion of it belongs to Ladakh (Jammu & Kashmir, India). It appears to have supported a pre-Buddhist civilization prior to the rise of the Tibetan empire in the seventh century, and during that time was presumably a more hospitable environment that has changed over the centuries due the gradually rising elevation of the Tibetan plateau.",
+        "infoLink": "https://places.kmaps.virginia.edu/features/15346",
+        "coordinates": [84.0000, 33.0000],
+        "quizIds": [1, 2, 7]
+    },
+    {
+        "id": "Yarlung",
+        "name": "Yarlung Valley, ཡར་ལུངས་གཙང་པོ།, Yar lungs tsang po",
+        "imageUrl": "",
+        "description": "The Yarlung Valley, cradle of Tibetan civilization, contains Tibet's earliest agricultural settlements and the tombs of the Tibetan Empire's kings, marking the birthplace of unified Tibetan political power.",
+        "full_description": "The Yarlung Valley is the traditional heartland of Tibetan civilization, containing both the ancient Yungbulakang palace and the imperial tombs at Chongye. The valley's strategic location and fertile soil enabled the rise of the Tibetan Empire, while the establishment of Samye Monastery in the 8th century marked the beginning of institutional Buddhism in Tibet.",
+        "infoLink": "https://places.kmaps.virginia.edu/features/11390",
+        "coordinates": [90.3000, 29.2000],
+        "quizIds": [1, 2, 3, 7]
+    },{
+        "id": "Golok",
+        "name": "Golok, མགོ་ལོག, mGo log",
+        "imageUrl": "",
+        "description": "Golok, a historically independent region in eastern Tibet (Amdo), is known for its fierce warrior nomads and important Buddhist monasteries that maintained autonomy well into the 20th century.",
+        "full_description": "For Tibetan studies, Golok represents a unique cultural region where nomadic traditions and Buddhist practice merged to create a distinctively independent society. Located at the headwaters of the Yellow River, the region's high grasslands supported a nomadic culture renowned for its martial prowess and resistance to outside control. Golok's monasteries, particularly those of the Nyingma tradition, became important centers of the treasure revelation tradition, with numerous tertöns (treasure revealers) emerging from this area. The region's relative isolation helped preserve distinctive cultural practices and religious traditions that provide valuable insights into the interaction between Tibet's nomadic and Buddhist cultures.",
+        "infoLink": "https://places.kmaps.virginia.edu/features/15372",
+        "coordinates": [100.5000, 34.5000],
+        "quizIds": [1, 2, 3, 7]
     }
-
   ]
 }
