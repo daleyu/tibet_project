@@ -83,7 +83,7 @@ const Header = () => {
               <div
                 key={item.id}
                 onClick={() => handleSelect(item.id)}
-                className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                className="px-4 py-2 hover:bg-gray-800 cursor-pointer"
               >
                 <div className="font-medium">{item.name}</div>
                 <div className="text-sm text-gray-500">
