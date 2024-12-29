@@ -373,131 +373,269 @@
       "quizIds": [1, 2, 3]
     },
     {
-        "id": "Kunlun",
-        "name": "Kunlun Mountains, ཀུན་ལུན་རི་བོ།, Kunlun Ribo",
-        "imageUrl": "",
-        "description": "The Kunlun Mountains form the northern boundary of the Tibetan plateau, historically marking Tibet's frontier with the Tarim Basin and Central Asia.",
-        "full_description": "The Kunlun range represents a crucial geographical and cultural boundary that helped define Tibet's northern extent. These mountains played a vital role in Tibet's early history, particularly during the imperial period (7th-9th centuries) when Tibetan influence extended into the Tarim Basin. The range's high passes, especially around Dunhuang and Cherchen, facilitated trade routes that connected Tibet with Central Asia and China, while also serving as defensive positions during Tibet's imperial expansion. Archaeological evidence from sites along the Kunlun, including Buddhist manuscripts and artifacts, demonstrates the complex cultural interactions between Tibetan, Chinese, and Central Asian civilizations in this frontier zone.",
-        "infoLink": "https://en.wikipedia.org/wiki/Kunlun_Mountains",
-        "coordinates": [84, 36],
-        "quizIds": [1, 2, 8]
+      "id": "Kunlun",
+      "name": "Kunlun Mountains, ཀུན་ལུན་རི་བོ།, Kunlun Ribo",
+      "imageUrl": "",
+      "description": "The Kunlun Mountains form the northern boundary of the Tibetan plateau, historically marking Tibet's frontier with the Tarim Basin and Central Asia.",
+      "full_description": "The Kunlun range represents a crucial geographical and cultural boundary that helped define Tibet's northern extent. These mountains played a vital role in Tibet's early history, particularly during the imperial period (7th-9th centuries) when Tibetan influence extended into the Tarim Basin. The range's high passes, especially around Dunhuang and Cherchen, facilitated trade routes that connected Tibet with Central Asia and China, while also serving as defensive positions during Tibet's imperial expansion. Archaeological evidence from sites along the Kunlun, including Buddhist manuscripts and artifacts, demonstrates the complex cultural interactions between Tibetan, Chinese, and Central Asian civilizations in this frontier zone.",
+      "infoLink": "https://en.wikipedia.org/wiki/Kunlun_Mountains",
+      "coordinates": [84, 36],
+      "quizIds": [1, 2, 8]
     },
     {
-        "id": "Qilian",
-        "name": "Qilian Mountains, འཇོ་མོ་གངས་རི།, Jomo Gangri",
-        "imageUrl": "",
-        "description": "The Qilian Mountains form the northeastern boundary of the Tibetan plateau, historically serving as a crucial frontier zone between Tibet, China, and the Silk Road oasis states.",
-        "full_description": "The Qilian range played a significant role in Tibetan history as a major cultural and economic interface between Tibet and China. During the Tibetan Empire period (7th-9th centuries), these mountains marked the northeastern extent of Tibetan control, with important military garrisons and trading posts established along their slopes. The range was particularly significant for the horse-tea trade, as Tibetan horses were exchanged for Chinese tea along routes through the Qilian passes. The mountains' southern slopes contain important Tibetan Buddhist monasteries, particularly in the Amdo region, that demonstrate how Tibetan civilization adapted to this frontier environment while maintaining connections with both the Tibetan plateau and Chinese lowlands.",
-        "infoLink": "https://www.britannica.com/place/Qilian-Mountains",
-        "coordinates": [100,38.6],
-        "quizIds": [1, 2, 8]
+      "id": "Qilian",
+      "name": "Qilian Mountains, འཇོ་མོ་གངས་རི།, Jomo Gangri",
+      "imageUrl": "",
+      "description": "The Qilian Mountains form the northeastern boundary of the Tibetan plateau, historically serving as a crucial frontier zone between Tibet, China, and the Silk Road oasis states.",
+      "full_description": "The Qilian range played a significant role in Tibetan history as a major cultural and economic interface between Tibet and China. During the Tibetan Empire period (7th-9th centuries), these mountains marked the northeastern extent of Tibetan control, with important military garrisons and trading posts established along their slopes. The range was particularly significant for the horse-tea trade, as Tibetan horses were exchanged for Chinese tea along routes through the Qilian passes. The mountains' southern slopes contain important Tibetan Buddhist monasteries, particularly in the Amdo region, that demonstrate how Tibetan civilization adapted to this frontier environment while maintaining connections with both the Tibetan plateau and Chinese lowlands.",
+      "infoLink": "https://www.britannica.com/place/Qilian-Mountains",
+      "coordinates": [100, 38.6],
+      "quizIds": [1, 2, 8]
     },
     {
-        "id": "Minshan",
-        "name": "Min Mountains, རྨི་རི་བོ།, Mi Ribo",
-        "imageUrl": "",
-        "description": "The Min Mountains form a critical eastern boundary zone of traditional Tibet's Amdo region, marking the transition between the Tibetan plateau and China's Sichuan basin.",
-        "full_description": "For Tibetan studies, the Min Mountains represent a crucial ecological and cultural transition zone where Tibetan and Chinese civilizations have interacted for centuries. The range contains numerous important Tibetan Buddhist monasteries, particularly around the Songpan region, that historically served as centers of learning and cultural preservation for the eastern Tibetan world. During the Tibetan Empire period (7th-9th centuries), these mountains formed part of Tibet's eastern frontier defenses, while their passes later facilitated trade between Tibet and China, particularly in the tea-horse trade network. The region's distinctive architecture and religious practices reflect its role as a cultural crossroads, blending elements of Tibetan, Chinese, and local Qiang traditions.",
-        "infoLink": "https://www.britannica.com/place/Min-Mountains",
-        "coordinates": [103.6006, 33.6389],
-        "quizIds": [1, 2, 8]
+      "id": "Minshan",
+      "name": "Min Mountains, རྨི་རི་བོ།, Mi Ribo",
+      "imageUrl": "",
+      "description": "The Min Mountains form a critical eastern boundary zone of traditional Tibet's Amdo region, marking the transition between the Tibetan plateau and China's Sichuan basin.",
+      "full_description": "For Tibetan studies, the Min Mountains represent a crucial ecological and cultural transition zone where Tibetan and Chinese civilizations have interacted for centuries. The range contains numerous important Tibetan Buddhist monasteries, particularly around the Songpan region, that historically served as centers of learning and cultural preservation for the eastern Tibetan world. During the Tibetan Empire period (7th-9th centuries), these mountains formed part of Tibet's eastern frontier defenses, while their passes later facilitated trade between Tibet and China, particularly in the tea-horse trade network. The region's distinctive architecture and religious practices reflect its role as a cultural crossroads, blending elements of Tibetan, Chinese, and local Qiang traditions.",
+      "infoLink": "https://www.britannica.com/place/Min-Mountains",
+      "coordinates": [103.6006, 33.6389],
+      "quizIds": [1, 2, 8]
     },
     {
-        "id": "Wutai",
-        "name": "Wutaishan, 清凉山, qingliangshan ",
-        "imageUrl": "",
-        "description": "Wutai Shan, a group of mountains in Shanxi province, is one of the most important Buddhist pilgrimage sites in China.",
-        "full_description": "An active site of Buddhist practice since at least the fourth century, Wutai Shan is revered as the home of Mañjuśrī, the bodhisattva of wisdom, who is believed to manifest along the pilgrimage route in different forms. There are several Tibetan Buddhist monasteries at the site and the mountain has historically been a popular pilgrimage site for Tibetans. Many official meetings and imperially sponsored rituals among Tibetan and Manchu dignitaries have been held at Wutai Shan.",
-        "infoLink": "https://treasuryoflives.org/institution/Wutai-Shan",
-        "coordinates": [113.5647,39.0792],
-        "quizIds": [1, 2, 8]
+      "id": "Wutai",
+      "name": "Wutaishan, 清凉山, qingliangshan ",
+      "imageUrl": "",
+      "description": "Wutai Shan, a group of mountains in Shanxi province, is one of the most important Buddhist pilgrimage sites in China.",
+      "full_description": "An active site of Buddhist practice since at least the fourth century, Wutai Shan is revered as the home of Mañjuśrī, the bodhisattva of wisdom, who is believed to manifest along the pilgrimage route in different forms. There are several Tibetan Buddhist monasteries at the site and the mountain has historically been a popular pilgrimage site for Tibetans. Many official meetings and imperially sponsored rituals among Tibetan and Manchu dignitaries have been held at Wutai Shan.",
+      "infoLink": "https://treasuryoflives.org/institution/Wutai-Shan",
+      "coordinates": [113.5647, 39.0792],
+      "quizIds": [1, 2, 8]
     },
     {
-        "id": "Ordos",
-        "name": "Ordos Desert, Ordos Jethang",
-        "imageUrl": "",
-        "description": "The Ordos Desert, located in the great bend of the Yellow River, historically marked the northeastern frontier of Tibetan Buddhist influence among the Mongol peoples.",
-        "full_description": "The Ordos desert's location along the Yellow River bend made it a crucial frontier zone where Tibetan Buddhist influence met with both Chinese and Mongol cultures. ",
-        "infoLink": "https://www.britannica.com/place/Ordos-Plateau",
-        "coordinates": [109.7812, 39.6152],
-        "quizIds": [1, 2, 9]
+      "id": "Ordos",
+      "name": "Ordos Desert, Ordos Jethang",
+      "imageUrl": "",
+      "description": "The Ordos Desert, located in the great bend of the Yellow River, historically marked the northeastern frontier of Tibetan Buddhist influence among the Mongol peoples.",
+      "full_description": "The Ordos desert's location along the Yellow River bend made it a crucial frontier zone where Tibetan Buddhist influence met with both Chinese and Mongol cultures. ",
+      "infoLink": "https://www.britannica.com/place/Ordos-Plateau",
+      "coordinates": [109.7812, 39.6152],
+      "quizIds": [1, 2, 9]
     },
     {
-        "id": "Gobi",
-        "name": "",
-        "imageUrl": "",
-        "description": "The Gobi Desert, stretching across southern Mongolia and northern China, served as the northern expanse through which Tibetan Buddhism spread to the Mongol peoples.",
-        "full_description": "The Gobi Desert, stretching across southern Mongolia and northern China, served as the northern expanse through which Tibetan Buddhism spread to the Mongol peoples",
-        "infoLink": "https://www.britannica.com/place/Gobi",
-        "coordinates": [109.7812, 39.6152],
-        "quizIds": [1, 2, 9]
+      "id": "Gobi",
+      "name": "",
+      "imageUrl": "",
+      "description": "The Gobi Desert, stretching across southern Mongolia and northern China, served as the northern expanse through which Tibetan Buddhism spread to the Mongol peoples.",
+      "full_description": "The Gobi Desert, stretching across southern Mongolia and northern China, served as the northern expanse through which Tibetan Buddhism spread to the Mongol peoples",
+      "infoLink": "https://www.britannica.com/place/Gobi",
+      "coordinates": [109.7812, 39.6152],
+      "quizIds": [1, 2, 9]
     },
     {
-        "id": "Tsaidam",
-        "name": "Tsaidam Basin, Qaidam Basin, Tsadam",
-        "imageUrl": "",
-        "description": "The Tsaidam Basin, a vast salt desert basin in northern Tibet between the Kunlun and Qilian ranges, historically served as a crucial frontier zone and trade route connecting Tibet with the Silk Road.",
-        "full_description": "The Tsaidam Basin represents a unique ecological and cultural frontier zone that played a vital role in Tibet's northern trade networks. This salt-rich depression, sitting at around 3,000 meters above sea level, was historically significant for its salt production and as a transit route between central Tibet and the Silk Road oases. During the Tibetan Empire period (7th-9th centuries), the basin was strategically important for controlling trade routes to Dunhuang and the Tarim Basin. The region's nomadic inhabitants, primarily Mongol and Tibetan pastoralists, maintained distinctive cultural practices that blended elements of both traditions. The basin's monasteries, particularly those established during the second diffusion of Buddhism, demonstrate how Tibetan Buddhist institutions adapted to this unique environmental and cultural setting.",
-        "infoLink": "https://www.britannica.com/place/Qaidam-Basin",
-        "coordinates": [93.0000, 37.0000],
-        "quizIds": [1, 2, 9]
+      "id": "Tsaidam",
+      "name": "Tsaidam Basin, Qaidam Basin, Tsadam",
+      "imageUrl": "",
+      "description": "The Tsaidam Basin, a vast salt desert basin in northern Tibet between the Kunlun and Qilian ranges, historically served as a crucial frontier zone and trade route connecting Tibet with the Silk Road.",
+      "full_description": "The Tsaidam Basin represents a unique ecological and cultural frontier zone that played a vital role in Tibet's northern trade networks. This salt-rich depression, sitting at around 3,000 meters above sea level, was historically significant for its salt production and as a transit route between central Tibet and the Silk Road oases. During the Tibetan Empire period (7th-9th centuries), the basin was strategically important for controlling trade routes to Dunhuang and the Tarim Basin. The region's nomadic inhabitants, primarily Mongol and Tibetan pastoralists, maintained distinctive cultural practices that blended elements of both traditions. The basin's monasteries, particularly those established during the second diffusion of Buddhism, demonstrate how Tibetan Buddhist institutions adapted to this unique environmental and cultural setting.",
+      "infoLink": "https://www.britannica.com/place/Qaidam-Basin",
+      "coordinates": [93.0, 37.0],
+      "quizIds": [1, 2, 9]
     },
     {
-        "id": "Taklamakan",
-        "name": "Taklamakan Desert, Tarlam Khen",
-        "imageUrl": "",
-        "description": "The Taklamakan Desert, bordering Tibet's northern frontier, historically connected Tibetan civilization to the Silk Road oasis kingdoms and preserved crucial evidence of early Tibetan Buddhist transmission.",
-        "full_description": "From a Tibetan historical perspective, the Taklamakan Desert played a crucial role in the transmission of Buddhism into Tibet and marked the northern extent of Tibetan imperial influence. During the Tibetan Empire period (7th-9th centuries), Tibetan forces controlled several oasis kingdoms around the desert's edges, particularly Khotan and Dunhuang, leading to significant cultural exchange. The desert's extreme climate has preserved important archaeological evidence of early Tibetan Buddhism, including manuscripts, art, and textiles found in sites like Dunhuang's Mogao Caves. These discoveries have been crucial for understanding how Buddhist texts and artistic styles traveled from India to Tibet via the Silk Road networks that skirted the desert's edges. The Taklamakan's oasis kingdoms also served as important intermediaries in transmitting Buddhist texts and art styles from India and Central Asia to Tibet.",
-        "infoLink": "https://www.britannica.com/place/Takla-Makan-Desert",
-        "coordinates": [82.1402, 38.8710],
-        "quizIds": [1, 2, 9]
+      "id": "Taklamakan",
+      "name": "Taklamakan Desert, Tarlam Khen",
+      "imageUrl": "",
+      "description": "The Taklamakan Desert, bordering Tibet's northern frontier, historically connected Tibetan civilization to the Silk Road oasis kingdoms and preserved crucial evidence of early Tibetan Buddhist transmission.",
+      "full_description": "From a Tibetan historical perspective, the Taklamakan Desert played a crucial role in the transmission of Buddhism into Tibet and marked the northern extent of Tibetan imperial influence. During the Tibetan Empire period (7th-9th centuries), Tibetan forces controlled several oasis kingdoms around the desert's edges, particularly Khotan and Dunhuang, leading to significant cultural exchange. The desert's extreme climate has preserved important archaeological evidence of early Tibetan Buddhism, including manuscripts, art, and textiles found in sites like Dunhuang's Mogao Caves. These discoveries have been crucial for understanding how Buddhist texts and artistic styles traveled from India to Tibet via the Silk Road networks that skirted the desert's edges. The Taklamakan's oasis kingdoms also served as important intermediaries in transmitting Buddhist texts and art styles from India and Central Asia to Tibet.",
+      "infoLink": "https://www.britannica.com/place/Takla-Makan-Desert",
+      "coordinates": [82.1402, 38.871],
+      "quizIds": [1, 2, 9]
     },
     {
-        "id": "Ladakh",
-        "name": "Ladakh, ལ་དྭགས།, La dwags",
-        "imageUrl": "",
-        "description": "Ladakh served as a crucial western extension of Tibetan civilization, preserving Tibetan Buddhist culture and architecture while acting as a vital trade hub between Tibet, Kashmir, and Central Asia.",
-        "full_description": "For Tibetan studies, Ladakh represents one of the most important regions for understanding the historical development and preservation of Tibetan civilization outside the plateau proper. Following the collapse of the Tibetan Empire in the 9th century, Ladakh maintained and developed distinctively Tibetan cultural forms while establishing itself as an independent kingdom. Its monasteries, particularly Alchi, Hemis, and Lamayuru, preserve some of the earliest and most important examples of Tibetan Buddhist art and architecture, some dating back to the 10th-11th centuries. The region's strategic location along multiple trade routes made it a crucial intermediary between Tibet proper, Kashmir, Central Asia, and the western Himalayas. For scholars, Ladakh's relative isolation and stability have made it an invaluable resource for understanding how pre-modern Tibetan society, religion, and architecture might have appeared before the changes of the 20th century.",
-        "infoLink": "https://places.kmaps.virginia.edu/features/15399",
-        "coordinates": [77.5770, 34.2268],
-        "quizIds": [1, 2, 7]
-    },{
-        "id": "Ngari",
-        "name": "Ngari,མངའ་རིས་, mnga' ris",
-        "imageUrl": "",
-        "description": "Ngari, Tibet's westernmost region, contains the sacred Mount Kailash and the ancient kingdoms of Guge and Purang, serving as crucial centers for the second diffusion of Buddhism into Tibet.",
-        "full_description": "For Tibetan historians, Ngari holds particular significance as the region where the 'later diffusion' (phyi dar) of Buddhism into Tibet began in the 10th century. The region's ancient kingdoms, particularly Guge, played a pivotal role in sponsoring the translation of Buddhist texts and the revival of Buddhism in Tibet by inviting scholars like Atisha and Rinchen Zangpo. The archaeological remains of the Guge kingdom, including the stunning murals and architecture at Tholing and Tsaparang, provide crucial evidence for understanding the development of Tibetan Buddhist art and architecture. The region also contains Mount Kailash, one of Tibet's most sacred sites, and Lake Manasarovar, while its location made it a vital trade hub connecting Tibet with Kashmir, Ladakh, and Central Asia. Ngari's monasteries and cave temples preserve some of the earliest and most important examples of western Tibetan Buddhist art, demonstrating unique stylistic influences from Kashmir and India.",
-        "infoLink": "https://places.kmaps.virginia.edu/features/15400",
-        "coordinates": [81.1400, 30.4000],
-        "quizIds": [1, 2, 7]
-    },{
-        "id": "Jangtang",
-        "name": "Jangtang, བྱང་ཐང་།, Byang thang",
-        "imageUrl": "",
-        "description": "Literally the “Northern Plains,” this is a Tibetan way of referring to the vast high plateau extending across  northern and western parts of Tibet.",
-        "full_description": "Its environment consists of vast hilly plains, large salt lakes, and a steppe-like environment mostly above the tree line. It is renowned for its high-altitude wildlife, while its limited population consists entirely of nomadic groups. Nowadays the region is divided between China and India: the largest part belongs to the Tibet Autonomous Region (China), while a portion of it belongs to Ladakh (Jammu & Kashmir, India). It appears to have supported a pre-Buddhist civilization prior to the rise of the Tibetan empire in the seventh century, and during that time was presumably a more hospitable environment that has changed over the centuries due the gradually rising elevation of the Tibetan plateau.",
-        "infoLink": "https://places.kmaps.virginia.edu/features/15346",
-        "coordinates": [84.0000, 33.0000],
-        "quizIds": [1, 2, 7]
+      "id": "Ladakh",
+      "name": "Ladakh, ལ་དྭགས།, La dwags",
+      "imageUrl": "",
+      "description": "Ladakh served as a crucial western extension of Tibetan civilization, preserving Tibetan Buddhist culture and architecture while acting as a vital trade hub between Tibet, Kashmir, and Central Asia.",
+      "full_description": "For Tibetan studies, Ladakh represents one of the most important regions for understanding the historical development and preservation of Tibetan civilization outside the plateau proper. Following the collapse of the Tibetan Empire in the 9th century, Ladakh maintained and developed distinctively Tibetan cultural forms while establishing itself as an independent kingdom. Its monasteries, particularly Alchi, Hemis, and Lamayuru, preserve some of the earliest and most important examples of Tibetan Buddhist art and architecture, some dating back to the 10th-11th centuries. The region's strategic location along multiple trade routes made it a crucial intermediary between Tibet proper, Kashmir, Central Asia, and the western Himalayas. For scholars, Ladakh's relative isolation and stability have made it an invaluable resource for understanding how pre-modern Tibetan society, religion, and architecture might have appeared before the changes of the 20th century.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/15399",
+      "coordinates": [77.577, 34.2268],
+      "quizIds": [1, 2, 7]
     },
     {
-        "id": "Yarlung",
-        "name": "Yarlung Valley, ཡར་ལུངས་གཙང་པོ།, Yar lungs tsang po",
-        "imageUrl": "",
-        "description": "The Yarlung Valley, cradle of Tibetan civilization, contains Tibet's earliest agricultural settlements and the tombs of the Tibetan Empire's kings, marking the birthplace of unified Tibetan political power.",
-        "full_description": "The Yarlung Valley is the traditional heartland of Tibetan civilization, containing both the ancient Yungbulakang palace and the imperial tombs at Chongye. The valley's strategic location and fertile soil enabled the rise of the Tibetan Empire, while the establishment of Samye Monastery in the 8th century marked the beginning of institutional Buddhism in Tibet.",
-        "infoLink": "https://places.kmaps.virginia.edu/features/11390",
-        "coordinates": [90.3000, 29.2000],
-        "quizIds": [1, 2, 3, 7]
-    },{
-        "id": "Golok",
-        "name": "Golok, མགོ་ལོག, mGo log",
-        "imageUrl": "",
-        "description": "Golok, a historically independent region in eastern Tibet (Amdo), is known for its fierce warrior nomads and important Buddhist monasteries that maintained autonomy well into the 20th century.",
-        "full_description": "For Tibetan studies, Golok represents a unique cultural region where nomadic traditions and Buddhist practice merged to create a distinctively independent society. Located at the headwaters of the Yellow River, the region's high grasslands supported a nomadic culture renowned for its martial prowess and resistance to outside control. Golok's monasteries, particularly those of the Nyingma tradition, became important centers of the treasure revelation tradition, with numerous tertöns (treasure revealers) emerging from this area. The region's relative isolation helped preserve distinctive cultural practices and religious traditions that provide valuable insights into the interaction between Tibet's nomadic and Buddhist cultures.",
-        "infoLink": "https://places.kmaps.virginia.edu/features/15372",
-        "coordinates": [100.5000, 34.5000],
-        "quizIds": [1, 2, 3, 7]
+      "id": "Ngari",
+      "name": "Ngari,མངའ་རིས་, mnga' ris",
+      "imageUrl": "",
+      "description": "Ngari, Tibet's westernmost region, contains the sacred Mount Kailash and the ancient kingdoms of Guge and Purang, serving as crucial centers for the second diffusion of Buddhism into Tibet.",
+      "full_description": "For Tibetan historians, Ngari holds particular significance as the region where the 'later diffusion' (phyi dar) of Buddhism into Tibet began in the 10th century. The region's ancient kingdoms, particularly Guge, played a pivotal role in sponsoring the translation of Buddhist texts and the revival of Buddhism in Tibet by inviting scholars like Atisha and Rinchen Zangpo. The archaeological remains of the Guge kingdom, including the stunning murals and architecture at Tholing and Tsaparang, provide crucial evidence for understanding the development of Tibetan Buddhist art and architecture. The region also contains Mount Kailash, one of Tibet's most sacred sites, and Lake Manasarovar, while its location made it a vital trade hub connecting Tibet with Kashmir, Ladakh, and Central Asia. Ngari's monasteries and cave temples preserve some of the earliest and most important examples of western Tibetan Buddhist art, demonstrating unique stylistic influences from Kashmir and India.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/15400",
+      "coordinates": [81.14, 30.4],
+      "quizIds": [1, 2, 7]
+    },
+    {
+      "id": "Jangtang",
+      "name": "Jangtang, བྱང་ཐང་།, Byang thang",
+      "imageUrl": "",
+      "description": "Literally the “Northern Plains,” this is a Tibetan way of referring to the vast high plateau extending across  northern and western parts of Tibet.",
+      "full_description": "Its environment consists of vast hilly plains, large salt lakes, and a steppe-like environment mostly above the tree line. It is renowned for its high-altitude wildlife, while its limited population consists entirely of nomadic groups. Nowadays the region is divided between China and India: the largest part belongs to the Tibet Autonomous Region (China), while a portion of it belongs to Ladakh (Jammu & Kashmir, India). It appears to have supported a pre-Buddhist civilization prior to the rise of the Tibetan empire in the seventh century, and during that time was presumably a more hospitable environment that has changed over the centuries due the gradually rising elevation of the Tibetan plateau.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/15346",
+      "coordinates": [84.0, 33.0],
+      "quizIds": [1, 2, 7]
+    },
+    {
+      "id": "Yarlung",
+      "name": "Yarlung Valley, ཡར་ལུངས་གཙང་པོ།, Yar lungs tsang po",
+      "imageUrl": "",
+      "description": "The Yarlung Valley, cradle of Tibetan civilization, contains Tibet's earliest agricultural settlements and the tombs of the Tibetan Empire's kings, marking the birthplace of unified Tibetan political power.",
+      "full_description": "The Yarlung Valley is the traditional heartland of Tibetan civilization, containing both the ancient Yungbulakang palace and the imperial tombs at Chongye. The valley's strategic location and fertile soil enabled the rise of the Tibetan Empire, while the establishment of Samye Monastery in the 8th century marked the beginning of institutional Buddhism in Tibet.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/11390",
+      "coordinates": [90.3, 29.2],
+      "quizIds": [1, 2, 3, 7]
+    },
+    {
+      "id": "Golok",
+      "name": "Golok, མགོ་ལོག, mGo log",
+      "imageUrl": "",
+      "description": "Golok, a historically independent region in eastern Tibet (Amdo), is known for its fierce warrior nomads and important Buddhist monasteries that maintained autonomy well into the 20th century.",
+      "full_description": "For Tibetan studies, Golok represents a unique cultural region where nomadic traditions and Buddhist practice merged to create a distinctively independent society. Located at the headwaters of the Yellow River, the region's high grasslands supported a nomadic culture renowned for its martial prowess and resistance to outside control. Golok's monasteries, particularly those of the Nyingma tradition, became important centers of the treasure revelation tradition, with numerous tertöns (treasure revealers) emerging from this area. The region's relative isolation helped preserve distinctive cultural practices and religious traditions that provide valuable insights into the interaction between Tibet's nomadic and Buddhist cultures.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/15372",
+      "coordinates": [100.5, 34.5],
+      "quizIds": [1, 2, 3, 7]
+    },
+    {
+      "id": "Gyelmorong",
+      "name": "Gyelmorong, རྒྱལ་མོ་རོང་།, Gyalmorong",
+      "imageUrl": "",
+      "description": "Gyelmorong is a historic region in eastern Tibet situated between Amdo and Kham, known for its deep valleys, diverse ecosystems, and unique cultural heritage that blends Tibetan, Qiang, and Chinese influences.",
+      "full_description": "Gyelmorong, historically known as the 'Queen's Valley,' represents one of Tibet's most distinctive cultural regions. The area is characterized by its dramatic landscape of deep gorges and high mountains, creating isolated valleys that fostered the development of unique local traditions and dialects.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/15376",
+      "coordinates": [102.9147, 31.8927],
+      "quizIds": [1, 2, 7]
+    },
+    {
+      "id": "Dolpo",
+      "name": "Dolpo, དོལ་པོ།, Dolpo",
+      "imageUrl": "",
+      "description": "Dolpo is a remote high-altitude region in northwestern Nepal that historically maintained strong cultural and economic ties with Tibet, preserving some of the most ancient practices of Tibetan Buddhism and traditional Tibetan culture.",
+      "full_description": "Situated at elevations between 4,000-5,000 meters in Nepal's largest district, Dolpo is a culturally Tibetan region known for its Bon and Buddhist religious heritage. The area historically served as a key salt trade route with Tibet and contains significant monasteries like Shey Gompa. Its isolation has preserved ancient Tibetan texts, distinct dialect variations, and traditional practices of yak herding and high-altitude agriculture. The region includes the sacred Crystal Mountain and remains one of the few places where pre-Buddhist Tibetan traditions are still practiced.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/15378",
+      "coordinates": [83.2936, 29.8337],
+      "quizIds": [1, 2, 7]
+    },
+    {
+      "id": "Khotan",
+      "name": "Khotan, ཧོ་ཐན།, Ho-than",
+      "imageUrl": "",
+      "description": "Khotan is an ancient oasis city along the southern branch of the Silk Road that served as a major hub for trade between Tibet, China, and Central Asia, particularly known for its jade trade and Buddhist heritage.",
+      "full_description": "Historically a crucial oasis kingdom on the southern Silk Road, Khotan was an important center for Tibetan-Chinese trade relations and Buddhist learning. The region was especially significant during the Tibetan Empire's expansion in the 8th century. Known for its jade mines, silk production, and Buddhist manuscripts, Khotan maintained distinct cultural traditions blending Indian, Chinese, and Tibetan influences. The area was also crucial for the transmission of Buddhism from India to Tibet.",
+      "infoLink": "https://www.iranicaonline.org/articles/khotan",
+      "coordinates": [80.0344, 37.1127],
+      "quizIds": [1, 2, 4]
+    },
+
+    {
+      "id": "Leh",
+      "name": "Leh, གླེ།, Gle",
+      "imageUrl": "",
+      "description": "Leh was the historic capital of the Kingdom of Ladakh and served as a vital trading post connecting Tibet with Kashmir, Central Asia, and the Indian subcontinent.",
+      "full_description": "Situated at 3,500 meters elevation, Leh functioned as the royal capital of Ladakh from the 17th to the 19th centuries. The city's layout is dominated by the nine-story Leh Palace, modeled after Lhasa's Potala Palace. As a key stop on multiple trade routes, Leh developed a unique culture blending Tibetan Buddhist traditions with Kashmiri, Central Asian, and Indian influences. The city remained a crucial center for Tibetan Buddhism even after the closure of Tibet's borders.",
+      "infoLink": "https://en.wikipedia.org/wiki/Leh",
+      "coordinates": [77.3505, 34.0951],
+      "quizIds": [1, 2, 4, 5]
+    },
+
+    {
+      "id": "Delhi",
+      "name": "Delhi, ལྡི་ལི།, Di-li",
+      "imageUrl": "",
+      "description": "Delhi served as a significant southern terminus for Tibetan trade networks and became an important center for the Tibetan refugee community after 1959.",
+      "full_description": "As a major Indian commercial center, Delhi played a crucial role in Tibet-India relations through trade and diplomacy. The city became especially important after 1959 as a key administrative center for Tibetan refugees, hosting important Tibetan cultural institutions and markets. The Tibetan colony of Majnu ka Tilla, established in the 1960s, developed into a significant center for Tibetan culture and commerce in India.",
+      "infoLink": "https://tibetanreview.net/",
+      "coordinates": [77.209, 28.6139],
+      "quizIds": [1, 2, 4, 5]
+    },
+
+    {
+      "id": "Kathmandu",
+      "name": "Kathmandu, ཡང་བུ།, Yang-bu",
+      "imageUrl": "",
+      "description": "Kathmandu has historically served as a crucial nexus between Tibet and South Asia, hosting major Buddhist pilgrimage sites and later becoming a significant center for Tibetan refugee communities.",
+      "full_description": "The Kathmandu Valley has been central to Tibet-Nepal relations since the 7th century, featuring important Buddhist pilgrimage sites like Boudhanath and Swayambhunath stupas. The city was a vital point on the trans-Himalayan trade route and hosted a permanent Tibetan trading mission until 1959. Following the closure of Tibet's borders, Kathmandu became a major center for Tibetan refugees, hosting numerous monasteries, craft centers, and cultural institutions that continue Tibetan traditions.",
+      "infoLink": "https://en.wikipedia.org/wiki/Kathmandu",
+      "coordinates": [85.324, 27.7172],
+      "quizIds": [1, 2, 4, 5]
+    },
+    {
+      "id": "Samye",
+      "name": "Samye, བསམ་ཡས།, Samye,  sangye si, 桑耶寺 ",
+      "imageUrl": "",
+      "description": "Samye is Tibet's first Buddhist monastery, established in the 8th century under King Trisong Detsen, and represents a crucial milestone in the early development of Tibetan Buddhism.",
+      "full_description": "The monastery was the site of the famous Great Debate (792-794) between Indian and Chinese Buddhist traditions that established Indian Buddhism as Tibet's primary tradition. Built through the efforts of Padmasambhava, Shantarakshita, and King Trisong Detsen, Samye was also Tibet's first center for the ordination of monks and the translation of Buddhist texts. Its unique architectural design combines Tibetan, Chinese, and Indian styles.",
+      "infoLink": "https://treasuryoflives.org/institution/Samye",
+      "coordinates": [91.5014, 29.3272],
+      "quizIds": [1, 2, 4, 7]
+    },
+    {
+      "id": "Derge",
+      "name": "Dergé, སྡེ་དགེ།, De-ge",
+      "imageUrl": "",
+      "description": "Dergé was an influential kingdom in eastern Tibet.",
+      "full_description": "Centered around its famous Printing House (established 1729), Dergé was a major center of Tibetan book production and scholarship. The kingdom's printing house contains over 270,000 woodblocks for printing Buddhist texts and other works. Beyond printing, Dergé was known for its metalwork tradition and as a center of political power in Kham. The Dergé Gonchen monastery complex integrated political administration with religious scholarship, making it a unique model of governance in eastern Tibet.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/23730",
+      "coordinates": [98.5851, 31.7989],
+      "quizIds": [1, 2, 4]
+    },
+    {
+      "id": "Dartsedo",
+      "name": "Dartsedo, དར་རྩེ་མདོ།, Dartsedo/Kangding, Daqianlu",
+      "imageUrl": "",
+      "description": "Dartsedo was the primary trading hub between Tibet and China, a cultural meeting point between Tibetan and Chinese civilizations.",
+      "full_description": "Located at the edge of the Tibetan plateau, Dartsedo served as the main gateway for the Tibet-China tea trade from the 18th to mid-20th centuries. The town was known for its unique system of tea trade houses and as a meeting point for Tibetan and Chinese merchants. Its position at the cultural boundary between Tibet and China created a distinct local culture, with numerous monasteries and trading houses reflecting both influences. The town's strategic location made it a crucial point for political and economic relations between Tibet and China.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/5229",
+      "coordinates": [101.9638, 30.0504],
+      "quizIds": [1, 2, 4]
+    },
+    {
+      "id": "Xining",
+      "name": "Xining, ཟི་ལིང་།, Ziling, 西寧",
+      "imageUrl": "",
+      "description": "Xining served as the gateway between China and Tibet's Amdo region, functioning as a major administrative and trading center where Tibetan, Chinese, Hui, and Mongol cultures intersected.",
+      "full_description": "As the historical capital of Amdo, Xining was a crucial administrative center for managing Tibet-China relations. The city was significant for its proximity to major monasteries like Kumbum and its role in the tea-horse trade. Xining's position made it a key center for cultural exchange, diplomatic relations, and trade between Tibet and China. The city hosted important Tibetan Buddhist institutions while serving as an administrative center for Chinese governance of Tibetan areas.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/1148",
+      "coordinates": [101.7787, 36.6171],
+      "quizIds": [1, 2, 4]
+    },
+    {
+      "id": "Dunhuang",
+      "name": "Dunhuang, དུན་ཧོང་།, Tun-hong",
+      "imageUrl": "",
+      "description": "Dunhuang was a major Silk Road oasis city and Buddhist center, located north of the TAR.",
+      "full_description": "Located at the junction of the northern and southern Silk Roads, Dunhuang was crucial for Tibet's expansion during the imperial period (7th-9th centuries). The Mogao Caves preserved numerous Tibetan Buddhist manuscripts, including the earliest known Tibetan Buddhist texts and imperial documents. The city served as a major administrative center during Tibetan control of the Silk Road, and its art shows significant Tibetan influence. The discovery of the Library Cave in 1900 revealed one of the largest collections of early Tibetan documents.",
+      "infoLink": "https://en.unesco.org/silkroad/content/dunhuang",
+      "coordinates": [94.6615, 40.1421],
+      "quizIds": [1, 2, 4 ]
+    },
+
+    {
+      "id": "Beijing",
+      "name": "Beijing, པེ་ཅིང་།, Pe-cing",
+      "imageUrl": "",
+      "description": "Beijing served as a crucial diplomatic center for Tibet-China relations, hosting Tibetan Buddhist temples and becoming an important center for Tibetan Buddhist studies during the Ming and Qing dynasties.",
+      "full_description": "As China's capital, Beijing was central to Tibet-China diplomatic relations from the Yuan dynasty onward. The city hosted important Tibetan Buddhist temples like Yonghegong (built 1694), which served as a major center of Tibetan Buddhism in China. During the Qing dynasty, Beijing became a significant center for the translation of Tibetan Buddhist texts and the training of Tibetan-language diplomats. The city maintained a permanent Tibetan mission and hosted important religious and political delegations from Tibet.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/5275",
+      "coordinates": [116.4074, 39.9042],
+      "quizIds": [1, 2, 4]
+    },
+
+    {
+      "id": "Chengdu",
+      "name": "Chengdu, ཁྲེན་ཏུ།, Tren-tu",
+      "imageUrl": "",
+      "description": "Chengdu functioned as a major administrative and trading center for eastern Tibet, serving as a crucial link between central Tibet and China proper.",
+      "full_description": "Located at the edge of the Sichuan Basin, Chengdu was a key administrative center for Tibetan areas in Sichuan and a major hub for the tea-horse trade. The city hosted important Tibetan Buddhist temples and trading houses from the 18th century onward. During the Qing dynasty, it served as the primary base for administration of Tibetan regions in Sichuan and Yunnan. The city became particularly important for Tibetan commerce and education in the 20th century, hosting numerous Tibetan schools and trading establishments.",
+      "infoLink": "https://places.kmaps.virginia.edu/features/5235",
+      "coordinates": [104.0668, 30.5728],
+      "quizIds": [1, 2, 4]
     }
   ]
 }
