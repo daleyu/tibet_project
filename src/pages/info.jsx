@@ -1,5 +1,6 @@
 // src/pages/InfoPage.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import Footer from "../components/footer.jsx";
 import Header from "../components/header.jsx";
 import { useLocations } from "../hooks/useLocations";
@@ -28,6 +29,18 @@ const InfoPage = () => {
                   {location.name}
                 </h2>
                 <p className="text-gray-300">{location.full_description}</p>
+                <Link
+                  to={`/locations/${location.id}`}
+                  className="text-blue-400 hover:text-blue-300 text-sm mt-4 block"
+                  onClick={(e) => {
+                    if (e.metaKey || e.ctrlKey) {
+                      window.open(`/locations/${location.id}`, "_blank");
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  Learn More →
+                </Link>
                 {location.infoLink && (
                   <a
                     href={location.infoLink}
@@ -35,7 +48,7 @@ const InfoPage = () => {
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 text-sm mt-4 block"
                   >
-                    Learn More →
+                    See External Resource →
                   </a>
                 )}
                 <div className="mt-4 text-sm text-gray-400">

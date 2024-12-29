@@ -1,3 +1,4 @@
+import { Button } from "@material-tailwind/react";
 import React from "react";
 import { useParams } from "react-router-dom";
 import Footer from "../components/footer";
@@ -37,6 +38,14 @@ const LocationPage = () => {
               {location.full_description}
             </p>
           </div>
+          <a
+            href={location.infoLink}
+            target="_blank"
+            color="blue-gray"
+            className="px-1"
+          >
+            <Button className="bg-grey-600">See External Resource</Button>
+          </a>
         </div>
       </div>
       <Footer />
