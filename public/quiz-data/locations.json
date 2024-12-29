@@ -13,7 +13,7 @@
     {
       "id": "Yamdrok",
       "name": "Yamdrok Lake ཡར་འབྲོག་མཚོ།",
-      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "",
       "description": "One of the three largest sacred lakes in Tibet, Yamdrok Lake is surrounded by snow-capped mountains.",
       "full_description": "Yamdrok Lake (also known as Yamdrok Yumtso) is one of Tibet's three largest sacred lakes and is revered in Tibetan Buddhism as a life-force lake. Located at an elevation of about 4,441 meters (14,570 feet), this stunning turquoise lake is believed by locals to have spiritual powers. It's shaped like a fan or, according to Tibetan folklore, like a scorpion, and spans roughly 72 kilometers in length. The lake plays a crucial role in Tibetan Buddhism, as it is said to have been used for divination by Tibet's spiritual leaders, including the Dalai Lamas. Beyond its spiritual significance, Yamdrok Lake also serves a practical purpose through a hydroelectric power station that helps supply electricity to Lhasa.",
       "infoLink": "https://treasuryoflives.org/institution/Yamdrok-Lake",
@@ -23,7 +23,7 @@
     {
       "id": "Chamdo",
       "name": "Chamdo",
-      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "",
       "description": "A major city in eastern Tibet, known for its important monastery and role as a trading hub.",
       "full_description": "Chamdo (also spelled Qamdo or Changdu) is a major town in eastern Tibet, situated at the confluence of the Ngom-Chu and Dza-Chu rivers. It serves as an important administrative center and transportation hub in the Tibet Autonomous Region. Historically, it was a significant trading post along routes connecting Tibet with Yunnan and Sichuan provinces. The town is known for its Chamdo Monastery (Changdu Qiangbalin Temple), a significant Gelugpa monastery that was originally established in the 15th century. The surrounding area is characterized by deep river valleys and mountainous terrain.",
       "infoLink": "https://treasuryoflives.org/en/institution/Chamdo-Jampa-Ling-",
@@ -33,7 +33,7 @@
     {
       "id": "Shigatse",
       "name": "Shigatse, གཞིས་ཀ་རྩེ།",
-      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "",
       "description": "Shigatse is the second largest city in Tibet and the traditional seat of the Panchen Lama.",
       "full_description": "Shigatse (also spelled Xigazê or Xigaze) is the second-largest city in Tibet after Lhasa. Located at an elevation of around 3,800 meters (12,500 feet), it has been historically significant as the traditional seat of the Panchen Lama. The city is dominated by the imposing Tashilhunpo Monastery, founded in 1447, which serves as one of the most important monasteries of Tibetan Buddhism's Gelugpa school. Shigatse acts as an important agricultural and trading center in the region, with the fertile Nyang River valley supporting the cultivation of barley, wheat, and rapeseed. ",
       "infoLink": "https://places.kmaps.virginia.edu/features/11658",
@@ -53,7 +53,7 @@
     {
       "id": "Namtso",
       "name": "Namtso Lake, གནམ་མཚོ།, Nam Co, 納木錯",
-      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "",
       "description": "The highest saltwater lake in the world and one of the most beautiful natural sights in Tibet. Its name means 'Heavenly Lake' in Tibetan.",
       "full_description": "Lake Namtso is a sacred lake in Damzhung county, northeast of Lhasa. It is home to five islands that are used as retreats for practitioners. There are also numerous monasteries in the surrounding region, as well as many well-known hermitages. Among the many masters said to have practiced at these sites, Padmasambhava and his consort Yeshe Tsogyel are frequently associated with the nearby caves. ",
       "infoLink": "https://treasuryoflives.org/en/institution/Namtso",
@@ -63,7 +63,7 @@
     {
       "id": "Mapam",
       "name": "Lake Manasarovar, མ་ཕམ་གཡུ་མཚོ།, Mapam Yumtso",
-      "imageUrl": "https://images.unsplash.com/photo-1626359909709-8067b64e1655?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "",
       "description": "A high altitude freshwater lake near Mount Kailash, located at 4,600m elevation. Considered sacred by Hindus, Buddhists, Jains and Bon practitioners.",
       "full_description": "Lake Manasarovar is located in the Ngari region of western Tibet, to the east of Mount Kailash. The lake is significant in multiple religious traditions. For Buddhists, Manasarovar is an important site of circumambulatory pilgrimage; tradition holds that Shakyamuni Buddha was conceived at the lake.",
       "infoLink": "https://treasuryoflives.org/en/institution/Manasarovar",
