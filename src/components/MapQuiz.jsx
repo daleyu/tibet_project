@@ -24,7 +24,7 @@ const MapQuiz = ({ quizId }) => {
   const [score, setScore] = useState(0);
   const [selectedMarker, setSelectedMarker] = useState(null);
   const [showHint, setShowHint] = useState(false);
-  const [attempts, setAttempts] = useState(2);
+  const [attempts, setAttempts] = useState(5);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [markers, setMarkers] = useState([]);
@@ -63,14 +63,14 @@ const MapQuiz = ({ quizId }) => {
       } else {
         setCurrentQuestion((prev) => (prev + 1) % markers.length);
       }
-      setAttempts(2);
+      setAttempts(5);
       setShowHint(false);
     } else {
       setAttempts((prev) => prev - 1);
       if (attempts <= 1) {
         alert("You have no more attempts left!");
         setCurrentQuestion((prev) => (prev + 1) % markers.length);
-        setAttempts(2);
+        setAttempts(5);
         setShowHint(false);
       } else {
         alert("Wrong! You have " + (attempts - 1) + " attempts left.");
@@ -88,14 +88,14 @@ const MapQuiz = ({ quizId }) => {
       } else {
         setCurrentQuestion((prev) => (prev + 1) % markers.length);
       }
-      setAttempts(2);
+      setAttempts(5);
       setShowHint(false);
     } else {
       setAttempts((prev) => prev - 1);
       if (attempts <= 1) {
         alert("You have no more attempts left!");
         setCurrentQuestion((prev) => (prev + 1) % markers.length);
-        setAttempts(2);
+        setAttempts(5);
         setShowHint(false);
       } else {
         alert("Wrong! You have " + (attempts - 1) + " attempts left.");
@@ -118,7 +118,7 @@ const MapQuiz = ({ quizId }) => {
 
   const handleSkip = () => {
     setCurrentQuestion((prev) => (prev + 1) % markers.length);
-    setAttempts(2);
+    setAttempts(5);
     setShowHint(false);
   };
 

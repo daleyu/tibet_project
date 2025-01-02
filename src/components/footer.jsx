@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="w-full bg-gray-900 text-white py-4 px-8 flex justify-between items-center">
       <div className="text-sm">
-        <span>Tibet Map Quiz For Columbia University</span>
+        <span>Tibetan Civilization Map Quiz at Columbia University</span>
         <span className="ml-2 text-gray-400">|</span>
         <span className="text-gray-400 ml-2">
           Dale Yu (Columbia University, Class of '25)
