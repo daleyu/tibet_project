@@ -1,4 +1,6 @@
-# React + Vite Tibet Map Quiz
+
+# React + Vite Tibetan Civilization Map Quiz at Columbia University 
+
 ![Vercel Badge](https://deploy-badge.vercel.app/vercel/deploy-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
