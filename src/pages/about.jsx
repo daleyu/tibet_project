@@ -17,6 +17,21 @@ const AboutPage = () => {
               The Problem
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
+              The context of this website is to build a resource to support the
+              learning of the different locations for Columbia University's
+              Course:
+            </p>
+            <ul className="text-gray-300 list-disc pl-6 space-y-2 mb-4">
+              <li>
+                ASCE UN1365: INTRODUCTION TO EAST ASIAN CIVILIZATIONS: TIBET
+                <ul className=" pl-6 mt-2">
+                  <li className="before:content-['○'] before:mr-2 before:inline-block">
+                    Faculty: Lauran Hartley
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p className="text-gray-300 leading-relaxed mb-4">
               When I was studying for the map quiz and trying to learn more
               about the locations, I found it difficult to quiz myself and learn
               the significance of each location in reference to each other. Many
