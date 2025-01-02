@@ -49,11 +49,10 @@ const HomePage = () => {
                 How to use this Site
               </h2>
               <p className="text-gray-300 leading-relaxed mb-4">
-                {" "}
-                You can select any of the map quizzes below which will bring up
-                a quiz that will test/teach you the locations about each
-                location. There is additional information and context about each
-                location.
+                Select any of the map quizzes below to bring up a quiz that will
+                test/teach you the locations aboutfor each location. There
+                isLinks to additional information and context about each
+                location.are also provided.
               </p>
               <ul className="text-gray-300 list-disc pl-6 space-y-2 pb-4">
                 <li>
@@ -64,8 +63,8 @@ const HomePage = () => {
                 </li>
                 <li>
                   {" "}
-                  You can use the search bar to look at a specific location, or
-                  you can use the locations page and browse freely
+                  You can use the search bar to find a specific location, or you
+                  can use the locations page and browse freely
                 </li>
                 <li>
                   There are additional resources if you go to the resources page
