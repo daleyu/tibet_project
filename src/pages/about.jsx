@@ -26,8 +26,8 @@ const AboutPage = () => {
             </p>
             <ul className="text-gray-300 list-disc pl-6 space-y-2">
               <li>
-                Specifically, many of the maps online don't even show the
-                Tibetan Autonomous Region as a separate entity from China.
+                Specifically, many of the maps online don't even show the Tibet
+                Autonomous Region as a separate entity from China.
               </li>
               <li>
                 There is also little mention of the features within Tibet and
@@ -38,12 +38,11 @@ const AboutPage = () => {
 
           <section className="mb-10">
             <h2 className="text-2xl font-semibold mb-4 text-white">
-              Proposed Solution
+              The Solution
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              I plan to create an interactive map quiz website containing class
-              locations and maps from sample final projects. The site will
-              feature:
+              I created an interactive map quiz website containing class
+              locations and maps from sample final projects. The site features:
             </p>
             <ul className="text-gray-300 list-disc pl-6 space-y-2 mb-4">
               <li>Interactive map of Tibet with marked locations</li>
