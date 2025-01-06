@@ -68,10 +68,10 @@ const MapQuiz = ({ quizId }) => {
     } else {
       setAttempts((prev) => prev - 1);
       if (attempts <= 1) {
-        alert("You have no more attempts left!");
-        setCurrentQuestion((prev) => (prev + 1) % markers.length);
-        setAttempts(5);
-        setShowHint(false);
+        setShowHint(true); // Show correct location
+        alert(
+          "Out of attempts! The correct location is now highlighted in green. Try clicking it!"
+        );
       } else {
         alert("Wrong! You have " + (attempts - 1) + " attempts left.");
       }
@@ -79,28 +79,7 @@ const MapQuiz = ({ quizId }) => {
   };
 
   const handleLocationClick = (locationId) => {
-    if (locationId === markers[currentQuestion].geounit) {
-      setScore(score + 1);
-      setCurrentLocation(markers[currentQuestion].id);
-      setShowInfoPopup(true);
-      if (currentQuestion === markers.length - 1) {
-        handleQuizFinish();
-      } else {
-        setCurrentQuestion((prev) => (prev + 1) % markers.length);
-      }
-      setAttempts(5);
-      setShowHint(false);
-    } else {
-      setAttempts((prev) => prev - 1);
-      if (attempts <= 1) {
-        alert("You have no more attempts left!");
-        setCurrentQuestion((prev) => (prev + 1) % markers.length);
-        setAttempts(5);
-        setShowHint(false);
-      } else {
-        alert("Wrong! You have " + (attempts - 1) + " attempts left.");
-      }
-    }
+    alert("Please click on the markers to answer the question.");
   };
 
   const handleLearningModeClick = (locationId) => {

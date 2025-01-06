@@ -13,6 +13,9 @@ Node version 20.16
 - `npm install` to install all req'd dependencies
 - `npm run dev` to start the local server (this project Vite)
 
+### Deploying This to Vercel
+
+
 ### Making requests to the backend API
 
 
