@@ -1,9 +1,9 @@
 .button-image {
-    background: url(../images/campus.png) no-repeat center center;
-    background-size: cover;
-    height: 570px;
-    margin-top: -20px;
-    filter: blur(4px) grayscale(0.1);
-    align-content: center;
-    opacity: 0.5;
+  background: url(../images/campus.png) no-repeat center center;
+  background-size: cover;
+  height: 570px;
+  margin-top: -20px;
+  filter: blur(4px) grayscale(0.1);
+  align-content: center;
+  opacity: 0.5;
 }

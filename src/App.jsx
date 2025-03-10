@@ -14,9 +14,9 @@ function App() {
         <Routes>
           <Route path="/home" element={<HomePage />} />
           <Route path="/home/:quizId" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/locations" element={<InfoPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+              <Route path="/locations" element={<InfoPage />} />
           <Route path="/locations/:locationid" element={<LocationPage />} />
           <Route path="/" element={<HomePage />} />
         </Routes>

@@ -17,9 +17,9 @@ const AboutPage = () => {
               The Problem
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              The context of this website is to build a resource to support the
+              {`The context of this website is to build a resource to support the
               learning of the different locations for Columbia University's
-              Course:
+              Course:`}
             </p>
             <ul className="text-gray-300 list-disc pl-6 space-y-2 mb-4">
               <li>
@@ -41,8 +41,8 @@ const AboutPage = () => {
             </p>
             <ul className="text-gray-300 list-disc pl-6 space-y-2">
               <li>
-                Specifically, many of the maps online don't even show the Tibet
-                Autonomous Region as a separate entity from China.
+                {`Specifically, many of the maps online don't even show the Tibet
+                Autonomous Region as a separate entity from China.`}
               </li>
               <li>
                 There is also little mention of the features within Tibet and

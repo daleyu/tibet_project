@@ -26,6 +26,10 @@ const ContactPage = () => {
                 information updated on the site. This will remain an open-source
                 project.
               </li>
+              <li>
+                I will no longer actively support this project unless someone
+                opens an issue or there something wrong with it.
+              </li>
             </ul>
             <section className="mb-10">
               <h2 className="text-2xl font-semibold mb-4 text-white">
@@ -61,7 +65,6 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );

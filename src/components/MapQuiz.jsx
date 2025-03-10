@@ -40,7 +40,7 @@ const MapQuiz = ({ quizId }) => {
         }
         const data = await response.json();
         const filteredMarkers = data.markers.filter((marker) =>
-          marker.quizIds.includes(parseInt(quizId))
+          marker.quizIds.includes(parseInt(quizId)),
         );
         setMarkers(filteredMarkers);
         setLoading(false);
@@ -70,7 +70,7 @@ const MapQuiz = ({ quizId }) => {
       if (attempts <= 1) {
         setShowHint(true); // Show correct location
         alert(
-          "Out of attempts! The correct location is now highlighted in green. Try clicking it!"
+          "Out of attempts! The correct location is now highlighted in green. Try clicking it!",
         );
       } else {
         alert("Wrong! You have " + (attempts - 1) + " attempts left.");
@@ -213,9 +213,9 @@ const MapQuiz = ({ quizId }) => {
                       fill: isLearningMode
                         ? "#ECEFF1"
                         : showHint &&
-                          geo.properties.id === markers[currentQuestion].id
-                        ? "#00A36C"
-                        : "#ECEFF1",
+                            geo.properties.id === markers[currentQuestion].id
+                          ? "#00A36C"
+                          : "#ECEFF1",
                       stroke: "#000",
                       strokeWidth: 0.8,
                       cursor: "pointer",
@@ -238,8 +238,8 @@ const MapQuiz = ({ quizId }) => {
                   isLearningMode
                     ? "#F53"
                     : showHint && id === markers[currentQuestion].id
-                    ? "#00A36C"
-                    : "#F53"
+                      ? "#00A36C"
+                      : "#F53"
                 }
                 stroke="#FFF"
                 strokeWidth={2}

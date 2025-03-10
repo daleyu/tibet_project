@@ -1,4 +1,3 @@
-
 # React + Vite project: Tibetan Civilization Map Quiz at Columbia University
 
 ![Vercel Badge](https://deploy-badge.vercel.app/vercel/deploy-badge)
